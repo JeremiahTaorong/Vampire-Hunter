@@ -1,0 +1,7 @@
+using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine.AI;using Unity.AI.Navigation;using System.IO;using System.Linq;using System.Text;
+[InitializeOnLoad]public static partial class TerracedVillageReview {
+ public const string E="Evidence/terraced-village-20261030/",D="Assets/Demo/Environment/TerracedVillage/";
+ static TerracedVillageReview(){EditorApplication.delayCall+=Prepare;}
+ static void Prepare(){if(EditorApplication.isPlayingOrWillChangePlaymode||File.Exists(E+"prepared.txt"))return;Directory.CreateDirectory(E);var scene=EditorSceneManager.OpenScene("Assets/Demo/Scenes/PrologueSettlement_HunterTrails.unity");var sb=new StringBuilder();foreach(var b in scene.GetRootGameObjects().SelectMany(r=>r.GetComponentsInChildren<Transform>(true)).Where(t=>System.Text.RegularExpressions.Regex.IsMatch(t.name,@"^B\d\d "))){var rs=b.GetComponentsInChildren<Renderer>();var bounds=rs[0].bounds;foreach(var r in rs)bounds.Encapsulate(r.bounds);sb.AppendLine(b.name+" pos="+b.position+" bounds="+bounds+" parts="+string.Join(",",rs.Select(r=>r.name+":"+string.Join("/",r.sharedMaterials.Where(m=>m).Select(m=>m.name)))));}
+ foreach(var root in scene.GetRootGameObjects())sb.AppendLine("ROOT "+root.name);File.WriteAllText(E+"audit.txt",sb.ToString());Object.FindObjectOfType<HunterTorchPose>().gameObject.AddComponent<TerracedVillageProbe>();File.WriteAllText(E+"prepared.txt","Baseline probe only, source scene not saved.");}
+}

@@ -1,0 +1,4 @@
+Unity=2022.3.62f3 editor=True resolution=2940x1446
+view=(-30.00, 0.00, -8.00) frames=39 elapsed=3.074405 fps=12.68538 meanMs=78.83089
+view=(-9.00, 0.00, -5.00) frames=44 elapsed=3.083105 fps=14.27133 meanMs=70.07057
+view=(16.00, 0.00, -4.00) frames=33 elapsed=3.069717 fps=10.75018 meanMs=93.02174

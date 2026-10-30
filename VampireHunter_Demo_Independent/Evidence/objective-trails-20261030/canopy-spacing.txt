@@ -1,0 +1,9 @@
+PF Conifer Tall BOTD URP shifted sideways=7.99
+Pine shifted sideways=-3.98
+Pine shifted sideways=-4.57
+Pine shifted sideways=7.08
+JapaneseCedar shifted sideways=1.31
+PlaneTree shifted sideways=1.72
+PlaneTree shifted sideways=-10.06
+Ginkgo_wood shifted sideways=2.16
+tree_1 shifted sideways=-1.94

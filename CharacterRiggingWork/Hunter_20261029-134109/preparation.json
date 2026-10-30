@@ -1,0 +1,10 @@
+{
+  "original_vertex_count": 397113,
+  "original_triangle_count": 687137,
+  "skins": 0,
+  "upload": "ZIP containing OBJ+MTL+original textures",
+  "height_cm": 190,
+  "decimation": false,
+  "original_pose_retained": true,
+  "blender_required": false
+}

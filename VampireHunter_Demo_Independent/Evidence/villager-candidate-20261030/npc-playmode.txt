@@ -1,0 +1,1 @@
+Avatar valid=True human=True state=2081823275 normalizedTime=0.3727346 activeSkinned=7 nullBones=0

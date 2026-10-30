@@ -1,0 +1,1 @@
+BonfirePlaying=3 torchIntensity=6.5 range=13 witnessRecorded=True

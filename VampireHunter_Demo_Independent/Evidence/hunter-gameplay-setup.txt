@@ -1,0 +1,2 @@
+Assets/Demo/Scenes/HunterGameplayCompatibility.unity
+Original scene and DemoMovement unchanged. Capsule collider retained; renderer disabled.

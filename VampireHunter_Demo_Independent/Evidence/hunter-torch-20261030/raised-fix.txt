@@ -1,0 +1,1 @@
+Left-hand IK target local (-.40,1.55,.46), left elbow hint; attack keeps hold; texture copied from actual URP _BaseMap.

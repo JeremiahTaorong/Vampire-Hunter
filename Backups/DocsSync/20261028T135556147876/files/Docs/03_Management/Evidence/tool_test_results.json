@@ -1,0 +1,105 @@
+{
+  "tests": [
+    {
+      "case": "initial document consistency",
+      "result": "PASS",
+      "output": "PASS: 5 original hashes, 123 requirement mappings, 13 independent templates, approvals, phase gate, test metadata, generated state and local links.\nDocument consistency only. No Unity or gameplay test was run by this tool."
+    },
+    {
+      "case": "refuse approval without user evidence",
+      "result": "PASS",
+      "output": "CHECK FAILED: Approved lacks matching explicit-user evidence/version/hash: S01"
+    },
+    {
+      "case": "refuse test success without execution evidence",
+      "result": "PASS",
+      "output": "CHECK FAILED: test result requires actual evidence file: T01\ntest result metadata incomplete: T01\nPassed requires successful exit code: T01"
+    },
+    {
+      "case": "refuse development during Phase2",
+      "result": "PASS",
+      "output": "CHECK FAILED: development is outside current Phase2 scope: S01"
+    },
+    {
+      "case": "refuse premature phase change",
+      "result": "PASS",
+      "output": "CHECK FAILED: phase gate: all 13 current designs need explicit approval before plans/tasks/development"
+    },
+    {
+      "case": "refuse premature plan file",
+      "result": "PASS",
+      "output": "CHECK FAILED: phase gate: all 13 current designs need explicit approval before plans/tasks/development"
+    },
+    {
+      "case": "refuse responsibility drift",
+      "result": "PASS",
+      "output": "CHECK FAILED: requirement mapping/summary changed from original SCM; approved rebaseline required"
+    },
+    {
+      "case": "refuse baseline overwrite/drift",
+      "result": "PASS",
+      "output": "CHECK FAILED: baseline/reference drift or missing: Vampire_Hunter_Decision_Register_F01-F38_2026-10-28.md"
+    },
+    {
+      "case": "detect stale derived state",
+      "result": "PASS",
+      "output": "CHECK FAILED: generated documents stale/missing; run sync: Docs/PROJECT_STATUS.md"
+    },
+    {
+      "case": "sync repairs derived state",
+      "result": "PASS",
+      "output": "Before-sync snapshot: Backups/DocsSync/20261028T121656490682\nSynced 1 generated documents; approvals/baselines unchanged.\nPASS: 5 original hashes, 123 requirement mappings, 13 independent templates, approvals, phase gate, test metadata, generated state and local links.\nDocument consistency only. No Unity or gameplay test was run by this tool."
+    },
+    {
+      "case": "sync is idempotent",
+      "result": "PASS",
+      "output": "Synced 0 generated documents; approvals/baselines unchanged.\nPASS: 5 original hashes, 123 requirement mappings, 13 independent templates, approvals, phase gate, test metadata, generated state and local links.\nDocument consistency only. No Unity or gameplay test was run by this tool."
+    },
+    {
+      "case": "snapshot captures current management documents",
+      "result": "PASS",
+      "output": "Backups/DocsSync/20261028T121656597707"
+    },
+    {
+      "case": "snapshot recovery exports separately",
+      "result": "PASS",
+      "output": "Recovery export verified; current files untouched: Backups/Recovered/test-copy"
+    },
+    {
+      "case": "recovered bytes match snapshot",
+      "result": "PASS",
+      "output": "30 files verified"
+    },
+    {
+      "case": "recovery refuses existing destination",
+      "result": "PASS",
+      "output": "CHECK FAILED: restore destination must not exist"
+    },
+    {
+      "case": "initial baseline recovery",
+      "result": "PASS",
+      "output": "Recovery export verified; current files untouched: Backups/Recovered/originals"
+    },
+    {
+      "case": "recovery rejects escape path",
+      "result": "PASS",
+      "output": "CHECK FAILED: path escapes project: ../escape"
+    },
+    {
+      "case": "broken local links rejected",
+      "result": "PASS",
+      "output": "CHECK FAILED: Docs/03_Management/Evidence/bad.md: broken local link does-not-exist.md"
+    },
+    {
+      "case": "state update automatically refreshes summary",
+      "result": "PASS",
+      "output": "Before-sync snapshot: Backups/DocsSync/20261028T121656881317\nSynced 1 generated documents; approvals/baselines unchanged.\nPASS: 5 original hashes, 123 requirement mappings, 13 independent templates, approvals, phase gate, test metadata, generated state and local links.\nDocument consistency only. No Unity or gameplay test was run by this tool."
+    },
+    {
+      "case": "final document consistency",
+      "result": "PASS",
+      "output": "PASS: 5 original hashes, 123 requirement mappings, 13 independent templates, approvals, phase gate, test metadata, generated state and local links.\nDocument consistency only. No Unity or gameplay test was run by this tool."
+    }
+  ],
+  "test_workspace": "/private/tmp/vh-docs-tests-w49hw7pc/project"
+}

@@ -1,0 +1,13 @@
+using UnityEngine;using UnityEditor;using UnityEditor.Animations;using UnityEditor.SceneManagement;using System.IO;using System.Linq;
+[InitializeOnLoad]public static class HunterActionsSetup{
+ static HunterActionsSetup(){EditorApplication.delayCall+=Run;}
+ static void Run(){if(EditorApplication.isPlayingOrWillChangePlaymode||File.Exists("Evidence/hunter-actions-setup.txt"))return;
+ var all=AssetDatabase.LoadAllAssetsAtPath("Assets/Demo/ThirdParty/QuaterniusHunterAnimations/AnimationLibrary_Unity_Standard.fbx");var clips=all.OfType<AnimationClip>().Where(c=>!c.name.StartsWith("__")).ToArray();if(clips.Length==0)return;
+ File.WriteAllLines("Evidence/hunter-free-animations-audit.txt",all.OfType<Avatar>().Select(a=>"AVATAR valid="+a.isValid+" human="+a.isHuman).Concat(clips.Select(c=>c.name+" length="+c.length+" human="+c.humanMotion)));
+ var player=Object.FindObjectOfType<HunterGameplayAnimator>();if(!player)return;
+ string dest=AssetDatabase.GenerateUniqueAssetPath("Assets/Demo/Characters/Hunter/Hunter_Gameplay.controller");AssetDatabase.CopyAsset("Assets/Demo/Characters/Hunter/Hunter_Animator.controller",dest);var controller=AssetDatabase.LoadAssetAtPath<AnimatorController>(dest);var sm=controller.layers[0].stateMachine;string report="";
+ string[] names={"Attack","Dodge","Hit","Death","Interaction"};string[] source={"Sword_Attack","Roll","Hit","Death","Interact"};
+ for(int i=0;i<names.Length;i++){var clip=clips.FirstOrDefault(c=>c.name==source[i])??clips.FirstOrDefault(c=>c.name.Contains(source[i])&&!c.name.EndsWith("_RM"));if(!clip){report+=names[i]+" MISSING\n";continue;}var copy=Object.Instantiate(clip);copy.name="Hunter_"+names[i];var settings=AnimationUtility.GetAnimationClipSettings(copy);settings.loopTime=false;settings.loopBlendOrientation=true;settings.loopBlendPositionY=true;settings.loopBlendPositionXZ=true;AnimationUtility.SetAnimationClipSettings(copy,settings);AssetDatabase.CreateAsset(copy,AssetDatabase.GenerateUniqueAssetPath("Assets/Demo/Characters/Hunter/"+copy.name+".anim"));var state=sm.AddState(names[i]);state.motion=copy;if(names[i]!="Death"){var transition=state.AddTransition(sm.states.First(s=>s.state.name=="Idle").state);transition.hasExitTime=true;transition.exitTime=1;transition.duration=.08f;}report+=names[i]+" <- "+clip.name+" length="+clip.length+"\n";}
+ player.animator.runtimeAnimatorController=controller;EditorSceneManager.SaveScene(player.gameObject.scene);PrefabUtility.SaveAsPrefabAsset(player.gameObject,"Assets/Demo/Characters/Hunter/Hunter_PlayerCandidate.prefab");AssetDatabase.SaveAssets();File.WriteAllText("Evidence/hunter-actions-setup.txt",report+"controller="+dest);
+ }
+}

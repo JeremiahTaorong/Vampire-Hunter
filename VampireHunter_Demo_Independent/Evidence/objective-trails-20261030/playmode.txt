@@ -1,0 +1,8 @@
+Unity=2022.3.62f3 scene=PrologueSettlement_HunterTrails; direct navigation/teleport visual review, not keyboard walkthrough.
+emblem warp=True path=PathComplete remaining=0 position=(-2.20, 0.66, -0.80) target=(-2.20, 0.66, -0.80)
+trail warp=True path=PathComplete remaining=0 position=(32.00, 0.33, -1.40) target=(32.00, 0.33, -1.40)
+witness warp=True path=PathComplete remaining=0 position=(14.58, 0.06, 7.80) target=(14.58, 0.06, 7.80)
+mentor warp=True path=PathComplete remaining=0 position=(56.53, 0.06, -15.59) target=(56.53, 0.06, -15.59)
+combat warp=True path=PathComplete remaining=0 position=(39.50, 0.06, -4.80) target=(39.50, 0.06, -4.80)
+checkpoint warp=True path=PathComplete remaining=0 position=(48.60, 0.06, -6.50) target=(48.60, 0.06, -6.50)
+tour complete

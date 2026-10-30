@@ -1,0 +1,15 @@
+{
+  "resolution": "2940x1446",
+  "mode": "Unity Editor visible Play Mode",
+  "before": [
+    12.68538,
+    14.27133,
+    10.75018
+  ],
+  "after_final": [
+    17.6561,
+    19.20415,
+    12.73251
+  ],
+  "note": "3-second samples; same player XZ and relative follow camera, different terrain heights; not standalone benchmark"
+}

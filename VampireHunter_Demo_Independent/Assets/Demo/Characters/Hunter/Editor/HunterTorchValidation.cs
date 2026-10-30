@@ -1,0 +1,7 @@
+using UnityEngine;using UnityEditor;using UnityEditor.SceneManagement;using System.IO;using System.Linq;
+[InitializeOnLoad]public static class HunterTorchValidation {
+ static HunterTorchValidation(){EditorApplication.delayCall+=Attach;}
+ static void Attach(){if(EditorApplication.isPlayingOrWillChangePlaymode||File.Exists("Evidence/hunter-torch-20261030/probe-attached.txt"))return;var p=Object.FindObjectOfType<HunterTorchPose>();if(!p)return;p.gameObject.AddComponent<HunterTorchProbe>();EditorSceneManager.SaveScene(p.gameObject.scene);File.WriteAllText("Evidence/hunter-torch-20261030/probe-attached.txt","Attached temporary test");}
+ [MenuItem("Vampire Demo/Hunter/Finish Torch Validation")]
+ static void Finish(){if(EditorApplication.isPlaying)return;var p=Object.FindObjectOfType<HunterTorchPose>();if(!p)return;foreach(var probe in p.GetComponents<HunterTorchProbe>())Object.DestroyImmediate(probe);PrefabUtility.SaveAsPrefabAsset(p.gameObject,"Assets/Demo/Characters/Hunter/Torch/Hunter_TorchPlayer.prefab");string path=p.gameObject.scene.path;EditorSceneManager.SaveScene(p.gameObject.scene);EditorSceneManager.OpenScene(path);object[] counts={0,0,0};var t=typeof(Editor).Assembly.GetType("UnityEditor.LogEntries");t.GetMethod("GetCountsByType",System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.NonPublic).Invoke(null,counts);File.WriteAllText("Evidence/hunter-torch-20261030/final.txt","saved and reopened="+path+"\nerrors="+counts[0]+" warnings="+counts[1]+"\nProbe removed.\n");}
+}

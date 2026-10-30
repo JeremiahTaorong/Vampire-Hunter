@@ -1,0 +1,1 @@
+Corrected blade forward along the hand. Both test scenes saved and reopened. Approved visual prefab unchanged.

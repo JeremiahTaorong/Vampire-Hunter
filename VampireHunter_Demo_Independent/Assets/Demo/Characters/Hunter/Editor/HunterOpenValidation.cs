@@ -1,0 +1,6 @@
+using UnityEditor;using UnityEditor.SceneManagement;using UnityEngine;
+public static class HunterOpenValidation{
+ [MenuItem("Vampire Demo/Hunter/Open Gameplay Test")]public static void Open(){EditorSceneManager.OpenScene("Assets/Demo/Scenes/HunterGameplayCompatibility.unity");}
+ [MenuItem("Vampire Demo/Hunter/Finish Validation - Manual Control")]
+ public static void Finish(){if(EditorApplication.isPlaying)return;var p=Object.FindObjectOfType<HunterGameplayAnimator>();if(!p)return;var probe=p.GetComponent<HunterCompatibilityProbe>();if(probe)Object.DestroyImmediate(probe);PrefabUtility.SaveAsPrefabAsset(p.gameObject,"Assets/Demo/Characters/Hunter/Hunter_PlayerCandidate.prefab");EditorSceneManager.SaveScene(p.gameObject.scene);object[] counts={0,0,0};var t=typeof(Editor).Assembly.GetType("UnityEditor.LogEntries");var method=t?.GetMethod("GetCountsByType",System.Reflection.BindingFlags.Static|System.Reflection.BindingFlags.Public|System.Reflection.BindingFlags.NonPublic);method?.Invoke(null,counts);System.IO.File.WriteAllText("Evidence/hunter-final-editor-audit.txt","Unity "+Application.unityVersion+" errors="+counts[0]+" warnings="+counts[1]+" logs="+counts[2]+"\nHuman="+p.animator.isHuman+" RootMotion="+p.animator.applyRootMotion+"\nProbe removed; manual control restored. Player candidate saved.\n");}
+}

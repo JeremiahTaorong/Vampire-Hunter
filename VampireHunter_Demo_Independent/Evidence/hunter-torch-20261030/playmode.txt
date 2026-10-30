@@ -1,0 +1,13 @@
+Unity=2022.3.62f3 scene=PrologueSettlement_HunterTorch
+Direct behavior calls; not keyboard simulation.
+idle0 state=Idle weight=1 leftHand=(-42.17, 1.60, -5.26) rightHand=(-42.41, 1.06, -5.80) particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:39
+idle1 state=Idle weight=1 leftHand=(-42.17, 1.60, -5.26) rightHand=(-42.41, 1.06, -5.80) particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:35
+idle2 state=Idle weight=1 leftHand=(-42.17, 1.60, -5.26) rightHand=(-42.41, 1.06, -5.80) particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:11
+moved=1.419476 path=PathComplete velocity=(4.00, 0.03, 0.00)
+moving state=Run weight=1 leftHand=(-40.68, 1.61, -5.23) rightHand=(-40.78, 1.19, -5.74) particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:12
+dodge state=Dodge weight=0 leftHand=(-36.77, 0.23, -5.41) rightHand=(-36.67, 0.49, -5.85) particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:12
+dodgeAccepted=True duration=0.8 invul=False
+recovered state=Idle weight=1 leftHand=(-34.85, 1.60, -5.25) rightHand=(-35.10, 1.07, -5.80) particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:11
+attack state=Attack weight=1 leftHand=(-34.83, 1.57, -5.27) rightHand=(-35.66, 1.64, -6.06) particles=fx_smoke:True:14,fx_fire:True:3,fx_sparks:True:10
+enemyHP=30 -> 0 message=Target defeated.
+end state=Idle weight=1 leftHand=(-34.85, 1.60, -5.25) rightHand=(-35.10, 1.07, -5.80) particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:12

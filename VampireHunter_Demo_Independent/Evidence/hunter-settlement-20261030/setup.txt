@@ -1,0 +1,7 @@
+source=Assets/Demo/Scenes/PrologueSettlement.unity
+sourceBefore=8defb2fcfa00c4073cd47806dec42efa44bba35084282e68e25bd39c9741d668
+sourceAfter=8defb2fcfa00c4073cd47806dec42efa44bba35084282e68e25bd39c9741d668
+scene=Assets/Demo/Scenes/PrologueSettlement_Hunter.unity
+prefab=Assets/Demo/Characters/Hunter/Hunter_SettlementPlayer.prefab
+before=duration=0.25 distance=2.5 invulnerability=0.15
+after duration=0.8 distance=2.5 invulnerability=0.15

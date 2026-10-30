@@ -1,0 +1,2 @@
+World-scale preservation: hand scale=(100.00, 100.00, 100.00) weapon scale=(1.00, 1.00, 1.00) bounds=Center: (0.49, 1.25, -5.00), Extents: (0.12, 0.13, 0.04)
+Grip is a candidate pending action inspection.

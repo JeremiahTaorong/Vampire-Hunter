@@ -1,0 +1,12 @@
+world=Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity
+review=Assets/Demo/Scenes/NPCVillagerReview.unity
+prefab=Assets/Demo/Characters/NPC/Villager/NPC_Villager_Witness_Candidate.prefab
+Torch 3.5/9 -> 6.5/13; fog clear >=1.4/6.5m. Bonfire restored with 3 loop effects + flicker light + volume/fog.
+Avatar valid=True human=True idle=Idle
+Lether_boot(right) bones=66 missing=0
+Lether_boot(left) bones=66 missing=0
+Lether_belt bones=66 missing=0
+Cloth_tunic bones=66 missing=0
+Cloth_pants bones=66 missing=0
+Body_Hands bones=66 missing=0
+Body_Base bones=66 missing=0

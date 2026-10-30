@@ -1,0 +1,33 @@
+Scene=Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity prefab=Assets/Demo/Characters/NPC/Villager/NPC_Villager_Gesture.prefab
+Finger muscle bindings=30
+Lower=.45s; relaxed wait=1.5s; left-point blend=.55s. Original Activate event fires after recording clue.
+LeftHand.Thumb.1 Stretched
+LeftHand.Thumb.2 Stretched
+LeftHand.Thumb.3 Stretched
+LeftHand.Index.1 Stretched
+LeftHand.Index.2 Stretched
+LeftHand.Index.3 Stretched
+LeftHand.Middle.1 Stretched
+LeftHand.Middle.2 Stretched
+LeftHand.Middle.3 Stretched
+LeftHand.Ring.1 Stretched
+LeftHand.Ring.2 Stretched
+LeftHand.Ring.3 Stretched
+LeftHand.Little.1 Stretched
+LeftHand.Little.2 Stretched
+LeftHand.Little.3 Stretched
+RightHand.Thumb.1 Stretched
+RightHand.Thumb.2 Stretched
+RightHand.Thumb.3 Stretched
+RightHand.Index.1 Stretched
+RightHand.Index.2 Stretched
+RightHand.Index.3 Stretched
+RightHand.Middle.1 Stretched
+RightHand.Middle.2 Stretched
+RightHand.Middle.3 Stretched
+RightHand.Ring.1 Stretched
+RightHand.Ring.2 Stretched
+RightHand.Ring.3 Stretched
+RightHand.Little.1 Stretched
+RightHand.Little.2 Stretched
+RightHand.Little.3 Stretched

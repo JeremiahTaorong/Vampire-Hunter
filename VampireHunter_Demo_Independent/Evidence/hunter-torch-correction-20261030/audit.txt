@@ -1,0 +1,8 @@
+prop_torch_01 bounds=Center: (0.00, 0.13, 0.00), Extents: (0.06, 0.43, 0.07) local=(0.07, -0.11, 0.00) rot=(333.60, 44.73, 3.31)
+pf_torch_fire_01 FIRE Assets/Viking Village/Materials/Effects/mat_fx_fire_01.mat
+pf_torch_fire_01 FIRE Assets/Viking Village/Materials/Effects/mat_fx_fire_01.mat
+pf_torch_fire_01 FIRE Assets/Viking Village/Materials/Effects/mat_fx_fire_01.mat
+pf_torch_fire_01 FIRE Assets/Viking Village/Materials/Effects/mat_fx_fire_01.mat
+pf_torch_fire_01 FIRE Assets/Viking Village/Materials/Effects/mat_fx_fire_01.mat
+pf_torch_fire_01 FIRE Assets/Viking Village/Materials/Effects/mat_fx_fire_01.mat
+Hunter Left Torch FIRE Assets/Demo/Characters/Hunter/Torch/Torch_mat_fx_fire_01.mat

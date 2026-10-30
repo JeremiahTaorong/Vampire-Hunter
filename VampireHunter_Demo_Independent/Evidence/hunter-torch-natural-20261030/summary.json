@@ -1,0 +1,7 @@
+{
+  "run_samples": 16,
+  "hand_world_y_min": 1.55,
+  "hand_world_y_max": 1.6,
+  "max_run_tilt_degrees": 0.0,
+  "saved": "Saved and reopened; probe removed; errors=0 warnings=2"
+}

@@ -1,0 +1,2 @@
+Carried lantern parent=Player pos=(0.42, 1.05, 0.18) intensity=3.5 range=9 color=RGBA(1.000, 0.630, 0.300, 1.000) enabled=True components=Transform,MeshFilter,MeshRenderer,Light,SettlementFogLight,UniversalAdditionalLightData,VolumetricAdditionalLight
+Lantern near fill parent=Player pos=(0.00, 2.20, 0.00) intensity=0.9 range=5 color=RGBA(0.850, 0.900, 1.000, 1.000) enabled=True components=Transform,Light,SettlementFogLight,UniversalAdditionalLightData,VolumetricAdditionalLight

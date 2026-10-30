@@ -1,0 +1,8 @@
+terrain layers:
+Assets/_TerrainAutoUpgrade/layer_dirt01b3407d0e55802f81.terrainlayer	diffuse=dirt01 512x512	normal=none	tile=(2.00, 2.00)
+Assets/_TerrainAutoUpgrade/layer_grass01_bb3407d0e55802f81.terrainlayer	diffuse=grass01_b 512x512	normal=none	tile=(2.00, 2.00)
+Assets/_TerrainAutoUpgrade/layer_grass01b3407d0e55802f81.terrainlayer	diffuse=grass01 512x512	normal=none	tile=(2.00, 2.00)
+Assets/Polyeler/EssentialNaturePack/Terrain/Forest_GreenGround.terrainlayer	diffuse=Forest_GreenGround 2048x2048	normal=Forest_GreenGround_N	tile=(2.00, 2.00)
+Assets/Polyeler/EssentialNaturePack/Terrain/Forest_Ground.terrainlayer	diffuse=Forest_Ground 2048x2048	normal=Forest_Ground_N	tile=(2.00, 2.00)
+Assets/Polyeler/EssentialNaturePack/Terrain/Forest_Leaves.terrainlayer	diffuse=Forest_Leaves 2048x2048	normal=Forest_Leaves_N	tile=(2.00, 2.00)
+Assets/Polyeler/EssentialNaturePack/Terrain/Forest_Road.terrainlayer	diffuse=Forest_Road 2048x2048	normal=Forest_Road_N	tile=(2.00, 2.00)

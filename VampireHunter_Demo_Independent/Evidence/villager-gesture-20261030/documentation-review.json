@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-30",
+  "source": "用户当前对话",
+  "user_quote": "很好。完善开发记录",
+  "scope": "认可刚展示的独立 Demo NPC 抱拳、交互放臂、停顿及左手指路主路径；要求完善记录。",
+  "limits": "不等于完整序章、其他目标分支、性能或正式 S01–S13 策划审批。",
+  "files_sha256": {
+    "Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity": "d9ee82af9fe7b0a5ba990bfc06351a711bc292906f283424df559abb6d5e7f93",
+    "Assets/Demo/Characters/NPC/Villager/NPC_Villager_Gesture.prefab": "ca2a0c0bcae58b8b5145d3aa0799a51ef5ab08c25c610851372407430ac8a4e3",
+    "Assets/Demo/Characters/NPC/Villager/Villager_Gesture.controller": "0d83e0ac9be0be7722507aad523824e06e6ccc0372b07acfc9688a2d34411070",
+    "Assets/Demo/Scripts/VillagerGesture.cs": "c1b3e63dafcead69ad7c34f3c5834f7810d2239dfca177b95616576b5ab434ca",
+    "Assets/Demo/Scripts/DemoInteractable.cs": "eb04d14275fbfa0baca0b993b1b6db835d29d8779e38d148383ac9dff1d5e4fe"
+  },
+  "evidence": "Evidence/villager-gesture-20261030/"
+}

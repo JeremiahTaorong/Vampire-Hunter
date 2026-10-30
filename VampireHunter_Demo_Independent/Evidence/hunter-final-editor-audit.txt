@@ -1,0 +1,3 @@
+Unity 2022.3.62f3 errors=0 warnings=2 logs=0
+Human=True RootMotion=False
+Probe removed; manual control restored. Player candidate saved.

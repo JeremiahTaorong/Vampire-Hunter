@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-30 Asia/Shanghai",
+  "user_quote": "可以，很好很好。通过审阅。下一步",
+  "source": "当前聊天用户消息，紧接银甲黑袍实际截图交付",
+  "scope": "独立 Demo 银甲黑袍候选外观审阅通过；不代表动画、武器或完整主角验收，不改变正式系统审批",
+  "sha256": {
+    "Assets/Demo/Characters/Hunter/Hunter_Modular_Armored.prefab": "75579906bc0dc537c6558adbfcd62b1b6aeb8c70149a746367966ca7ba3450aa",
+    "Assets/Demo/Scenes/HunterCharacterReview_Armored.unity": "5dcb05af74daa8321bbceed3f01a8d6de5612e48763ea9bcc3d7e6095fbc4407",
+    "Evidence/hunter-modular-screenshots/front.png": "4a91b950f24132f8dca9b2516a6147b804b858f677467872b90e6c1e4fa633a1"
+  }
+}

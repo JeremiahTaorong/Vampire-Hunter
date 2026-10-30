@@ -1,0 +1,1 @@
+Copied-scene vegetation camera occlusion visibility .18 -> .055; forest and lights retained.

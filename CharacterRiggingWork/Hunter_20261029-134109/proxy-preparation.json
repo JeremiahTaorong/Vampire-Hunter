@@ -1,0 +1,8 @@
+{
+  "vertices": 51209,
+  "triangles": 110264,
+  "voxel_source_units": 0.012,
+  "full_model_retained": true,
+  "UV_contains_vertex_ids": true,
+  "purpose": "rig solver only; not final visual model"
+}

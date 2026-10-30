@@ -1,0 +1,2 @@
+scene=Assets/Demo/Scenes/PrologueSettlement_HunterTrails.unity position=(32.00, 0.10, -1.40) source=Assets/Viking Village/Prefabs/Props/pf_shield_03.prefab
+Gold diamond + DRAG CLUE camera-facing label; original clueId=trail/range=2.8; clickable root trigger collider.

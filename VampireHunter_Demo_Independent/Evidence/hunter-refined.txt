@@ -1,0 +1,1 @@
+Cape_3 substituted; independent hood and cape tints; dagger on Humanoid RightHand. Grip requires visual validation.

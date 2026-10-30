@@ -1,0 +1,5 @@
+PASS prefab and mesh survive reload
+PASS 397113 vertices / 687137 triangles
+PASS shader compiles and textures assigned
+PASS height=1.9m (hat included), feet at y=0
+CONFIRMED no rig/skin/Animator; no action retargeting performed

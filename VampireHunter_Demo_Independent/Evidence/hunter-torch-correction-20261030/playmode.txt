@@ -1,0 +1,25 @@
+Unity=2022.3.62f3 scene=PrologueSettlement_HunterTorch
+Direct behavior calls; not keyboard simulation.
+idle0 state=Idle weight=1 leftHand=(-42.17, 1.60, -5.26) rightHand=(-42.41, 1.06, -5.80) gripDelta=1.43547E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:34
+idle1 state=Idle weight=1 leftHand=(-42.17, 1.60, -5.26) rightHand=(-42.41, 1.06, -5.80) gripDelta=1.43547E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:33
+idle2 state=Idle weight=1 leftHand=(-42.17, 1.60, -5.26) rightHand=(-42.41, 1.06, -5.80) gripDelta=9.536743E-07 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:12
+moved=1.615671 path=PathComplete velocity=(4.00, 0.03, 0.00)
+moving state=Run weight=1 leftHand=(-40.48, 1.61, -5.23) rightHand=(-40.65, 1.13, -5.78) gripDelta=1.907349E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:12
+dodge state=Dodge weight=0 leftHand=(-36.21, 0.30, -5.31) rightHand=(-36.29, 0.58, -5.81) gripDelta=1.43547E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:10
+dodgeAccepted=True duration=0.8 invul=False
+recovered state=Idle weight=1 leftHand=(-34.68, 1.60, -5.25) rightHand=(-34.93, 1.07, -5.80) gripDelta=1.430511E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:10
+attack state=Attack weight=1 leftHand=(-34.65, 1.58, -5.26) rightHand=(-35.35, 1.54, -6.17) gripDelta=1.43547E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:14,fx_fire:True:3,fx_sparks:True:11
+attack_frame0 state=Attack weight=1 leftHand=(-34.68, 1.55, -5.26) rightHand=(-34.92, 1.60, -6.08) gripDelta=1.450244E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:14,fx_fire:True:3,fx_sparks:True:11
+attack_frame1 state=Attack weight=1 leftHand=(-34.77, 1.57, -5.31) rightHand=(-34.82, 1.10, -5.88) gripDelta=1.450244E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:11
+attack_frame2 state=Attack weight=1 leftHand=(-34.67, 1.57, -5.25) rightHand=(-35.22, 1.10, -5.97) gripDelta=1.450244E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:14,fx_fire:True:3,fx_sparks:True:52
+attack_frame3 state=Attack weight=1 leftHand=(-34.65, 1.58, -5.26) rightHand=(-35.44, 1.62, -6.10) gripDelta=1.91107E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:14,fx_fire:True:3,fx_sparks:True:53
+attack_frame4 state=Attack weight=1 leftHand=(-34.67, 1.55, -5.26) rightHand=(-34.99, 1.61, -6.08) gripDelta=1.430511E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:14,fx_fire:True:3,fx_sparks:True:52
+attack_frame5 state=Attack weight=1 leftHand=(-34.74, 1.57, -5.29) rightHand=(-34.98, 1.11, -5.99) gripDelta=1.91107E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:58
+attack_frame6 state=Attack weight=1 leftHand=(-34.67, 1.56, -5.26) rightHand=(-35.26, 1.13, -5.98) gripDelta=9.61096E-07 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:14,fx_fire:True:3,fx_sparks:True:51
+attack_frame7 state=Attack weight=1 leftHand=(-34.68, 1.56, -5.26) rightHand=(-35.25, 1.12, -5.98) gripDelta=9.536743E-07 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:14,fx_fire:True:3,fx_sparks:True:48
+attack_frame8 state=Attack weight=1 leftHand=(-34.66, 1.58, -5.25) rightHand=(-35.15, 1.06, -5.91) gripDelta=9.61096E-07 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:28
+attack_frame9 state=Attack weight=1 leftHand=(-34.66, 1.57, -5.26) rightHand=(-35.26, 1.29, -6.15) gripDelta=1.450244E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:25
+attack_frame10 state=Attack weight=1 leftHand=(-34.65, 1.58, -5.26) rightHand=(-35.53, 1.64, -6.02) gripDelta=4.075842E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:19
+attack_frame11 state=Attack weight=1 leftHand=(-34.79, 1.58, -5.34) rightHand=(-34.67, 1.14, -5.70) gripDelta=1.43547E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:14,fx_fire:True:3,fx_sparks:True:11
+enemyHP=30 -> 0 message=Target defeated.
+end state=Idle weight=1 leftHand=(-34.68, 1.60, -5.25) rightHand=(-34.92, 1.06, -5.80) gripDelta=1.91107E-06 socketPositionError=0 socketRotationError=0 particles=fx_smoke:True:13,fx_fire:True:3,fx_sparks:True:11

@@ -1,0 +1,8 @@
+scene=Assets/Demo/Scenes/PrologueSettlement_HunterTorch.unity player=(-42.50, 0.12, -5.60)
+Evidence - hunter emblem id=emblem pos=(-2.20, 0.57, -0.80)
+Trail clue anchor id=trail pos=(32.00, 0.10, -1.40)
+Witness id=witness pos=(15.40, 0.02, 7.70)
+Mentor mark placeholder id=mentor pos=(57.00, 0.32, -15.00)
+checkpoint=(48.60, 0.52, -6.50) enemy=(39.50, 0.97, -4.80)
+TERRAIN=Settlement terrain pos=(-60.00, 0.00, -32.00) size=(120.00, 6.00, 64.00) alphamap=1024 layers=Ground_Forest_Ground,Ground_Forest_GreenGround,Ground_Forest_Road,Ground_Forest_Leaves
+Forest children=Pine,Pine,Pine,Pine,Pine,Pine,Pine,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP,PF Conifer Tall BOTD URP

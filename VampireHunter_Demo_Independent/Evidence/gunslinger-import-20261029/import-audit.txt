@@ -1,0 +1,14 @@
+Unity=2022.3.62f3
+source=Assets/Demo/Characters/MidnightGunslinger/Source/model.glb
+vertices=397113
+triangles=687137
+source-height=2
+review-height=1.9m (includes hat)
+skins=0
+JOINTS_0=absent
+WEIGHTS_0=absent
+animations=0
+rig-status=Static mesh, cannot build valid Humanoid avatar or retarget actions
+Animator/action controller=not fabricated
+material=URP Lit, embedded textures, metallic=B, occlusion=R, smoothness=1-G
+No changes to settlement scene or player. No runtime movement/combat/animation test executed.

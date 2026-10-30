@@ -1,0 +1,7 @@
+Unity=2022.3.62f3 scene=PrologueSettlement_Hunter
+API behavior test, no simulated keyboard.
+human=True rootMotion=False onNavMesh=True dodgeDuration=0.8 invulnerability=0.15 distance=2.5
+pathComplete=True moved=2.000031
+at=0.3665245 dodge=True invulnerable=False normalized=0.285141 animSpeed=1.833334 state=1353639306
+at=0.7228971 dodge=True normalized=0.808246
+accepted=True ended=True travelled=2.465095

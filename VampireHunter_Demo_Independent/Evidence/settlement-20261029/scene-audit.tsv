@@ -1,0 +1,52 @@
+check	value
+B06_upright	True
+B06_ground_gap	-0.064
+B06_height	4.20
+B06_door_world	(19.8, 0.1, -22.4)
+B11_upright	True
+B11_ground_gap	-0.106
+B11_height	3.71
+B11_door_world	(30.2, 0.0, -18.2)
+B05_upright	True
+B05_ground_gap	0.020
+B05_height	4.21
+B05_door_world	(-0.5, 0.1, -17.2)
+B03_upright	True
+B03_ground_gap	0.020
+B03_height	6.63
+B03_door_world	(-24.5, 0.1, 2.6)
+B09_upright	True
+B09_ground_gap	-0.159
+B09_height	6.57
+B09_door_world	(-8.7, -0.1, 13.6)
+B01_upright	True
+B01_ground_gap	0.018
+B01_height	7.36
+B01_door_world	(-30.6, 0.2, -15.4)
+B10_upright	True
+B10_ground_gap	-0.116
+B10_height	3.32
+B10_door_world	(18.8, 0.0, 9.7)
+B04_upright	True
+B04_ground_gap	0.020
+B04_height	6.64
+B04_door_world	(-1.7, 0.1, -1.4)
+B07_upright	True
+B07_ground_gap	0.020
+B07_height	5.61
+B07_door_world	(-17.0, 0.1, -20.8)
+B02_upright	True
+B02_ground_gap	0.020
+B02_height	5.93
+B02_door_world	(-9.5, 0.1, -0.5)
+B08_upright	True
+B08_ground_gap	-0.140
+B08_height	5.05
+B08_door_world	(-35.6, -0.1, 17.3)
+player_on_navmesh	False
+route_square	complete 28.6m
+route_witness	complete 59.6m
+route_trail	complete 75.7m
+route_forest_entrance	complete 95.3m
+route_mentor	complete 100.2m
+transforms	8287

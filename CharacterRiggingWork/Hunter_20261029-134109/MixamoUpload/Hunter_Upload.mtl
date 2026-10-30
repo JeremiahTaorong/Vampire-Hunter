@@ -1,0 +1,9 @@
+newmtl Hunter
+Ka 0.2 0.2 0.2
+Kd 1 1 1
+Ks 0.1 0.1 0.1
+Ns 16
+d 1
+illum 2
+map_Kd BaseColor.jpg
+map_Bump Normal.jpg

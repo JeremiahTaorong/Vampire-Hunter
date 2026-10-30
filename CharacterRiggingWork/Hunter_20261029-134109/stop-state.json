@@ -1,0 +1,17 @@
+{
+  "time": "2026-10-29 14:29:54",
+  "user_stopped": true,
+  "rig_success": false,
+  "observed_error": "ERROR occured on rig: Unknown error while generating motion",
+  "rigged_fbx_downloaded": false,
+  "proxy_uploaded": false,
+  "unity_avatar_validated": false,
+  "animations_validated": false,
+  "protected_files_unchanged": {
+    "/Users/dorimiah/Desktop/Vampire/VampireHunter_Demo_Independent/Assets/Demo/Characters/MidnightGunslinger/Source/model.glb": true,
+    "/Users/dorimiah/Desktop/Vampire/VampireHunter_Demo_Independent/Assets/Demo/Scenes/PrologueSettlement.unity": true,
+    "/Users/dorimiah/Desktop/Vampire/VampireHunter_Demo_Independent/Assets/Demo/Scenes/MidnightGunslingerImportReview.unity": true,
+    "/Users/dorimiah/Desktop/Vampire/VampireHunter_Demo_Independent/Assets/Demo/Characters/MidnightGunslinger/GunslingerURP.mat": true,
+    "/Users/dorimiah/Desktop/Vampire/Assets/the-midnight-gunslinger/source/model.glb": true
+  }
+}

@@ -1,0 +1,36 @@
+# Unity generated caches (all local projects)
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/Builds/
+**/Build/
+**/MemoryCaptures/
+**/Recordings/
+**/.vs/
+**/.idea/
+**/.vscode/
+**/.DS_Store
+**/._*
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.pdb
+*.mdb
+*.log
+*.log.*
+__pycache__/
+*.pyc
+/.claude/
+# Original optional dungeon installer: >2 GiB, not required by the imported Demo.
+/Assets/DungeonEnvironment_91Assets_202.unitypackage
+# Editor locks, temporary credentials and platform signing material.
+**/.env
+**/.env.*
+**/*.p12
+**/*.pfx
+**/*.keystore
+**/*.jks

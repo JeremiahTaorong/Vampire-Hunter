@@ -1,0 +1,3 @@
+Avatar valid human: Constructor_2_1Avatar
+Enabled: Body_Base, Body_Hands, Lether_tunic, Lether_pants, Lether_boot(left), Lether_boot(right), Lether_bracer_1(left), Lether_bracer_1(right), Lether_shold_1(left), Lether_shold_2(right), Lether_wide_belt, Leather_chest_belt_2, Hood_Cloth_1, Cape_1
+Original skinning retained. RootMotion disabled.

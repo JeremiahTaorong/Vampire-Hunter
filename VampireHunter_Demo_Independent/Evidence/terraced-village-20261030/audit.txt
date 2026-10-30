@@ -1,0 +1,29 @@
+B01 House_4+House_1 (teal two storey) pos=(-33.40, 0.05, -18.50) bounds=Center: (-33.42, 3.75, -18.52), Extents: (3.66, 3.68, 3.70) parts=House_1:Wood/Wood_Side/Plaster/Wood_Light/Windows/RoofTiles/Stone_Light/Stone_Dark/Stone
+B02 Inn (red roof, centre of village) pos=(-5.30, 0.02, 2.80) bounds=Center: (-5.30, 3.01, 2.80), Extents: (4.80, 2.97, 4.80) parts=Inn:Wood/RoofTiles_Red/Plaster/Windows/Wood_Light/Stone_Dark/Stone_Light
+B03 House_3+House_1 (north of square) pos=(-24.50, 0.02, 5.70) bounds=Center: (-24.50, 3.36, 5.73), Extents: (2.10, 3.32, 2.60) parts=House_1:Wood/Wood_Side/Plaster/Wood_Light/Windows/RoofTiles/Stone_Light/Stone_Dark/Stone
+B04 Sawmill (east range) pos=(3.90, 0.02, 0.60) bounds=Center: (3.92, 3.36, -1.43), Extents: (3.81, 3.32, 5.10) parts=Sawmill:RoofTiles_Red/Wood/Wood_Side/DarkWood/Metal/Windows/Wood_Light/Stone_Dark/Plaster/Stone_Light
+B05 Straw roof cabin (south-east) pos=(3.90, 0.02, -19.70) bounds=Center: (3.84, 2.14, -19.70), Extents: (4.28, 2.10, 4.50) parts=pf_build_small_house_straw_roof_01:mat_strawroof_01/mat_strawroof_cutout_01/mat_building_02/mat_building_01
+B06 Log house (south) pos=(-8.00, 0.02, -21.90) bounds=Center: (43.60, 2.14, -15.79), Extents: (3.99, 2.10, 4.30) parts=build_small_house_01:mat_building_01/mat_building_02
+B07 House_1 (small teal hut) pos=(-17.00, 0.02, -23.50) bounds=Center: (-17.00, 2.85, -23.52), Extents: (1.77, 2.81, 2.20) parts=House_1:Wood/Wood_Side/Plaster/Wood_Light/Windows/RoofTiles/Stone_Light/Stone_Dark/Stone
+B08 Water mill (north-west) pos=(-37.70, -0.16, 19.50) bounds=Center: (-38.11, 2.39, 19.89), Extents: (3.10, 2.53, 3.10) parts=House_2:Stone_Dark/Wood/Beige/Wood_Light/Windows/RoofTiles/Wood_Side/Stone/Stone_Light
+B09 Stable / long house (north) pos=(-5.30, -0.18, 19.50) bounds=Center: (-8.75, 3.13, 18.49), Extents: (6.20, 3.28, 4.39) parts=Stable:Wood/Wood_Side/RoofTiles/Beige/Wood_Light/Windows/Stone_Light/Stone_Dark
+B10 Thrall cabin in the trees (north-east) pos=(22.00, -0.14, 12.30) bounds=Center: (21.98, 1.54, 12.26), Extents: (3.52, 1.66, 3.60) parts=pf_build_small_house_straw_roof_01:mat_strawroof_01/mat_strawroof_cutout_01/mat_building_02/mat_building_01
+B11 Forest hut (south-east) pos=(33.80, -0.13, -18.20) bounds=Center: (33.76, 1.75, -18.23), Extents: (2.58, 1.86, 3.10) parts=pf_build_small_house_straw_roof_01:mat_strawroof_01/mat_strawroof_cutout_01/mat_building_02/mat_building_01
+B01 door lantern pos=(-30.44, 2.50, -15.21) bounds=Center: (-30.44, 2.50, -15.21), Extents: (0.13, 0.13, 0.13) parts=glass:LanternGlass
+B02 door lantern pos=(-9.68, 2.47, -0.61) bounds=Center: (-9.68, 2.47, -0.61), Extents: (0.13, 0.13, 0.13) parts=glass:LanternGlass
+B03 door lantern pos=(-24.50, 2.47, 2.38) bounds=Center: (-24.50, 2.47, 2.38), Extents: (0.13, 0.13, 0.13) parts=glass:LanternGlass
+B05 door lantern pos=(-0.70, 2.47, -17.08) bounds=Center: (-0.70, 2.47, -17.08), Extents: (0.13, 0.13, 0.13) parts=glass:LanternGlass
+B06 door lantern pos=(19.79, 2.47, -22.65) bounds=Center: (19.79, 2.47, -22.65), Extents: (0.13, 0.13, 0.13) parts=glass:LanternGlass
+B07 door lantern pos=(-17.00, 2.47, -20.57) bounds=Center: (-17.00, 2.47, -20.57), Extents: (0.13, 0.13, 0.13) parts=glass:LanternGlass
+B09 door lantern pos=(-8.75, 2.27, 13.35) bounds=Center: (-8.75, 2.27, 13.35), Extents: (0.13, 0.13, 0.13) parts=glass:LanternGlass
+B10 door lantern pos=(18.56, 2.31, 9.58) bounds=Center: (18.56, 2.31, 9.58), Extents: (0.13, 0.13, 0.13) parts=glass:LanternGlass
+B11 door lantern pos=(29.91, 2.32, -18.23) bounds=Center: (29.91, 2.32, -18.23), Extents: (0.13, 0.13, 0.13) parts=glass:LanternGlass
+ROOT Village
+ROOT Village props and fences
+ROOT Forest
+ROOT Investigation
+ROOT Lighting
+ROOT Player
+ROOT Post processing
+ROOT Settlement atmosphere
+ROOT Subtle objective trail edge details

@@ -1,0 +1,6 @@
+PASS registered local lights=33
+PASS vegetation plants=1002 shaders=4
+PASS approved fog profile exact serialized match
+PASS light off clears strength=0, light on restores
+PASS fade minimum=0.18, missing target restores=1
+Not tested: full traversal, keyboard/mouse, combat, frame rate; captures use fixed game camera poses.

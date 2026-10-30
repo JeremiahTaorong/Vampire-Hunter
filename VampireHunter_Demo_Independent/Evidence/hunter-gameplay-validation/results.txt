@@ -1,0 +1,9 @@
+Unity 2022.3.62f3 platform=OSXEditor
+Direct API behavior probe; not keyboard simulation.
+onNavMesh=True human=True rootMotion=False
+movementState=2081823275 movementDistance=2
+dodgeState=1353639306
+dodgeAccepted=True distance=2.491783
+attackState=1080829965
+attackMessage=Attacking target. targetAlive=True
+Probe complete; animation action clips must be separately checked.

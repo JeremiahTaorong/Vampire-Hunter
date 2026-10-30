@@ -1,0 +1,34 @@
+name	type	range	intensity	inner	outer	minimumDensity	enabled
+well lantern	Point	11	4	1.65	4.95	0.35	True
+gate lamp	Point	12	4.5	1.8	5.4	0.35	True
+fire light	Point	12	4.2	1.8	5.4	0.35	True
+Point light 2	Point	3.8	1.370351	0.57	1.71	0.35	True
+torch light	Point	9	3.6	1.35	4.05	0.35	True
+Point light 2	Point	3.8	1.370351	0.57	1.71	0.35	True
+torch light	Point	9	3.6	1.35	4.05	0.35	True
+Point light 2	Point	3.8	1.370351	0.57	1.71	0.35	True
+torch light	Point	9	3.6	1.35	4.05	0.35	True
+Point light 2	Point	3.8	1.370351	0.57	1.71	0.35	True
+torch light	Point	9	3.6	1.35	4.05	0.35	True
+Point light 2	Point	3.8	1.370351	0.57	1.71	0.35	True
+torch light	Point	9	3.6	1.35	4.05	0.35	True
+Point light 2	Point	3.8	1.370351	0.57	1.71	0.35	True
+torch light	Point	9	3.6	1.35	4.05	0.35	True
+Emblem glint	Point	3.2	1.2	0.48	1.44	0.35	True
+Mentor mark light	Point	5	1.6	0.75	2.25	0.35	True
+B01 door lantern	Point	8.5	3.4	1.275	3.825	0.35	True
+B02 door lantern	Point	8.5	3.4	1.275	3.825	0.35	True
+B03 door lantern	Point	8.5	3.4	1.275	3.825	0.35	True
+B05 door lantern	Point	8.5	3.4	1.275	3.825	0.35	True
+B06 door lantern	Point	8.5	3.4	1.275	3.825	0.35	True
+B07 door lantern	Point	8.5	3.4	1.275	3.825	0.35	True
+B09 door lantern	Point	8.5	3.4	1.275	3.825	0.35	True
+B10 door lantern	Point	7	2.4	1.05	3.15	0.35	True
+B11 door lantern	Point	7	2.4	1.05	3.15	0.35	True
+Square lantern	Point	13	5.4	1.95	5.85	0.35	True
+Square lantern south	Point	10	3.2	1.5	4.5	0.35	True
+East range lantern	Point	10	3.4	1.5	4.5	0.35	True
+North range lantern	Point	8	2.4	1.2	3.6	0.35	True
+Forest edge lantern	Point	9	2.8	1.35	4.05	0.35	True
+Carried lantern	Point	9	3.5	2.5	6	0	True
+Lantern near fill	Point	5	0.9	0.75	2.25	0.35	True

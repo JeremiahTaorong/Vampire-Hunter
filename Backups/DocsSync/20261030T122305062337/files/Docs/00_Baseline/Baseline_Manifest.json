@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-28",
+  "project_root": "/Users/dorimiah/Desktop/vampire",
+  "files": [
+    {
+      "path": "Vampire_Hunter_Complete_Story_Narrative_v2_2026-10-28.md",
+      "role": "Narrative",
+      "bytes": 30008,
+      "sha256": "8cbfb6671291a3335a8feec1c0baa4499486e4cd74c87329ede56c059685cd63"
+    },
+    {
+      "path": "Vampire_Hunter_Decision_Register_F01-F38_2026-10-28.md",
+      "role": "Decisions",
+      "bytes": 8979,
+      "sha256": "f147e1f588aaf9a758b58290907d97d1d067c24c7478b963fe6bdf8c6eabf224"
+    },
+    {
+      "path": "Vampire_Hunter_GDD_v4_Design_Frozen_R01-R84_F01-F38_2026-10-28.md",
+      "role": "GDD",
+      "bytes": 46567,
+      "sha256": "dbf397a4d666df277df9c48d05dae66e4b954fed5c495d4cb6e7469b4116db41"
+    },
+    {
+      "path": "Vampire_Hunter_Open_Source_and_Free_Assets_2026-10-28.md",
+      "role": "Reference",
+      "bytes": 41189,
+      "sha256": "aa906cb56966efcc580c495d77f4a636ca94c99f80457ecffc9ab000324fe06d"
+    },
+    {
+      "path": "Vampire_Hunter_System_Coverage_Matrix_v1_2026-10-28.md",
+      "role": "SCM",
+      "bytes": 28563,
+      "sha256": "7611f00aef2500c21e871b90e47c221a46c1f97b6dc371ee774956706ee47ab3"
+    }
+  ]
+}

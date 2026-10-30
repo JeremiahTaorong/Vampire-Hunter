@@ -1,0 +1,4 @@
+scene=Assets/Demo/Scenes/PrologueSettlement_HunterTorch.unity
+lightingEqual=True
+TorchParticles=3 allTorchLightsDisabled=True
+handScale=(100.00, 100.00, 100.00) torchWorldScale=(0.65, 0.65, 0.65)

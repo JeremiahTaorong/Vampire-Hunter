@@ -1,0 +1,2 @@
+errors=0 warnings=16 logs=0
+Automatic test removed. Scene/prefab saved for manual play.

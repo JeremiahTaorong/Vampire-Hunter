@@ -1,0 +1,6 @@
+Attack <- Rig|Sword_Attack length=1.533333
+Dodge <- Rig|Roll length=1.466667
+Hit <- Rig|Hit_Chest length=0.3333333
+Death <- Rig|Death01 length=2.4
+Interaction <- Rig|Interact length=2
+controller=Assets/Demo/Characters/Hunter/Hunter_Gameplay.controller

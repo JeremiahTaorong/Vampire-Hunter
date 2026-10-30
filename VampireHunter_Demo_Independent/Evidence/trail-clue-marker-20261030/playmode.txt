@@ -1,0 +1,3 @@
+Unity=2022.3.62f3 scene=PrologueSettlement_HunterTrails
+raycastSelectable=True hit=Trail clue - discarded shield and gold marker clueId=trail
+examined=True HasTrail=True badgeHidden=True path=PathComplete

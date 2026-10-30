@@ -1,0 +1,34 @@
+using UnityEditor;
+using UnityEditor.AI;
+using UnityEditor.SceneManagement;
+using UnityEngine;
+using UnityEngine.AI;
+
+public static class CreateDemoScene
+{
+    public static void Build()
+    {
+        var scene = EditorSceneManager.NewScene(NewSceneSetup.EmptyScene, NewSceneMode.Single);
+        var ground = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        ground.name = "Walkable ground"; ground.transform.position = new Vector3(0,-.5f,0); ground.transform.localScale = new Vector3(20,1,20);
+        GameObjectUtility.SetStaticEditorFlags(ground, StaticEditorFlags.NavigationStatic);
+        var wall = GameObject.CreatePrimitive(PrimitiveType.Cube);
+        wall.name = "Obstacle"; wall.transform.position = new Vector3(1,1,2); wall.transform.localScale = new Vector3(5,2,1);
+        GameObjectUtility.SetStaticEditorFlags(wall, StaticEditorFlags.NavigationStatic);
+        EditorSceneManager.SaveScene(scene, "Assets/Demo/Scenes/MovementDemo.unity");
+        UnityEditor.AI.NavMeshBuilder.BuildNavMesh();
+        var player = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+        player.name = "Player"; player.transform.position = new Vector3(0,1,-5);
+        var agent = player.AddComponent<NavMeshAgent>(); agent.baseOffset = 1f; agent.speed = 4f; agent.angularSpeed = 720;
+        var cameraObject = new GameObject("Demo camera");
+        var cam = cameraObject.AddComponent<Camera>(); cameraObject.tag = "MainCamera"; cameraObject.AddComponent<AudioListener>();
+        var follow = cameraObject.AddComponent<DemoCamera>(); follow.target = player.transform;
+        cameraObject.transform.position = player.transform.position + follow.offset; cameraObject.transform.LookAt(player.transform.position);
+        var movement = player.AddComponent<DemoMovement>(); movement.viewCamera = cam; movement.groundMask = 1;
+        var light = new GameObject("Directional Light"); light.AddComponent<Light>().type = LightType.Directional; light.transform.rotation = Quaternion.Euler(50,-30,0);
+        EditorSceneManager.SaveScene(scene, "Assets/Demo/Scenes/MovementDemo.unity");
+        EditorBuildSettings.scenes = new [] { new EditorBuildSettingsScene("Assets/Demo/Scenes/MovementDemo.unity", true) };
+        AssetDatabase.SaveAssets();
+        Debug.Log("DEMO_SCENE_CREATED");
+    }
+}

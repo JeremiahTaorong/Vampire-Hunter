@@ -1,0 +1,78 @@
+{
+    "MonoBehaviour": {
+        "m_Enabled": true,
+        "m_EditorHideFlags": 0,
+        "m_Name": "VolumetricFogVolumeComponent",
+        "m_EditorClassIdentifier": "",
+        "active": true,
+        "distance": {
+            "m_OverrideState": true,
+            "m_Value": 100.0
+        },
+        "baseHeight": {
+            "m_OverrideState": true,
+            "m_Value": 8.0
+        },
+        "maximumHeight": {
+            "m_OverrideState": true,
+            "m_Value": 35.0
+        },
+        "enableGround": {
+            "m_OverrideState": true,
+            "m_Value": false
+        },
+        "groundHeight": {
+            "m_OverrideState": true,
+            "m_Value": 0.0
+        },
+        "density": {
+            "m_OverrideState": true,
+            "m_Value": 0.699999988079071
+        },
+        "attenuationDistance": {
+            "m_OverrideState": true,
+            "m_Value": 12.0
+        },
+        "enableMainLightContribution": {
+            "m_OverrideState": true,
+            "m_Value": false
+        },
+        "anisotropy": {
+            "m_OverrideState": true,
+            "m_Value": 0.4000000059604645
+        },
+        "scattering": {
+            "m_OverrideState": true,
+            "m_Value": 0.41999998688697817
+        },
+        "tint": {
+            "m_OverrideState": true,
+            "m_Value": {
+                "r": 0.1599999964237213,
+                "g": 0.1599999964237213,
+                "b": 0.1599999964237213,
+                "a": 1.0
+            }
+        },
+        "enableAdditionalLightsContribution": {
+            "m_OverrideState": true,
+            "m_Value": true
+        },
+        "maxSteps": {
+            "m_OverrideState": true,
+            "m_Value": 96
+        },
+        "blurIterations": {
+            "m_OverrideState": true,
+            "m_Value": 2
+        },
+        "enabled": {
+            "m_OverrideState": true,
+            "m_Value": true
+        },
+        "renderPassEvent": {
+            "m_OverrideState": true,
+            "m_Value": 550
+        }
+    }
+}

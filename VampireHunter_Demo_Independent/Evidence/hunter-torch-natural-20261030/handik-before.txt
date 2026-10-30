@@ -1,0 +1,5 @@
+using UnityEngine;
+public class HunterTorchHandIK:MonoBehaviour {
+ public HunterTorchPose pose;public Vector3 handTarget=new Vector3(-.40f,1.55f,.46f);
+ void OnAnimatorIK(int layerIndex){if(!pose||layerIndex!=pose.layer)return;var a=pose.bridge.animator;var root=pose.transform;float weight=pose.Weight;a.SetIKPositionWeight(AvatarIKGoal.LeftHand,weight);a.SetIKRotationWeight(AvatarIKGoal.LeftHand,weight);a.SetIKHintPositionWeight(AvatarIKHint.LeftElbow,weight*.8f);a.SetIKPosition(AvatarIKGoal.LeftHand,root.position+a.transform.rotation*handTarget);a.SetIKRotation(AvatarIKGoal.LeftHand,a.transform.rotation);a.SetIKHintPosition(AvatarIKHint.LeftElbow,root.position+a.transform.rotation*new Vector3(-.58f,1.12f,.12f));}
+}

@@ -1,0 +1,33 @@
+{
+  "browser": "Chrome (Safari orientation/marker viewport blank)",
+  "original_upload": "Hunter_MixamoUpload.zip",
+  "marker_screen_pixels": {
+    "chin": [
+      1220,
+      642
+    ],
+    "wrist_left_screen": [
+      1038,
+      955
+    ],
+    "elbow_left_screen": [
+      1060,
+      815
+    ],
+    "knee_left_screen": [
+      1148,
+      1217
+    ],
+    "groin": [
+      1220,
+      1040
+    ]
+  },
+  "screen_size": [
+    2940,
+    1682
+  ],
+  "symmetry": true,
+  "skeleton": "Standard Skeleton (65)",
+  "status": "auto-rigging submitted; result pending"
+}

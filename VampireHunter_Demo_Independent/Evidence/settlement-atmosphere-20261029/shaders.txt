@@ -1,0 +1,4 @@
+VampireDemo/SettlementFade/Universal Render Pipeline/Lit
+VampireDemo/SettlementFade/CTI/URP/CTI URP SG Bark Array
+VampireDemo/SettlementFade/CTI/URP/CTI URP SG Leaves
+VampireDemo/SettlementFade/CTI/URP/CTI URP SG Bark

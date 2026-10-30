@@ -1,0 +1,38 @@
+Interior window outward spill parent=B07 House_1 (small teal hut) player=False position=(-17.86, 5.59, -23.49) volume=True fog=True
+Interior window outward spill parent=B04 Sawmill (east range) player=False position=(3.88, 3.94, 2.78) volume=True fog=True
+Interior window outward spill parent=B08 Water mill (north-west) player=False position=(-37.71, 5.22, 18.48) volume=True fog=True
+Interior room warm light parent=B07 House_1 (small teal hut) player=False position=(-17.00, 3.08, -23.52) volume=False fog=False
+Interior window outward spill parent=B03 House_3+House_1 (north of square) player=False position=(-25.94, 4.87, 5.68) volume=True fog=True
+Interior window outward spill parent=B06 Log house (south) player=False position=(-8.70, 3.30, -24.01) volume=True fog=True
+Interior window outward spill parent=B01 House_4+House_1 (teal two storey) player=False position=(-34.26, 5.90, -17.70) volume=True fog=True
+Interior window outward spill parent=B08 Water mill (north-west) player=False position=(-39.45, 5.22, 20.22) volume=True fog=True
+Interior room warm light parent=B11 Forest hut (south-east) player=False position=(33.76, 3.01, -18.23) volume=False fog=False
+Lantern near fill parent=Player player=True position=(-42.50, 2.86, -5.60) volume=True fog=True
+Interior window outward spill parent=B02 Inn (red roof, centre of village) player=False position=(-3.79, 5.72, 0.87) volume=True fog=True
+Interior room warm light parent=B10 Thrall cabin in the trees (north-east) player=False position=(21.98, 4.06, 12.26) volume=False fog=False
+Interior room warm light parent=B04 Sawmill (east range) player=False position=(3.92, 4.01, -1.43) volume=False fog=False
+Interior window outward spill parent=B03 House_3+House_1 (north of square) player=False position=(-23.46, 6.92, 5.68) volume=True fog=True
+Interior room warm light parent=B01 House_4+House_1 (teal two storey) player=False position=(-33.42, 2.12, -18.52) volume=False fog=False
+Interior window outward spill parent=B08 Water mill (north-west) player=False position=(-37.36, 3.57, 20.78) volume=True fog=True
+Interior window outward spill parent=B04 Sawmill (east range) player=False position=(1.13, 6.45, 0.60) volume=True fog=True
+Interior window outward spill parent=B10 Thrall cabin in the trees (north-east) player=False position=(19.86, 4.11, 11.49) volume=True fog=True
+Interior room warm light parent=B03 House_3+House_1 (north of square) player=False position=(-24.50, 3.67, 5.73) volume=False fog=False
+Interior room warm light parent=B09 Stable / long house (north) player=False position=(-8.75, 4.17, 18.49) volume=False fog=False
+Interior room warm light parent=B02 Inn (red roof, centre of village) player=False position=(-5.30, 3.81, 2.80) volume=False fog=False
+Interior room warm light parent=B08 Water mill (north-west) player=False position=(-38.11, 2.93, 19.89) volume=False fog=False
+Interior window outward spill parent=B07 House_1 (small teal hut) player=False position=(-16.14, 5.59, -23.49) volume=True fog=True
+Interior window outward spill parent=B09 Stable / long house (north) player=False position=(-7.06, 6.42, 16.31) volume=True fog=True
+Interior window outward spill parent=B02 Inn (red roof, centre of village) player=False position=(-6.83, 5.72, 4.76) volume=True fog=True
+Interior window outward spill parent=B07 House_1 (small teal hut) player=False position=(-15.80, 3.86, -23.49) volume=True fog=True
+Interior room warm light parent=B06 Log house (south) player=False position=(-8.00, 3.25, -21.90) volume=False fog=False
+Interior window outward spill parent=B04 Sawmill (east range) player=False position=(6.63, 6.45, 0.60) volume=True fog=True
+Interior window outward spill parent=B02 Inn (red roof, centre of village) player=False position=(-4.99, 5.69, 5.25) volume=True fog=True
+Interior window outward spill parent=B01 House_4+House_1 (teal two storey) player=False position=(-34.59, 3.63, -17.41) volume=True fog=True
+Interior room warm light parent=B05 Straw roof cabin (south-east) player=False position=(3.84, 3.07, -19.70) volume=False fog=False
+Interior window outward spill parent=B05 Straw roof cabin (south-east) player=False position=(2.64, 3.12, -18.20) volume=True fog=True
+Interior window outward spill parent=B09 Stable / long house (north) player=False position=(-3.39, 3.84, 18.94) volume=True fog=True
+Interior window outward spill parent=B01 House_4+House_1 (teal two storey) player=False position=(-32.52, 5.90, -19.27) volume=True fog=True
+Interior window outward spill parent=B11 Forest hut (south-east) player=False position=(32.20, 3.06, -17.53) volume=True fog=True
+Carried lantern parent=fx_fire player=True position=(-42.50, 2.28, -5.05) volume=True fog=True
+Interior window outward spill parent=B03 House_3+House_1 (north of square) player=False position=(-25.54, 6.92, 5.68) volume=True fog=True
+Interior window outward spill parent=B09 Stable / long house (north) player=False position=(-3.84, 6.42, 16.31) volume=True fog=True

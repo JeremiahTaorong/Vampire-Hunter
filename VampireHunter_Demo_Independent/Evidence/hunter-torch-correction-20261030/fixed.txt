@@ -1,0 +1,1 @@
+Original ground-fire material assigned directly (including HDR emission). Torch mesh tilt removed, grip y=-.15 mesh-space; palm centered at 68% wrist-to-knuckles. Existing main light reparented to fx_fire, intensity=3.5 range=9 components=Transform,MeshFilter,MeshRenderer,Light,SettlementFogLight,UniversalAdditionalLightData,VolumetricAdditionalLight

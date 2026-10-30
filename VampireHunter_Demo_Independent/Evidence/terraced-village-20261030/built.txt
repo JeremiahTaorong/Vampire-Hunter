@@ -1,0 +1,27 @@
+scene=Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity
+Recentered displaced B06 mesh=(-51.60, 0.00, -6.11)
+Terrain height range=0.08..3.54; anchored groups=3777
+B01 House_4+House_1 (teal two storey) platformHeight=0.50
+B02 Inn (red roof, centre of village) platformHeight=2.19
+B03 House_3+House_1 (north of square) platformHeight=2.05
+B04 Sawmill (east range) platformHeight=2.39
+B05 Straw roof cabin (south-east) platformHeight=1.45
+B06 Log house (south) platformHeight=1.63
+B07 House_1 (small teal hut) platformHeight=1.46
+B08 Water mill (north-west) platformHeight=1.47
+B09 Stable / long house (north) platformHeight=2.73
+B10 Thrall cabin in the trees (north-east) platformHeight=2.57
+B11 Forest hut (south-east) platformHeight=1.51
+B01 House_4+House_1 (teal two storey) windowClusters=6
+B02 Inn (red roof, centre of village) windowClusters=8
+B03 House_3+House_1 (north of square) windowClusters=6
+B04 Sawmill (east range) windowClusters=4
+B05 Straw roof cabin (south-east) windowClusters=1
+B06 Log house (south) windowClusters=1
+B07 House_1 (small teal hut) windowClusters=6
+B08 Water mill (north-west) windowClusters=7
+B09 Stable / long house (north) windowClusters=7
+B10 Thrall cabin in the trees (north-east) windowClusters=1
+B11 Forest hut (south-east) windowClusters=1
+disabled exterior lights=32 active window spills=25 active local lights=38
+copied downscaled environment textures=34 material copies=17 renderScale=.9 shadowDistance=55 mainShadow=2048 additionalShadow=1024

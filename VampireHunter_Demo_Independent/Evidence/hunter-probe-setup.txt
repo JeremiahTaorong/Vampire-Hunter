@@ -1,0 +1,1 @@
+Dagger_U(Clone) bounds=Center: (0.00, 0.06, 0.00), Extents: (0.03, 0.15, 0.01) local=(0.00, 0.00, 0.00) scale=(1.00, 1.00, 1.00)

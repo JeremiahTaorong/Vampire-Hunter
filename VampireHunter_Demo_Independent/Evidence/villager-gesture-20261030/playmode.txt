@@ -1,0 +1,4 @@
+Unity=2022.3.62f3 raycastWitness=True
+activated=True state=Lowering
+relaxed state=Waiting
+final=Pointing waitActual=1.516313 target=Trail clue - discarded shield and gold marker leftArmDirectionError=0.5059038 HasWitness=True
