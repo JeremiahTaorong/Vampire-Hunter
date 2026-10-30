@@ -8,8 +8,8 @@
 
 ```powershell
 git lfs install
-git clone https://github.com/JeremiahTaorong/Vampire-Hunter.git
-cd Vampire-Hunter
+git clone https://github.com/JeremiahTaorong/Vampire-Hunter.git D:\VH
+cd D:\VH
 git lfs pull
 ```
 
@@ -24,7 +24,7 @@ git lfs pull
 已导入的Character Constructor、Viking Village及其他当前使用素材位于Assets，随仓库提供，无须重新导入原unitypackage。
 `Packages/manifest.json`及`packages-lock.json`随仓库提供，Unity会联网下载URP等依赖；其中UOSLauncher来自Git，Windows必须能运行Git并访问其远程地址。Library/PackageCache不上传，也不需要复制Mac版本缓存。
 
-根目录3GB的可选原始地牢unitypackage未上传，当前Demo不依赖它。其他未上传类别详见根README及.gitignore。
+原始约3GB地牢安装包另存于私有Releases附件，不放入Git历史；当前Demo不依赖它。取回方式见下节。其他排除类别见根README及.gitignore。
 
 ## 本工程特别注意
 
@@ -33,3 +33,18 @@ git lfs pull
 遇到Forst-Conifers素材安装提示，当前URP资源已经导入，可关闭提示后继续；不要重复安装覆盖当前资源。
 
 Windows首次测试应检查：Console、材质是否正常、猎人移动/攻击/翻滚、左手火把、篝火/窗光、点击证人后放臂等待1.5秒再左手指路。完整流程与性能仍以Windows实际验证为准。
+
+## 可选：下载原始地牢安装包
+
+访问 https://github.com/JeremiahTaorong/Vampire-Hunter/releases/tag/optional-source-packages-20261031 ，登录同一GitHub账号。下载两个`DungeonEnvironment_91Assets_202.unitypackage.part01/part02`附件到同一文件夹；不要把它们当ZIP解压。
+
+在仓库根目录执行（默认从当前用户Downloads目录读取）：
+
+```powershell
+python Tools/restore_optional_package.py
+```
+
+或指定位置：`python Tools/restore_optional_package.py --parts-folder D:\Downloads`。
+工具校验分卷并合并为仓库根目录`Assets/DungeonEnvironment_91Assets_202.unitypackage`，再次校验原包SHA-256。它在Unity工程子文件夹之外，不会自动改变现有Demo；需要时再从Unity手动导入。
+
+建议克隆到短路径D:\VH，避免深层历史文档路径超出Windows路径限制。

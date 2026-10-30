@@ -11,7 +11,7 @@
 
 ## 当前行动
 
-用户已授权GitHub私有工程迁移，正在上传并核验完整源文件及LFS。Windows还原步骤和SHA校验工具已准备，Windows实际导入/玩法待当地验证；正式系统0/13批准不变。
+GitHub私有仓库JeremiahTaorong/Vampire-Hunter及原始安装包Release已上传并核验。Windows可按根WINDOWS_SETUP克隆、拉取LFS和校验，打开独立Demo最新场景；Windows导入/完整玩法/性能仍待实机验证，正式系统0/13批准不变。
 
 - [Demo 目标与第一步草案](02_Systems/DEMO_GOAL_DRAFT.md)：范围已获确认；独立 Demo 的移动原型进行中。
 - [S01 v0.1 待审正文](02_Systems/S01_Player_Control.md)：重点看 §9 的 Q1–Q6。

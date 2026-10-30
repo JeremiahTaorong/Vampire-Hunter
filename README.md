@@ -17,7 +17,7 @@ Unity 2022.3.62f3 / URP / macOS 开发，迁移至 Windows 时保持同版本。
 
 不上传可再生的Library/Temp/Logs/obj/UserSettings、个人编辑器配置、诊断`.log`、签名或环境凭据。Evidence的`.txt`完成标记及截图保留，避免初始化工具重新执行旧制作步骤。原始历史日志在Mac仍保留。
 
-唯一未上传的大型原始安装包是根目录`Assets/DungeonEnvironment_91Assets_202.unitypackage`（约3GB）。它超过当前普通LFS计划的单文件上限，且不是当前Demo的已导入依赖。原文件在Mac保留；需要后续制作地牢时，再从原素材来源下载。其他已导入Asset Store素材和项目实际使用的资源均随工程上传。
+根目录`Assets/DungeonEnvironment_91Assets_202.unitypackage`（约3GB）不放入Git历史，原包以两个分卷保存于[私有Release附件](https://github.com/JeremiahTaorong/Vampire-Hunter/releases/tag/optional-source-packages-20261031)。使用`Tools/restore_optional_package.py`合并并验证SHA-256；当前Demo不依赖重新导入它。其他已导入素材与项目实际资源随工程上传。
 
 ## 验证与边界
 

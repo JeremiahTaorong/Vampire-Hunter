@@ -1,0 +1,18 @@
+{
+  "source_name": "DungeonEnvironment_91Assets_202.unitypackage",
+  "source_bytes": 3237221377,
+  "source_sha256": "5866dff0e8f156ffdf7117f8ea34ee9ef962878eec3cd6e7acdaae0d411c0b1b",
+  "release_tag": "optional-source-packages-20261031",
+  "parts": [
+    {
+      "name": "DungeonEnvironment_91Assets_202.unitypackage.part01",
+      "bytes": 1879048192,
+      "sha256": "c38cebd6230e0c70f7eb2b7986ff02f2bb8df3480ec813a092d5c77fd1889a98"
+    },
+    {
+      "name": "DungeonEnvironment_91Assets_202.unitypackage.part02",
+      "bytes": 1358173185,
+      "sha256": "622e918cfb4d8f68cd647e1bed0c6ee401e59e05733c5bc5f879387be3423cec"
+    }
+  ]
+}

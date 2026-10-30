@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-31",
+  "private_repository": "JeremiahTaorong/Vampire-Hunter",
+  "release": "https://github.com/JeremiahTaorong/Vampire-Hunter/releases/tag/optional-source-packages-20261031",
+  "assets_sha256_server_verified": [
+    {
+      "name": "DungeonEnvironment.manifest.json",
+      "size": 640,
+      "state": "uploaded",
+      "digest": "sha256:090786326a8a90242ad4692d3687af6dfd8856f72fd7fbcb36d7546bb7f09f06",
+      "browser_download_url": "https://github.com/JeremiahTaorong/Vampire-Hunter/releases/download/optional-source-packages-20261031/DungeonEnvironment.manifest.json"
+    },
+    {
+      "name": "DungeonEnvironment_91Assets_202.unitypackage.part01",
+      "size": 1879048192,
+      "state": "uploaded",
+      "digest": "sha256:c38cebd6230e0c70f7eb2b7986ff02f2bb8df3480ec813a092d5c77fd1889a98",
+      "browser_download_url": "https://github.com/JeremiahTaorong/Vampire-Hunter/releases/download/optional-source-packages-20261031/DungeonEnvironment_91Assets_202.unitypackage.part01"
+    },
+    {
+      "name": "DungeonEnvironment_91Assets_202.unitypackage.part02",
+      "size": 1358173185,
+      "state": "uploaded",
+      "digest": "sha256:622e918cfb4d8f68cd647e1bed0c6ee401e59e05733c5bc5f879387be3423cec",
+      "browser_download_url": "https://github.com/JeremiahTaorong/Vampire-Hunter/releases/download/optional-source-packages-20261031/DungeonEnvironment_91Assets_202.unitypackage.part02"
+    }
+  ],
+  "source_sha256": "5866dff0e8f156ffdf7117f8ea34ee9ef962878eec3cd6e7acdaae0d411c0b1b",
+  "scope": "Server-computed Release asset SHA-256 matches local parts; combined local stream matches original package. Windows reconstruction not yet run."
+}

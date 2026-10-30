@@ -2,7 +2,7 @@
   "schema_version": 1,
   "updated_date": "2026-10-31",
   "phase": "Phase2_S01_Review",
-  "next_action": "用户已授权GitHub私有工程迁移，正在上传并核验完整源文件及LFS。Windows还原步骤和SHA校验工具已准备，Windows实际导入/玩法待当地验证；正式系统0/13批准不变。",
+  "next_action": "GitHub私有仓库JeremiahTaorong/Vampire-Hunter及原始安装包Release已上传并核验。Windows可按根WINDOWS_SETUP克隆、拉取LFS和校验，打开独立Demo最新场景；Windows导入/完整玩法/性能仍待实机验证，正式系统0/13批准不变。",
   "systems": [
     {
       "id": "S01",

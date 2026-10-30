@@ -7652,6 +7652,16 @@
       "sha256": "50f3880b95d313624a6dd1d914d35801b277d7d969dcf40c7e356176c4b61042"
     },
     {
+      "path": "Backups/DocsSync/20261031T010023611307/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2535,
+      "sha256": "5c56123fed54c05ecc2676d34c12ffae564b5f2ed17a4b6cbafb11842cc4d03e"
+    },
+    {
+      "path": "Backups/DocsSync/20261031T010023611307/manifest.json",
+      "bytes": 212,
+      "sha256": "62e027deab3961a7fcc169a18c684dd61056e6992615bbc8ca805fb06f7d4821"
+    },
+    {
       "path": "CharacterRiggingWork/Hunter_20261029-134109/DocumentationBeforeStop_20261029-142954/Docs/03_Management/CHANGE_LOG.md",
       "bytes": 7452,
       "sha256": "2f3809270c52bcc987bf962c15208c873ed5fdc1e0f275f81d419f79409e8ce1"
@@ -8293,8 +8303,8 @@
     },
     {
       "path": "Docs/03_Management/CHANGE_LOG.md",
-      "bytes": 14153,
-      "sha256": "95b7b0dcd3a3fa6813403b6124d439912bd09af0b00c9a46112ba64682f72959"
+      "bytes": 15134,
+      "sha256": "befd5ca2d82480c4e1442bbc81899b0674a9120f5e8cf4b58dd554d6d56a68f9"
     },
     {
       "path": "Docs/03_Management/CR_TEMPLATE.md",
@@ -8307,9 +8317,19 @@
       "sha256": "d3a22df2687c33881bdd8274e29405f090970002d3e8b4d657689a8e5519cfa0"
     },
     {
+      "path": "Docs/03_Management/Evidence/GITHUB_FRESH_CLONE_20261031.json",
+      "bytes": 398,
+      "sha256": "af9747dd2d679bf0f2fce14edcd9873b861ee034ab93ae931e50644d12421c5e"
+    },
+    {
+      "path": "Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
+      "bytes": 952,
+      "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
       "path": "Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
-      "bytes": 1178,
-      "sha256": "d6ff79058767f652dbfe3d2d3ffc4ad160f1c5740ab657ee6a11cb6e9eb48b72"
+      "bytes": 3002,
+      "sha256": "dc0fb1ebb4ccb8b4e1ecc678e6f9d6dae34635ed35c9a05ae6db0bffa72769a3"
     },
     {
       "path": "Docs/03_Management/Evidence/INSTALLATION_VALIDATION.md",
@@ -8343,8 +8363,8 @@
     },
     {
       "path": "Docs/03_Management/workflow_state.json",
-      "bytes": 7985,
-      "sha256": "5a97093ec4c072c5c1def88197fd8afb0d80f8a000c31e8865eaf229694b3aef"
+      "bytes": 8043,
+      "sha256": "cebfa60926939d22f8065fb72bf4d2cc18c5972af4ecfa47c040750641a2abfe"
     },
     {
       "path": "Docs/05_Testing/TEST_INDEX.md",
@@ -8353,18 +8373,33 @@
     },
     {
       "path": "Docs/PROJECT_STATUS.md",
-      "bytes": 2535,
-      "sha256": "5c56123fed54c05ecc2676d34c12ffae564b5f2ed17a4b6cbafb11842cc4d03e"
+      "bytes": 2593,
+      "sha256": "a44feb3dddef117379ddd3c84d4f06f422e46023efcf608165acd754b45d7a14"
+    },
+    {
+      "path": "OptionalPackages/DungeonEnvironment.manifest.json",
+      "bytes": 640,
+      "sha256": "090786326a8a90242ad4692d3687af6dfd8856f72fd7fbcb36d7546bb7f09f06"
+    },
+    {
+      "path": "OptionalPackages/release-verification.json",
+      "bytes": 1674,
+      "sha256": "c4c001f0a3d897f98035d1a465b88d93f51f96a98b8ac931c25922ce346ff8f8"
     },
     {
       "path": "README.md",
-      "bytes": 2054,
-      "sha256": "a417d9c9a78c83f39db644f53dcbb7e1a58f2dfce14332434f7fd312322975fc"
+      "bytes": 2087,
+      "sha256": "18459097523e587d6897e5ef534d288e79c14769fd27981af06d5cff5704d79a"
     },
     {
       "path": "Tools/docs_workflow.py",
       "bytes": 19094,
       "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+    },
+    {
+      "path": "Tools/restore_optional_package.py",
+      "bytes": 1945,
+      "sha256": "71f898f407345d56eb5f1d2dd15ecf0705afb09a4e1263f6ff9d36f09c60acef"
     },
     {
       "path": "Tools/verify_checkout.py",
@@ -28693,8 +28728,8 @@
     },
     {
       "path": "WINDOWS_SETUP.md",
-      "bytes": 2316,
-      "sha256": "c8bc416a3dcd0735b36fee770543ce0f46d1ea960699b1d742b919f0c3c9279d"
+      "bytes": 3216,
+      "sha256": "bb1592461695e3c79dac22f3e311369d9de797459ac57c3d94d3ca10a8c086d7"
     },
     {
       "path": "开发记录/2026-10-30_独立Demo当前交接.md",
@@ -28713,8 +28748,8 @@
     },
     {
       "path": "开发记录/开发记录.md",
-      "bytes": 34091,
-      "sha256": "438a9ef4336f0747ddb59a8f25e3a280529b155442694dfc9695423dc88f0b05"
+      "bytes": 35072,
+      "sha256": "fcf70466adadc590b33fd7f0548782c7d834e26b6e128c43aacbab7b393884cd"
     },
     {
       "path": "开发记录/截图/20261029/01_俯视_布局.png",
