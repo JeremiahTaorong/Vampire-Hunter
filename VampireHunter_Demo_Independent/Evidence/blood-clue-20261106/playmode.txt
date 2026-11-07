@@ -1,0 +1,11 @@
+mode=real Unity Play Mode; real NavMeshAgent and BeginInteraction; no OS mouse/keyboard simulation
+unity=2022.3.62f3 platform=WindowsEditor
+run_at_utc=2026-11-06T08:01:10.1631434Z scene=Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity
+scope=blood-only integration; arm deferred by user
+startSample=True warp=True initialHasTrail=False
+raycastSelectable=True hit=Trail clue - blood pool and drag marks
+visualRenderers=4 allShadersSupported=True
+armPresent=False
+examined=True HasTrail=True badgeHidden=True
+path=PathComplete approachSeconds=1.41 playerDistance=0.2952245
+result=PASS exit_code=0

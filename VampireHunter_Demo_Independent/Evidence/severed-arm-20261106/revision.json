@@ -1,0 +1,11 @@
+{
+  "base_commit": "067a9e882ea5ca94e314030a91e7873dda99a020",
+  "files_sha256": {
+    "Assets/Demo/Editor/SeveredArmSetup.cs": "ed6491226eb3df60f8cb657e229f5a96d8026264773fad6ea95a03f476f017da",
+    "Assets/Demo/Scripts/SeveredArmProbe.cs": "08045511fbe14b96b98a2487daa0f03892d1eb45c858a64ec5f35bfae1ef5352",
+    "Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity": "8f8a6e658338fb54030975818651587e622d9054dcc3b076b146fbb111baa67f",
+    "Assets/Demo/Environment/SeveredArm/SeveredArm_Skin_URP.mat": "809a23173625c3eb7ca0a3e2e9fe16e5e65eebb5fe681329e170fd200a84754e",
+    "Assets/Demo/Environment/SeveredArm/SeveredArm_Ground.prefab": "3c4a001ca9f8a2427e3af94db6d3603d7bacf7b628bae7c727b14c8a8bef9e82"
+  },
+  "download_sha256": "3a51546c9fc8a945947ae071cde044d2a559fd0fdfd8f59ff9d3123add3ad3ca"
+}

@@ -1,0 +1,2 @@
+System.ArgumentException: Unknown blood clue command: blood
+  at BloodClueSetup.Poll () [0x00097] in D:\UnityProjects\Vampire-Hunter\VampireHunter_Demo_Independent\Assets\Demo\Editor\BloodClueSetup.cs:32 

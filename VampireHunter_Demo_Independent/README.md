@@ -1,6 +1,12 @@
 # Vampire Hunter — 独立 Demo
 
-## 最新试玩入口（2026-10-30）
+## 最新试玩入口（2026-11-07）
+
+打开 `Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity` 后 Play。当前新增两款免费 CC BY 血迹、12 处聚集血泊、免费断臂及原创十字徽章。点击徽章或断臂，角色走近后打开全屏检视：虚化背景、模型放大/拖动旋转、下方英文故事；按钮或 Esc 返回。断臂交互点已对准模型，检视时场景暂停并阻挡世界操作。故事措辞待审。
+
+[最新变更与 Mac 交接](../开发记录/2026-11-07_血迹断臂徽章与检视UI交接.md) · [Mac 同步步骤](../MAC_SETUP.md) · [检视运行证据](Evidence/evidence-inspection-20261106/REPORT.md)。Windows Unity 2022.3.62f3 局部测试通过；Mac、完整序章连续试玩、独立构建及性能未验证。
+
+## 2026-10-30 历史试玩入口
 
 打开 [PrologueSettlement_TerracedInteriors.unity](Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity) 后Play。当前版本包含起伏村落、窗光体积雾、恢复的篝火、左手火把与村民证人。靠近并点击证人完成原调查：抱拳→放臂→等待1.5秒→左手指向下个目标。
 
@@ -13,7 +19,7 @@
 
 Unity 批处理成功编译并生成场景；Unity Play Mode 自动烟雾检查验证了导航可用、代理沿路径移动、取消路径、直接手动移动和摄像机目标，日志见 Evidence。该检查不模拟鼠标/键盘，不证明实际输入体验；需在可见编辑器中手动检查点击、WASD、障碍和移动表现。不可达目标目前提示并停止；最近安全可达点策略还未实现。敌人已可接近并攻击；尚未实现完整章节。
 
-这个项目未创建或验证云端版本仓库，不保证另一台电脑能下载。`Library` 等缓存有意不携带，Unity 首次打开会重建。
+项目使用 GitHub 私有仓库和 Git LFS，同步说明见根目录 MAC_SETUP.md / WINDOWS_SETUP.md。历史上传验证见 Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md，当前同步见 GITHUB_SYNC_20261107.md。`Library` 等缓存不携带，Unity 首次打开会重建。
 
 ## 第二步：证物交互
 

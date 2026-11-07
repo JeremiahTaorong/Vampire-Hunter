@@ -1,0 +1,243 @@
+using System;
+using System.IO;
+using System.Linq;
+using System.Text;
+using UnityEditor;
+using UnityEditor.SceneManagement;
+using UnityEngine;
+using UnityEngine.Rendering;
+using Object = UnityEngine.Object;
+
+// Explicit local commands only. Does not rebuild any of the historical scenes.
+[InitializeOnLoad]
+public static class BloodClueSetup
+{
+    public const string Evidence = "Evidence/blood-clue-20261106/";
+    const string Sources = "Assets/Demo/ThirdParty/BloodClues/";
+    const string Generated = "Assets/Demo/Environment/BloodClue/";
+    const string Scene = "Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity";
+    static BloodClueSetup() { EditorApplication.update += Poll; }
+    static void Poll()
+    {
+        if (EditorApplication.isCompiling || EditorApplication.isUpdating || EditorApplication.isPlayingOrWillChangePlaymode) return;
+        string command = Evidence + "command.txt";
+        if (!File.Exists(command)) return;
+        string action = File.ReadAllText(command).Trim();
+        File.Move(command, Evidence + "command-" + DateTime.UtcNow.Ticks + ".txt");
+        try
+        {
+            if (action == "build") Build();
+            else if (action == "blood") BuildInternal(false);
+            else if (action == "test") Test();
+            else if (action == "testblood") RunTest(false);
+            else if (action == "finish") Finish();
+            else throw new ArgumentException("Unknown blood clue command: " + action);
+        }
+        catch (Exception e) { File.WriteAllText(Evidence + "error.txt", e.ToString()); Debug.LogException(e); }
+    }
+
+    [MenuItem("Vampire Demo/Blood Clue/Build Selected Free Assets")]
+    public static void Build() => BuildInternal(true);
+    static void BuildInternal(bool includeArm)
+    {
+        if (EditorApplication.isPlayingOrWillChangePlaymode) throw new InvalidOperationException("Stop Play Mode before editing.");
+        if (EditorSceneManager.GetActiveScene().isDirty) throw new InvalidOperationException("Unsaved scene changes; preserve them before building.");
+        string armPath = includeArm ? Directory.GetFiles(Sources + "SeveredArm", "*.fbx", SearchOption.AllDirectories).First() : null;
+        string dragPath = Sources + "BloodyDragMark/Model/blood drag mark decal.png";
+        string[] bloodPaths = Directory.GetFiles(Sources + "BloodDecals", "*.png", SearchOption.AllDirectories)
+            .OrderByDescending(path => path.Contains("decal2")).ToArray();
+        if (bloodPaths.Length == 0) throw new FileNotFoundException("Second selected blood asset has no extracted PNG textures.");
+        AssetDatabase.Refresh();
+        var scene = EditorSceneManager.OpenScene(Scene);
+        Directory.CreateDirectory(Evidence);
+        if (!File.Exists(Evidence + "scene-before.unity.txt")) File.Copy(Scene, Evidence + "scene-before.unity.txt");
+        Directory.CreateDirectory(Generated);
+        AssetDatabase.Refresh();
+        var clue = Object.FindObjectsOfType<DemoInteractable>().Single(c => c.clueId == "trail");
+        var previousVisuals = clue.transform.Find("Blood evidence visuals");
+        if (previousVisuals) Object.DestroyImmediate(previousVisuals.gameObject);
+        var terrain = Object.FindObjectOfType<Terrain>();
+        Vector3 p = clue.transform.position;
+        p.y = Ground(terrain, p);
+        var report = new StringBuilder("Unity=" + Application.unityVersion + "\nScene=" + Scene + "\n");
+        report.AppendLine("Original clue position=" + clue.transform.position + " range=" + clue.range);
+        foreach (Transform child in clue.transform)
+            if (child.name.Contains("Discarded shield")) child.gameObject.SetActive(false);
+        foreach (var renderer in Object.FindObjectsOfType<MeshRenderer>())
+            if (renderer.name == "drag mark" && Vector3.Distance(renderer.bounds.center, p) < 9f) renderer.enabled = false;
+        clue.name = includeArm ? "Trail clue - blood drag and severed arm" : "Trail clue - blood pool and drag marks";
+        clue.evidenceText = includeArm ? "Evidence: a severed arm lies in a pool of blood. A long blood smear leads east into the pines." : "Evidence: a pool of blood and a long blood smear lead east into the pines.";
+        var root = new GameObject("Blood evidence visuals").transform;
+        root.SetParent(clue.transform, true);
+        root.position = p;
+        var drag = BloodMaterial(dragPath, "BloodDrag");
+        Strip(root, terrain, p + new Vector3(-3.2f, 0, -.65f), p + new Vector3(-.15f, 0, -.05f), .63f, drag, "Drag smear west", 0);
+        Strip(root, terrain, p + new Vector3(-.1f, 0, -.05f), p + new Vector3(2.8f, 0, .65f), .53f, drag, "Drag smear east", 1);
+        var bloodMaterials = bloodPaths.Select((path, i) => BloodMaterial(path, "BloodPool" + i)).ToArray();
+        Strip(root, terrain, p + new Vector3(-.7f, 0, -.2f), p + new Vector3(.65f, 0, .1f), 1.25f, bloodMaterials[0], "Blood pool at investigation point", 2);
+        Strip(root, terrain, p + new Vector3(2.4f, 0, .3f), p + new Vector3(3.4f, 0, .65f), .8f, bloodMaterials[bloodMaterials.Length - 1], "Blood splashes toward forest", 3);
+
+        if (includeArm)
+        {
+        var arm = (GameObject)PrefabUtility.InstantiatePrefab(AssetDatabase.LoadAssetAtPath<GameObject>(armPath));
+        arm.name = "Severed Arm - joshuagoldenburgh CC BY 4.0";
+        arm.transform.SetParent(root, false);
+        foreach (var animator in arm.GetComponentsInChildren<Animator>()) animator.enabled = false;
+        foreach (var collider in arm.GetComponentsInChildren<Collider>()) Object.DestroyImmediate(collider);
+        foreach (Transform t in arm.GetComponentsInChildren<Transform>(true)) GameObjectUtility.SetStaticEditorFlags(t.gameObject, 0);
+        Bounds bounds = BoundsOf(arm);
+        if (bounds.size.y > bounds.size.x && bounds.size.y > bounds.size.z) arm.transform.Rotate(0, 0, 90, Space.World);
+        bounds = BoundsOf(arm);
+        if (bounds.size.y > bounds.size.z) arm.transform.Rotate(90, 0, 0, Space.World);
+        arm.transform.Rotate(0, -22, 0, Space.World);
+        bounds = BoundsOf(arm);
+        arm.transform.localScale *= .92f / Mathf.Max(bounds.size.x, bounds.size.y, bounds.size.z);
+        bounds = BoundsOf(arm);
+        Vector3 armPosition = p + new Vector3(.2f, 0, -.15f);
+        armPosition.y = Ground(terrain, armPosition) + .035f;
+        arm.transform.position += armPosition - new Vector3(bounds.center.x, bounds.min.y, bounds.center.z);
+        ConvertArmMaterials(arm, report);
+        report.AppendLine("Arm source=" + armPath + " bounds=" + BoundsOf(arm));
+        }
+        else report.AppendLine("Arm not installed yet: staged blood-only integration while the official arm archive downloads.");
+        var box = clue.GetComponent<BoxCollider>();
+        box.center = new Vector3(0, .45f, 0);
+        box.size = new Vector3(2.1f, 1.1f, 2.1f);
+        box.isTrigger = true;
+        var light = clue.GetComponentsInChildren<Light>().FirstOrDefault();
+        if (light) { light.name = "Blood clue reveal light"; light.intensity = 1.15f; light.range = 3.5f; }
+        report.AppendLine("Drag source=" + dragPath + " pools=" + string.Join(",", bloodPaths));
+        report.AppendLine("clueId=" + clue.clueId + " range=" + clue.range + "; no navigation/quest logic changes");
+        EditorSceneManager.MarkSceneDirty(scene);
+        EditorSceneManager.SaveScene(scene);
+        AssetDatabase.SaveAssets();
+        File.WriteAllText(Evidence + "built.txt", report.ToString());
+        EditorSceneManager.OpenScene(Scene);
+    }
+
+    static Bounds BoundsOf(GameObject go)
+    {
+        var renderers = go.GetComponentsInChildren<Renderer>();
+        if (renderers.Length == 0) throw new InvalidDataException("Model has no renderers: " + go.name);
+        Bounds b = renderers[0].bounds;
+        foreach (var r in renderers) b.Encapsulate(r.bounds);
+        return b;
+    }
+    static float Ground(Terrain terrain, Vector3 p) => terrain.SampleHeight(p) + terrain.transform.position.y;
+    static Material BloodMaterial(string path, string name)
+    {
+        var importer = (TextureImporter)AssetImporter.GetAtPath(path);
+        importer.alphaIsTransparency = true;
+        importer.wrapMode = TextureWrapMode.Clamp;
+        importer.filterMode = FilterMode.Bilinear;
+        importer.mipmapEnabled = true;
+        importer.SaveAndReimport();
+        var material = AssetDatabase.LoadAssetAtPath<Material>(Generated + name + ".mat");
+        bool create = !material;
+        if (create) material = new Material(Shader.Find("Universal Render Pipeline/Lit")) { name = name };
+        material.renderQueue = 3000;
+        material.SetTexture("_BaseMap", AssetDatabase.LoadAssetAtPath<Texture2D>(path));
+        material.SetColor("_BaseColor", new Color(.66f, .55f, .55f, 1f));
+        material.SetFloat("_Surface", 1);
+        material.SetFloat("_Blend", 0);
+        material.SetFloat("_BlendModePreserveSpecular", 0);
+        material.SetFloat("_SrcBlend", (float)BlendMode.SrcAlpha);
+        material.SetFloat("_DstBlend", (float)BlendMode.OneMinusSrcAlpha);
+        material.SetFloat("_ZWrite", 0);
+        material.SetFloat("_Cull", 0);
+        material.SetFloat("_Smoothness", .22f);
+        material.SetFloat("_Metallic", 0);
+        material.EnableKeyword("_SURFACE_TYPE_TRANSPARENT");
+        material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+        material.SetOverrideTag("RenderType", "Transparent");
+        if (create) AssetDatabase.CreateAsset(material, Generated + name + ".mat");
+        else EditorUtility.SetDirty(material);
+        return material;
+    }
+    public static void Strip(Transform parent, Terrain terrain, Vector3 a, Vector3 b, float width, Material material, string name, int order)
+    {
+        const int divisions = 24;
+        Vector3 side = Vector3.Cross(Vector3.up, (b - a).normalized) * width * .5f;
+        var vertices = new Vector3[(divisions + 1) * 2];
+        var uv = new Vector2[vertices.Length];
+        var indices = new int[divisions * 6];
+        for (int i = 0; i <= divisions; i++)
+        {
+            float t = i / (float)divisions;
+            Vector3 center = Vector3.Lerp(a, b, t);
+            for (int j = 0; j < 2; j++)
+            {
+                Vector3 p = center + side * (j == 0 ? -1 : 1);
+                p.y = Ground(terrain, p) + .025f + order * .003f;
+                vertices[i * 2 + j] = parent.InverseTransformPoint(p);
+                uv[i * 2 + j] = new Vector2(t, j);
+            }
+            if (i == divisions) continue;
+            int v = i * 2, k = i * 6;
+            indices[k] = v; indices[k + 1] = v + 2; indices[k + 2] = v + 1;
+            indices[k + 3] = v + 1; indices[k + 4] = v + 2; indices[k + 5] = v + 3;
+        }
+        string meshPath = Generated + name.Replace(" ", "_") + ".asset";
+        var mesh = AssetDatabase.LoadAssetAtPath<Mesh>(meshPath);
+        bool create = !mesh;
+        if (create) mesh = new Mesh { name = name };
+        mesh.Clear(); mesh.vertices = vertices; mesh.uv = uv; mesh.triangles = indices;
+        mesh.RecalculateNormals(); mesh.RecalculateBounds();
+        if (create) AssetDatabase.CreateAsset(mesh, meshPath);
+        else EditorUtility.SetDirty(mesh);
+        var go = new GameObject(name, typeof(MeshFilter), typeof(MeshRenderer));
+        go.transform.SetParent(parent, false);
+        go.GetComponent<MeshFilter>().sharedMesh = mesh;
+        var renderer = go.GetComponent<MeshRenderer>();
+        renderer.sharedMaterial = material;
+        renderer.shadowCastingMode = ShadowCastingMode.Off;
+        renderer.receiveShadows = false;
+    }
+    static void ConvertArmMaterials(GameObject arm, StringBuilder report)
+    {
+        int n = 0;
+        foreach (var renderer in arm.GetComponentsInChildren<Renderer>())
+        {
+            var originals = renderer.sharedMaterials;
+            var converted = new Material[originals.Length];
+            for (int i = 0; i < originals.Length; i++)
+            {
+                var original = originals[i];
+                var material = new Material(Shader.Find("Universal Render Pipeline/Lit")) { name = "SeveredArm" + n };
+                Texture texture = original ? original.mainTexture : null;
+                if (!texture)
+                {
+                    string[] candidates = Directory.GetFiles(Sources + "SeveredArm", "*", SearchOption.AllDirectories)
+                        .Where(f => new[] { ".png", ".jpg", ".jpeg", ".tga" }.Contains(Path.GetExtension(f).ToLowerInvariant()))
+                        .Where(f => System.Text.RegularExpressions.Regex.IsMatch(Path.GetFileName(f), "(base.?col|albedo|diffuse|color)", System.Text.RegularExpressions.RegexOptions.IgnoreCase)).ToArray();
+                    if (candidates.Length == 1) texture = AssetDatabase.LoadAssetAtPath<Texture2D>(candidates[0]);
+                }
+                if (!texture) throw new InvalidDataException("Cannot identify the arm base-color texture; inspect downloaded source before continuing.");
+                material.SetTexture("_BaseMap", texture);
+                material.SetColor("_BaseColor", new Color(.9f, .86f, .86f));
+                material.SetFloat("_Smoothness", .22f);
+                AssetDatabase.CreateAsset(material, Generated + "SeveredArm" + n++ + ".mat");
+                converted[i] = material;
+                report.AppendLine("Arm material base=" + AssetDatabase.GetAssetPath(texture));
+            }
+            renderer.sharedMaterials = converted;
+        }
+    }
+    [MenuItem("Vampire Demo/Blood Clue/Run Play Mode Check")]
+    public static void Test() => RunTest(true);
+    static void RunTest(bool requireArm)
+    {
+        if (EditorSceneManager.GetActiveScene().isDirty) throw new InvalidOperationException("Save scene first.");
+        var player = Object.FindObjectOfType<DemoMovement>();
+        var probe = player.gameObject.AddComponent<BloodClueProbe>();
+        probe.requireArm = requireArm;
+        EditorApplication.isPlaying = true;
+    }
+    [MenuItem("Vampire Demo/Blood Clue/Finish Check")]
+    public static void Finish()
+    {
+        foreach (var probe in Object.FindObjectsOfType<BloodClueProbe>()) Object.DestroyImmediate(probe);
+        EditorSceneManager.OpenScene(Scene);
+        File.WriteAllText(Evidence + "saved.txt", "Saved scene reopened; temporary probe removed; " + Application.unityVersion);
+    }
+}

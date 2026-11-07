@@ -1,10 +1,11 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-07",
+  "scope": "Current tracked delivery, excluding this manifest itself and ignored generated caches",
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 2867,
-      "sha256": "50261c26d614ab959c1f66303175060f7aef7d042452ef16857727ced081af93"
+      "bytes": 3093,
+      "sha256": "2b91aa84ea926450b98cfcb455f607d6bf6f9779337aa4c889032102330a826b"
     },
     {
       "path": ".gitignore",
@@ -7662,6 +7663,1921 @@
       "sha256": "62e027deab3961a7fcc169a18c684dd61056e6992615bbc8ca805fb06f7d4821"
     },
     {
+      "path": "Backups/DocsSync/20261106T151712021293/files/AGENTS.md",
+      "bytes": 6472,
+      "sha256": "ee761b5ff5429671a26459f62e877077dbe966b5795fb7473b9df75918964696"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/00_Baseline/BASELINE_INDEX.md",
+      "bytes": 1839,
+      "sha256": "038730cbff075f0c9947ff335af9359c66ccc767ed5ccdee08fc8b9ddb27aa90"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/00_Baseline/Baseline_Manifest.json",
+      "bytes": 1184,
+      "sha256": "2ea3319a531ece147d36d33aa1fae3845219ad725af01cec210b122e56a0744e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/01_Coverage/System_Coverage_Tracking.md",
+      "bytes": 22466,
+      "sha256": "9c6aae19cc341395119e850c5ba4a840b8ecdb6e0b066504a5136a3c8fa1a9c4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/01_Coverage/requirements.json",
+      "bytes": 23414,
+      "sha256": "9437e0363bfd47f686b9493e05401507d0e1305763116268a14aa36bf95103e4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+      "bytes": 4915,
+      "sha256": "5a10a5f0753b277dfa9333a2e941f5edb69d4f4a3714a165830ec419e3c1d321"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/S01_Player_Control.md",
+      "bytes": 16301,
+      "sha256": "de906f4a741d9124dd189b3e1ec6a13fb2fc4717af36fc0877aadf945b84f596"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/SYSTEM_INDEX.md",
+      "bytes": 2482,
+      "sha256": "a69120a1d2a0afa1aaa8c3826b982d36c4ba21fcff75761aeac447b556442778"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "bytes": 3241,
+      "sha256": "202039d0a727612c47f7911cfa6245ad3c907a677aa81013a110972bc4b2a3a1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "bytes": 3344,
+      "sha256": "146e535169ed4f51bafe9a33c795fde8bd30aa3faf4f6c5185f256868ef26b82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "bytes": 3268,
+      "sha256": "fe7b37546d9e3c2cfeba4e11f841ee1a8540e126c9e2f2a9a7d31f3cd0a523e3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "bytes": 3392,
+      "sha256": "ea330bf0b97187c31caa520dfdd474d1015a3de9ffa03724ea33b04600b72f82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "bytes": 3198,
+      "sha256": "a9181f7b9331ee68b1df928823c06673e565d135bc4b8e7ef9a5bd9d0af06703"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "bytes": 3168,
+      "sha256": "d139f8ba4586f95f69b00dd72ec09c3b229262691974ce5f8ae85162a1000465"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "bytes": 3328,
+      "sha256": "ec7e173a984270bd5de1b32d797c033b9368956c33589c4dcecadcf132603222"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "bytes": 3212,
+      "sha256": "570cb8d9d205d79a1e471dd7ac58db2dfe422d7343fcfb96822644dde601334e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "bytes": 3219,
+      "sha256": "be0df2daacd6fe2dce4a2f154d23229bddcb41873cec1acf8433d39ec91b58b4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "bytes": 3257,
+      "sha256": "ca519f5834428456dd59d4c55111bea2e9589205d37fa21b9e38ed75acedda1f"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "bytes": 3153,
+      "sha256": "7769d74ed996620a4c15563448dc5150d73c246f53645588db9abc03db5dbfed"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "bytes": 3328,
+      "sha256": "3a373c09111cd4dda7dc7b44e79a69327481e05c021c4cb0f6f13bf12aecbd10"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "bytes": 3182,
+      "sha256": "81cf7c7fe90be22473c8b6d5e48a1e70ddbc80d6dd97d8eff61dc63dc28d3d32"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/AI_HANDOFF_VampireHunter_20261028.md",
+      "bytes": 12607,
+      "sha256": "d6b8e1d05276d4d76b94c709ab17d4545f5c23b0d2cac9d537ea244fff9b733e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/CHANGE_LOG.md",
+      "bytes": 15134,
+      "sha256": "befd5ca2d82480c4e1442bbc81899b0674a9120f5e8cf4b58dd554d6d56a68f9"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/CR_TEMPLATE.md",
+      "bytes": 782,
+      "sha256": "036010e73116bc83f132baff741e80047324edd1847d96ec5920179a5ac255cf"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/Evidence/BOOTSTRAP_VALIDATION.md",
+      "bytes": 2321,
+      "sha256": "d3a22df2687c33881bdd8274e29405f090970002d3e8b4d657689a8e5519cfa0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/Evidence/GITHUB_FRESH_CLONE_20261031.json",
+      "bytes": 398,
+      "sha256": "af9747dd2d679bf0f2fce14edcd9873b861ee034ab93ae931e50644d12421c5e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
+      "bytes": 952,
+      "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
+      "bytes": 3002,
+      "sha256": "dc0fb1ebb4ccb8b4e1ecc678e6f9d6dae34635ed35c9a05ae6db0bffa72769a3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/Evidence/INSTALLATION_VALIDATION.md",
+      "bytes": 10838,
+      "sha256": "4f8ac9db115acd8ef0ecf84d2b0cfc5c78b28c3f270db6d512d1a0a4af236516"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/Evidence/tool_test_results.json",
+      "bytes": 4774,
+      "sha256": "9ad12a146938e75b5924a905acd27c87a828e0667eea19fa6bc04aa942ec5302"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/INITIAL_INSPECTION.md",
+      "bytes": 1743,
+      "sha256": "ea8b0534fd2d71b1c8081a7a7dd2affb5db123e784eacbd3b237b7a46379f435"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/RECOVERY_AND_SYNC.md",
+      "bytes": 2719,
+      "sha256": "a076813d111e0a69d794a3230426d506860057f37180742b7048ae7059fe582d"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/REVIEW_REGISTER.md",
+      "bytes": 1003,
+      "sha256": "e9042fdd4e6ab979792f7c196df8436faafa06a2be2ddf9b965b45573c4906cc"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/Review_Evidence/DEMO_HUNTER_ART_20261030.json",
+      "bytes": 732,
+      "sha256": "c4b8500266935560200136cddcd4afb522f20480bfadc9776cd3314902f1575c"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/03_Management/workflow_state.json",
+      "bytes": 8043,
+      "sha256": "cebfa60926939d22f8065fb72bf4d2cc18c5972af4ecfa47c040750641a2abfe"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/05_Testing/TEST_INDEX.md",
+      "bytes": 2368,
+      "sha256": "2bac0259e0b5d1b9dbb7e687ccf7fe20ceaaea6b7393c81928a2078ea8208cf0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2593,
+      "sha256": "a44feb3dddef117379ddd3c84d4f06f422e46023efcf608165acd754b45d7a14"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Tools/docs_workflow.py",
+      "bytes": 19094,
+      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Tools/restore_optional_package.py",
+      "bytes": 1945,
+      "sha256": "71f898f407345d56eb5f1d2dd15ecf0705afb09a4e1263f6ff9d36f09c60acef"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/files/Tools/verify_checkout.py",
+      "bytes": 1030,
+      "sha256": "160198fc57dd37c54d9743a60fb3be0cd20c5c311a76372c90ea3ad9a50c2901"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T151712021293/manifest.json",
+      "bytes": 7553,
+      "sha256": "2f82cc05ea1fe9376f103ba7eac94004a5f27c561f70bd92dc20fed8216d76d9"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/AGENTS.md",
+      "bytes": 6472,
+      "sha256": "ee761b5ff5429671a26459f62e877077dbe966b5795fb7473b9df75918964696"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/00_Baseline/BASELINE_INDEX.md",
+      "bytes": 1839,
+      "sha256": "038730cbff075f0c9947ff335af9359c66ccc767ed5ccdee08fc8b9ddb27aa90"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/00_Baseline/Baseline_Manifest.json",
+      "bytes": 1184,
+      "sha256": "2ea3319a531ece147d36d33aa1fae3845219ad725af01cec210b122e56a0744e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/01_Coverage/System_Coverage_Tracking.md",
+      "bytes": 22466,
+      "sha256": "9c6aae19cc341395119e850c5ba4a840b8ecdb6e0b066504a5136a3c8fa1a9c4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/01_Coverage/requirements.json",
+      "bytes": 23414,
+      "sha256": "9437e0363bfd47f686b9493e05401507d0e1305763116268a14aa36bf95103e4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+      "bytes": 4915,
+      "sha256": "5a10a5f0753b277dfa9333a2e941f5edb69d4f4a3714a165830ec419e3c1d321"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/S01_Player_Control.md",
+      "bytes": 16301,
+      "sha256": "de906f4a741d9124dd189b3e1ec6a13fb2fc4717af36fc0877aadf945b84f596"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/SYSTEM_INDEX.md",
+      "bytes": 2482,
+      "sha256": "a69120a1d2a0afa1aaa8c3826b982d36c4ba21fcff75761aeac447b556442778"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "bytes": 3241,
+      "sha256": "202039d0a727612c47f7911cfa6245ad3c907a677aa81013a110972bc4b2a3a1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "bytes": 3344,
+      "sha256": "146e535169ed4f51bafe9a33c795fde8bd30aa3faf4f6c5185f256868ef26b82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "bytes": 3268,
+      "sha256": "fe7b37546d9e3c2cfeba4e11f841ee1a8540e126c9e2f2a9a7d31f3cd0a523e3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "bytes": 3392,
+      "sha256": "ea330bf0b97187c31caa520dfdd474d1015a3de9ffa03724ea33b04600b72f82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "bytes": 3198,
+      "sha256": "a9181f7b9331ee68b1df928823c06673e565d135bc4b8e7ef9a5bd9d0af06703"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "bytes": 3168,
+      "sha256": "d139f8ba4586f95f69b00dd72ec09c3b229262691974ce5f8ae85162a1000465"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "bytes": 3328,
+      "sha256": "ec7e173a984270bd5de1b32d797c033b9368956c33589c4dcecadcf132603222"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "bytes": 3212,
+      "sha256": "570cb8d9d205d79a1e471dd7ac58db2dfe422d7343fcfb96822644dde601334e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "bytes": 3219,
+      "sha256": "be0df2daacd6fe2dce4a2f154d23229bddcb41873cec1acf8433d39ec91b58b4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "bytes": 3257,
+      "sha256": "ca519f5834428456dd59d4c55111bea2e9589205d37fa21b9e38ed75acedda1f"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "bytes": 3153,
+      "sha256": "7769d74ed996620a4c15563448dc5150d73c246f53645588db9abc03db5dbfed"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "bytes": 3328,
+      "sha256": "3a373c09111cd4dda7dc7b44e79a69327481e05c021c4cb0f6f13bf12aecbd10"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "bytes": 3182,
+      "sha256": "81cf7c7fe90be22473c8b6d5e48a1e70ddbc80d6dd97d8eff61dc63dc28d3d32"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/AI_HANDOFF_VampireHunter_20261028.md",
+      "bytes": 12607,
+      "sha256": "d6b8e1d05276d4d76b94c709ab17d4545f5c23b0d2cac9d537ea244fff9b733e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/CHANGE_LOG.md",
+      "bytes": 15134,
+      "sha256": "befd5ca2d82480c4e1442bbc81899b0674a9120f5e8cf4b58dd554d6d56a68f9"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/CR_TEMPLATE.md",
+      "bytes": 782,
+      "sha256": "036010e73116bc83f132baff741e80047324edd1847d96ec5920179a5ac255cf"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/Evidence/BOOTSTRAP_VALIDATION.md",
+      "bytes": 2321,
+      "sha256": "d3a22df2687c33881bdd8274e29405f090970002d3e8b4d657689a8e5519cfa0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/Evidence/GITHUB_FRESH_CLONE_20261031.json",
+      "bytes": 398,
+      "sha256": "af9747dd2d679bf0f2fce14edcd9873b861ee034ab93ae931e50644d12421c5e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
+      "bytes": 952,
+      "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
+      "bytes": 3002,
+      "sha256": "dc0fb1ebb4ccb8b4e1ecc678e6f9d6dae34635ed35c9a05ae6db0bffa72769a3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/Evidence/INSTALLATION_VALIDATION.md",
+      "bytes": 10838,
+      "sha256": "4f8ac9db115acd8ef0ecf84d2b0cfc5c78b28c3f270db6d512d1a0a4af236516"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/Evidence/tool_test_results.json",
+      "bytes": 4774,
+      "sha256": "9ad12a146938e75b5924a905acd27c87a828e0667eea19fa6bc04aa942ec5302"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/INITIAL_INSPECTION.md",
+      "bytes": 1743,
+      "sha256": "ea8b0534fd2d71b1c8081a7a7dd2affb5db123e784eacbd3b237b7a46379f435"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/RECOVERY_AND_SYNC.md",
+      "bytes": 2719,
+      "sha256": "a076813d111e0a69d794a3230426d506860057f37180742b7048ae7059fe582d"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/REVIEW_REGISTER.md",
+      "bytes": 1003,
+      "sha256": "e9042fdd4e6ab979792f7c196df8436faafa06a2be2ddf9b965b45573c4906cc"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/Review_Evidence/DEMO_HUNTER_ART_20261030.json",
+      "bytes": 732,
+      "sha256": "c4b8500266935560200136cddcd4afb522f20480bfadc9776cd3314902f1575c"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/03_Management/workflow_state.json",
+      "bytes": 8043,
+      "sha256": "cebfa60926939d22f8065fb72bf4d2cc18c5972af4ecfa47c040750641a2abfe"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/05_Testing/TEST_INDEX.md",
+      "bytes": 2368,
+      "sha256": "2bac0259e0b5d1b9dbb7e687ccf7fe20ceaaea6b7393c81928a2078ea8208cf0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2593,
+      "sha256": "a44feb3dddef117379ddd3c84d4f06f422e46023efcf608165acd754b45d7a14"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Tools/docs_workflow.py",
+      "bytes": 19094,
+      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Tools/restore_optional_package.py",
+      "bytes": 1945,
+      "sha256": "71f898f407345d56eb5f1d2dd15ecf0705afb09a4e1263f6ff9d36f09c60acef"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/files/Tools/verify_checkout.py",
+      "bytes": 1030,
+      "sha256": "160198fc57dd37c54d9743a60fb3be0cd20c5c311a76372c90ea3ad9a50c2901"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T154215938205/manifest.json",
+      "bytes": 7553,
+      "sha256": "550609728ab11fcaadc334b405c50877bdde373b4b6fb596217225f78202f9ae"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/AGENTS.md",
+      "bytes": 6472,
+      "sha256": "ee761b5ff5429671a26459f62e877077dbe966b5795fb7473b9df75918964696"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/00_Baseline/BASELINE_INDEX.md",
+      "bytes": 1839,
+      "sha256": "038730cbff075f0c9947ff335af9359c66ccc767ed5ccdee08fc8b9ddb27aa90"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/00_Baseline/Baseline_Manifest.json",
+      "bytes": 1184,
+      "sha256": "2ea3319a531ece147d36d33aa1fae3845219ad725af01cec210b122e56a0744e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/01_Coverage/System_Coverage_Tracking.md",
+      "bytes": 22466,
+      "sha256": "9c6aae19cc341395119e850c5ba4a840b8ecdb6e0b066504a5136a3c8fa1a9c4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/01_Coverage/requirements.json",
+      "bytes": 23414,
+      "sha256": "9437e0363bfd47f686b9493e05401507d0e1305763116268a14aa36bf95103e4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+      "bytes": 4915,
+      "sha256": "5a10a5f0753b277dfa9333a2e941f5edb69d4f4a3714a165830ec419e3c1d321"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/S01_Player_Control.md",
+      "bytes": 16301,
+      "sha256": "de906f4a741d9124dd189b3e1ec6a13fb2fc4717af36fc0877aadf945b84f596"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/SYSTEM_INDEX.md",
+      "bytes": 2482,
+      "sha256": "a69120a1d2a0afa1aaa8c3826b982d36c4ba21fcff75761aeac447b556442778"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "bytes": 3241,
+      "sha256": "202039d0a727612c47f7911cfa6245ad3c907a677aa81013a110972bc4b2a3a1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "bytes": 3344,
+      "sha256": "146e535169ed4f51bafe9a33c795fde8bd30aa3faf4f6c5185f256868ef26b82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "bytes": 3268,
+      "sha256": "fe7b37546d9e3c2cfeba4e11f841ee1a8540e126c9e2f2a9a7d31f3cd0a523e3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "bytes": 3392,
+      "sha256": "ea330bf0b97187c31caa520dfdd474d1015a3de9ffa03724ea33b04600b72f82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "bytes": 3198,
+      "sha256": "a9181f7b9331ee68b1df928823c06673e565d135bc4b8e7ef9a5bd9d0af06703"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "bytes": 3168,
+      "sha256": "d139f8ba4586f95f69b00dd72ec09c3b229262691974ce5f8ae85162a1000465"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "bytes": 3328,
+      "sha256": "ec7e173a984270bd5de1b32d797c033b9368956c33589c4dcecadcf132603222"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "bytes": 3212,
+      "sha256": "570cb8d9d205d79a1e471dd7ac58db2dfe422d7343fcfb96822644dde601334e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "bytes": 3219,
+      "sha256": "be0df2daacd6fe2dce4a2f154d23229bddcb41873cec1acf8433d39ec91b58b4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "bytes": 3257,
+      "sha256": "ca519f5834428456dd59d4c55111bea2e9589205d37fa21b9e38ed75acedda1f"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "bytes": 3153,
+      "sha256": "7769d74ed996620a4c15563448dc5150d73c246f53645588db9abc03db5dbfed"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "bytes": 3328,
+      "sha256": "3a373c09111cd4dda7dc7b44e79a69327481e05c021c4cb0f6f13bf12aecbd10"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "bytes": 3182,
+      "sha256": "81cf7c7fe90be22473c8b6d5e48a1e70ddbc80d6dd97d8eff61dc63dc28d3d32"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/AI_HANDOFF_VampireHunter_20261028.md",
+      "bytes": 12607,
+      "sha256": "d6b8e1d05276d4d76b94c709ab17d4545f5c23b0d2cac9d537ea244fff9b733e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/CHANGE_LOG.md",
+      "bytes": 15134,
+      "sha256": "befd5ca2d82480c4e1442bbc81899b0674a9120f5e8cf4b58dd554d6d56a68f9"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/CR_TEMPLATE.md",
+      "bytes": 782,
+      "sha256": "036010e73116bc83f132baff741e80047324edd1847d96ec5920179a5ac255cf"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/Evidence/BOOTSTRAP_VALIDATION.md",
+      "bytes": 2321,
+      "sha256": "d3a22df2687c33881bdd8274e29405f090970002d3e8b4d657689a8e5519cfa0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/Evidence/GITHUB_FRESH_CLONE_20261031.json",
+      "bytes": 398,
+      "sha256": "af9747dd2d679bf0f2fce14edcd9873b861ee034ab93ae931e50644d12421c5e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
+      "bytes": 952,
+      "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
+      "bytes": 3002,
+      "sha256": "dc0fb1ebb4ccb8b4e1ecc678e6f9d6dae34635ed35c9a05ae6db0bffa72769a3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/Evidence/INSTALLATION_VALIDATION.md",
+      "bytes": 10838,
+      "sha256": "4f8ac9db115acd8ef0ecf84d2b0cfc5c78b28c3f270db6d512d1a0a4af236516"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/Evidence/tool_test_results.json",
+      "bytes": 4774,
+      "sha256": "9ad12a146938e75b5924a905acd27c87a828e0667eea19fa6bc04aa942ec5302"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/INITIAL_INSPECTION.md",
+      "bytes": 1743,
+      "sha256": "ea8b0534fd2d71b1c8081a7a7dd2affb5db123e784eacbd3b237b7a46379f435"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/RECOVERY_AND_SYNC.md",
+      "bytes": 2719,
+      "sha256": "a076813d111e0a69d794a3230426d506860057f37180742b7048ae7059fe582d"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/REVIEW_REGISTER.md",
+      "bytes": 1003,
+      "sha256": "e9042fdd4e6ab979792f7c196df8436faafa06a2be2ddf9b965b45573c4906cc"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/Review_Evidence/DEMO_HUNTER_ART_20261030.json",
+      "bytes": 732,
+      "sha256": "c4b8500266935560200136cddcd4afb522f20480bfadc9776cd3314902f1575c"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/03_Management/workflow_state.json",
+      "bytes": 8043,
+      "sha256": "cebfa60926939d22f8065fb72bf4d2cc18c5972af4ecfa47c040750641a2abfe"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/05_Testing/TEST_INDEX.md",
+      "bytes": 2368,
+      "sha256": "2bac0259e0b5d1b9dbb7e687ccf7fe20ceaaea6b7393c81928a2078ea8208cf0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2593,
+      "sha256": "a44feb3dddef117379ddd3c84d4f06f422e46023efcf608165acd754b45d7a14"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Tools/docs_workflow.py",
+      "bytes": 19094,
+      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Tools/restore_optional_package.py",
+      "bytes": 1945,
+      "sha256": "71f898f407345d56eb5f1d2dd15ecf0705afb09a4e1263f6ff9d36f09c60acef"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/files/Tools/verify_checkout.py",
+      "bytes": 1030,
+      "sha256": "160198fc57dd37c54d9743a60fb3be0cd20c5c311a76372c90ea3ad9a50c2901"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160233223492/manifest.json",
+      "bytes": 7553,
+      "sha256": "b35e926bd8875ff7f4541563993626272646651383cd3a42bae0af3aad5f007f"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160517017511/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2593,
+      "sha256": "a44feb3dddef117379ddd3c84d4f06f422e46023efcf608165acd754b45d7a14"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160517017511/manifest.json",
+      "bytes": 222,
+      "sha256": "322501a29d729611eb2ade3f5603abe251430feb692fa5e7373581476a660c34"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/AGENTS.md",
+      "bytes": 6472,
+      "sha256": "ee761b5ff5429671a26459f62e877077dbe966b5795fb7473b9df75918964696"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/00_Baseline/BASELINE_INDEX.md",
+      "bytes": 1839,
+      "sha256": "038730cbff075f0c9947ff335af9359c66ccc767ed5ccdee08fc8b9ddb27aa90"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/00_Baseline/Baseline_Manifest.json",
+      "bytes": 1184,
+      "sha256": "2ea3319a531ece147d36d33aa1fae3845219ad725af01cec210b122e56a0744e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/01_Coverage/System_Coverage_Tracking.md",
+      "bytes": 22466,
+      "sha256": "9c6aae19cc341395119e850c5ba4a840b8ecdb6e0b066504a5136a3c8fa1a9c4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/01_Coverage/requirements.json",
+      "bytes": 23414,
+      "sha256": "9437e0363bfd47f686b9493e05401507d0e1305763116268a14aa36bf95103e4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+      "bytes": 4915,
+      "sha256": "5a10a5f0753b277dfa9333a2e941f5edb69d4f4a3714a165830ec419e3c1d321"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/S01_Player_Control.md",
+      "bytes": 16301,
+      "sha256": "de906f4a741d9124dd189b3e1ec6a13fb2fc4717af36fc0877aadf945b84f596"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/SYSTEM_INDEX.md",
+      "bytes": 2482,
+      "sha256": "a69120a1d2a0afa1aaa8c3826b982d36c4ba21fcff75761aeac447b556442778"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "bytes": 3241,
+      "sha256": "202039d0a727612c47f7911cfa6245ad3c907a677aa81013a110972bc4b2a3a1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "bytes": 3344,
+      "sha256": "146e535169ed4f51bafe9a33c795fde8bd30aa3faf4f6c5185f256868ef26b82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "bytes": 3268,
+      "sha256": "fe7b37546d9e3c2cfeba4e11f841ee1a8540e126c9e2f2a9a7d31f3cd0a523e3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "bytes": 3392,
+      "sha256": "ea330bf0b97187c31caa520dfdd474d1015a3de9ffa03724ea33b04600b72f82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "bytes": 3198,
+      "sha256": "a9181f7b9331ee68b1df928823c06673e565d135bc4b8e7ef9a5bd9d0af06703"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "bytes": 3168,
+      "sha256": "d139f8ba4586f95f69b00dd72ec09c3b229262691974ce5f8ae85162a1000465"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "bytes": 3328,
+      "sha256": "ec7e173a984270bd5de1b32d797c033b9368956c33589c4dcecadcf132603222"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "bytes": 3212,
+      "sha256": "570cb8d9d205d79a1e471dd7ac58db2dfe422d7343fcfb96822644dde601334e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "bytes": 3219,
+      "sha256": "be0df2daacd6fe2dce4a2f154d23229bddcb41873cec1acf8433d39ec91b58b4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "bytes": 3257,
+      "sha256": "ca519f5834428456dd59d4c55111bea2e9589205d37fa21b9e38ed75acedda1f"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "bytes": 3153,
+      "sha256": "7769d74ed996620a4c15563448dc5150d73c246f53645588db9abc03db5dbfed"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "bytes": 3328,
+      "sha256": "3a373c09111cd4dda7dc7b44e79a69327481e05c021c4cb0f6f13bf12aecbd10"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "bytes": 3182,
+      "sha256": "81cf7c7fe90be22473c8b6d5e48a1e70ddbc80d6dd97d8eff61dc63dc28d3d32"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/AI_HANDOFF_VampireHunter_20261028.md",
+      "bytes": 12607,
+      "sha256": "d6b8e1d05276d4d76b94c709ab17d4545f5c23b0d2cac9d537ea244fff9b733e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/CHANGE_LOG.md",
+      "bytes": 15949,
+      "sha256": "a9db92d5dad6180c13784d2429982aa8b4e62c7f0e77e1f8bb012701152d44e5"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/CR_TEMPLATE.md",
+      "bytes": 782,
+      "sha256": "036010e73116bc83f132baff741e80047324edd1847d96ec5920179a5ac255cf"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/Evidence/BOOTSTRAP_VALIDATION.md",
+      "bytes": 2321,
+      "sha256": "d3a22df2687c33881bdd8274e29405f090970002d3e8b4d657689a8e5519cfa0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/Evidence/GITHUB_FRESH_CLONE_20261031.json",
+      "bytes": 398,
+      "sha256": "af9747dd2d679bf0f2fce14edcd9873b861ee034ab93ae931e50644d12421c5e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
+      "bytes": 952,
+      "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
+      "bytes": 3002,
+      "sha256": "dc0fb1ebb4ccb8b4e1ecc678e6f9d6dae34635ed35c9a05ae6db0bffa72769a3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/Evidence/INSTALLATION_VALIDATION.md",
+      "bytes": 10838,
+      "sha256": "4f8ac9db115acd8ef0ecf84d2b0cfc5c78b28c3f270db6d512d1a0a4af236516"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/Evidence/tool_test_results.json",
+      "bytes": 4774,
+      "sha256": "9ad12a146938e75b5924a905acd27c87a828e0667eea19fa6bc04aa942ec5302"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/INITIAL_INSPECTION.md",
+      "bytes": 1743,
+      "sha256": "ea8b0534fd2d71b1c8081a7a7dd2affb5db123e784eacbd3b237b7a46379f435"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/RECOVERY_AND_SYNC.md",
+      "bytes": 2719,
+      "sha256": "a076813d111e0a69d794a3230426d506860057f37180742b7048ae7059fe582d"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/REVIEW_REGISTER.md",
+      "bytes": 1003,
+      "sha256": "e9042fdd4e6ab979792f7c196df8436faafa06a2be2ddf9b965b45573c4906cc"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md",
+      "bytes": 1112,
+      "sha256": "a644eeb3c23e34ec0dd09b0523443f0db4d7a2fbf49764d905aaab2498235555"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/Review_Evidence/DEMO_HUNTER_ART_20261030.json",
+      "bytes": 732,
+      "sha256": "c4b8500266935560200136cddcd4afb522f20480bfadc9776cd3314902f1575c"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/03_Management/workflow_state.json",
+      "bytes": 8786,
+      "sha256": "a00a18b91ad3fa0860edd855cd248f99a7a5eaf4fc0377f73589c18a1f09b56b"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/05_Testing/TEST_INDEX.md",
+      "bytes": 2368,
+      "sha256": "2bac0259e0b5d1b9dbb7e687ccf7fe20ceaaea6b7393c81928a2078ea8208cf0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2688,
+      "sha256": "96a0e98a9d24ace803fff225c39479e9538869463b9ed03c8df265f128dc71c1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Tools/docs_workflow.py",
+      "bytes": 19094,
+      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Tools/restore_optional_package.py",
+      "bytes": 1945,
+      "sha256": "71f898f407345d56eb5f1d2dd15ecf0705afb09a4e1263f6ff9d36f09c60acef"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/files/Tools/verify_checkout.py",
+      "bytes": 1030,
+      "sha256": "160198fc57dd37c54d9743a60fb3be0cd20c5c311a76372c90ea3ad9a50c2901"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T160737153809/manifest.json",
+      "bytes": 7759,
+      "sha256": "72dd414e3d767cde7583553bdd3092c4fae4759f9cf171e8b12437c79a82e3b0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/AGENTS.md",
+      "bytes": 6472,
+      "sha256": "ee761b5ff5429671a26459f62e877077dbe966b5795fb7473b9df75918964696"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/00_Baseline/BASELINE_INDEX.md",
+      "bytes": 1839,
+      "sha256": "038730cbff075f0c9947ff335af9359c66ccc767ed5ccdee08fc8b9ddb27aa90"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/00_Baseline/Baseline_Manifest.json",
+      "bytes": 1184,
+      "sha256": "2ea3319a531ece147d36d33aa1fae3845219ad725af01cec210b122e56a0744e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/01_Coverage/System_Coverage_Tracking.md",
+      "bytes": 22466,
+      "sha256": "9c6aae19cc341395119e850c5ba4a840b8ecdb6e0b066504a5136a3c8fa1a9c4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/01_Coverage/requirements.json",
+      "bytes": 23414,
+      "sha256": "9437e0363bfd47f686b9493e05401507d0e1305763116268a14aa36bf95103e4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+      "bytes": 4915,
+      "sha256": "5a10a5f0753b277dfa9333a2e941f5edb69d4f4a3714a165830ec419e3c1d321"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/S01_Player_Control.md",
+      "bytes": 16301,
+      "sha256": "de906f4a741d9124dd189b3e1ec6a13fb2fc4717af36fc0877aadf945b84f596"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/SYSTEM_INDEX.md",
+      "bytes": 2482,
+      "sha256": "a69120a1d2a0afa1aaa8c3826b982d36c4ba21fcff75761aeac447b556442778"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "bytes": 3241,
+      "sha256": "202039d0a727612c47f7911cfa6245ad3c907a677aa81013a110972bc4b2a3a1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "bytes": 3344,
+      "sha256": "146e535169ed4f51bafe9a33c795fde8bd30aa3faf4f6c5185f256868ef26b82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "bytes": 3268,
+      "sha256": "fe7b37546d9e3c2cfeba4e11f841ee1a8540e126c9e2f2a9a7d31f3cd0a523e3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "bytes": 3392,
+      "sha256": "ea330bf0b97187c31caa520dfdd474d1015a3de9ffa03724ea33b04600b72f82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "bytes": 3198,
+      "sha256": "a9181f7b9331ee68b1df928823c06673e565d135bc4b8e7ef9a5bd9d0af06703"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "bytes": 3168,
+      "sha256": "d139f8ba4586f95f69b00dd72ec09c3b229262691974ce5f8ae85162a1000465"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "bytes": 3328,
+      "sha256": "ec7e173a984270bd5de1b32d797c033b9368956c33589c4dcecadcf132603222"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "bytes": 3212,
+      "sha256": "570cb8d9d205d79a1e471dd7ac58db2dfe422d7343fcfb96822644dde601334e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "bytes": 3219,
+      "sha256": "be0df2daacd6fe2dce4a2f154d23229bddcb41873cec1acf8433d39ec91b58b4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "bytes": 3257,
+      "sha256": "ca519f5834428456dd59d4c55111bea2e9589205d37fa21b9e38ed75acedda1f"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "bytes": 3153,
+      "sha256": "7769d74ed996620a4c15563448dc5150d73c246f53645588db9abc03db5dbfed"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "bytes": 3328,
+      "sha256": "3a373c09111cd4dda7dc7b44e79a69327481e05c021c4cb0f6f13bf12aecbd10"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "bytes": 3182,
+      "sha256": "81cf7c7fe90be22473c8b6d5e48a1e70ddbc80d6dd97d8eff61dc63dc28d3d32"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/AI_HANDOFF_VampireHunter_20261028.md",
+      "bytes": 12607,
+      "sha256": "d6b8e1d05276d4d76b94c709ab17d4545f5c23b0d2cac9d537ea244fff9b733e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/CHANGE_LOG.md",
+      "bytes": 15949,
+      "sha256": "a9db92d5dad6180c13784d2429982aa8b4e62c7f0e77e1f8bb012701152d44e5"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/CR_TEMPLATE.md",
+      "bytes": 782,
+      "sha256": "036010e73116bc83f132baff741e80047324edd1847d96ec5920179a5ac255cf"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/Evidence/BOOTSTRAP_VALIDATION.md",
+      "bytes": 2321,
+      "sha256": "d3a22df2687c33881bdd8274e29405f090970002d3e8b4d657689a8e5519cfa0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/Evidence/GITHUB_FRESH_CLONE_20261031.json",
+      "bytes": 398,
+      "sha256": "af9747dd2d679bf0f2fce14edcd9873b861ee034ab93ae931e50644d12421c5e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
+      "bytes": 952,
+      "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
+      "bytes": 3002,
+      "sha256": "dc0fb1ebb4ccb8b4e1ecc678e6f9d6dae34635ed35c9a05ae6db0bffa72769a3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/Evidence/INSTALLATION_VALIDATION.md",
+      "bytes": 10838,
+      "sha256": "4f8ac9db115acd8ef0ecf84d2b0cfc5c78b28c3f270db6d512d1a0a4af236516"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/Evidence/tool_test_results.json",
+      "bytes": 4774,
+      "sha256": "9ad12a146938e75b5924a905acd27c87a828e0667eea19fa6bc04aa942ec5302"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/INITIAL_INSPECTION.md",
+      "bytes": 1743,
+      "sha256": "ea8b0534fd2d71b1c8081a7a7dd2affb5db123e784eacbd3b237b7a46379f435"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/RECOVERY_AND_SYNC.md",
+      "bytes": 2719,
+      "sha256": "a076813d111e0a69d794a3230426d506860057f37180742b7048ae7059fe582d"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/REVIEW_REGISTER.md",
+      "bytes": 1003,
+      "sha256": "e9042fdd4e6ab979792f7c196df8436faafa06a2be2ddf9b965b45573c4906cc"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md",
+      "bytes": 1112,
+      "sha256": "a644eeb3c23e34ec0dd09b0523443f0db4d7a2fbf49764d905aaab2498235555"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/Review_Evidence/DEMO_HUNTER_ART_20261030.json",
+      "bytes": 732,
+      "sha256": "c4b8500266935560200136cddcd4afb522f20480bfadc9776cd3314902f1575c"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/03_Management/workflow_state.json",
+      "bytes": 8786,
+      "sha256": "a00a18b91ad3fa0860edd855cd248f99a7a5eaf4fc0377f73589c18a1f09b56b"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/05_Testing/TEST_INDEX.md",
+      "bytes": 2368,
+      "sha256": "2bac0259e0b5d1b9dbb7e687ccf7fe20ceaaea6b7393c81928a2078ea8208cf0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2688,
+      "sha256": "96a0e98a9d24ace803fff225c39479e9538869463b9ed03c8df265f128dc71c1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Tools/docs_workflow.py",
+      "bytes": 19094,
+      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Tools/restore_optional_package.py",
+      "bytes": 1945,
+      "sha256": "71f898f407345d56eb5f1d2dd15ecf0705afb09a4e1263f6ff9d36f09c60acef"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/files/Tools/verify_checkout.py",
+      "bytes": 1030,
+      "sha256": "160198fc57dd37c54d9743a60fb3be0cd20c5c311a76372c90ea3ad9a50c2901"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161406106007/manifest.json",
+      "bytes": 7759,
+      "sha256": "a6f8066a46c63b00aff0e93c8a63d194522d1ee7cc4c32b3996cb03bfa9d83e5"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/AGENTS.md",
+      "bytes": 6472,
+      "sha256": "ee761b5ff5429671a26459f62e877077dbe966b5795fb7473b9df75918964696"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/00_Baseline/BASELINE_INDEX.md",
+      "bytes": 1839,
+      "sha256": "038730cbff075f0c9947ff335af9359c66ccc767ed5ccdee08fc8b9ddb27aa90"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/00_Baseline/Baseline_Manifest.json",
+      "bytes": 1184,
+      "sha256": "2ea3319a531ece147d36d33aa1fae3845219ad725af01cec210b122e56a0744e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/01_Coverage/System_Coverage_Tracking.md",
+      "bytes": 22466,
+      "sha256": "9c6aae19cc341395119e850c5ba4a840b8ecdb6e0b066504a5136a3c8fa1a9c4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/01_Coverage/requirements.json",
+      "bytes": 23414,
+      "sha256": "9437e0363bfd47f686b9493e05401507d0e1305763116268a14aa36bf95103e4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+      "bytes": 4915,
+      "sha256": "5a10a5f0753b277dfa9333a2e941f5edb69d4f4a3714a165830ec419e3c1d321"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/S01_Player_Control.md",
+      "bytes": 16301,
+      "sha256": "de906f4a741d9124dd189b3e1ec6a13fb2fc4717af36fc0877aadf945b84f596"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/SYSTEM_INDEX.md",
+      "bytes": 2482,
+      "sha256": "a69120a1d2a0afa1aaa8c3826b982d36c4ba21fcff75761aeac447b556442778"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "bytes": 3241,
+      "sha256": "202039d0a727612c47f7911cfa6245ad3c907a677aa81013a110972bc4b2a3a1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "bytes": 3344,
+      "sha256": "146e535169ed4f51bafe9a33c795fde8bd30aa3faf4f6c5185f256868ef26b82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "bytes": 3268,
+      "sha256": "fe7b37546d9e3c2cfeba4e11f841ee1a8540e126c9e2f2a9a7d31f3cd0a523e3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "bytes": 3392,
+      "sha256": "ea330bf0b97187c31caa520dfdd474d1015a3de9ffa03724ea33b04600b72f82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "bytes": 3198,
+      "sha256": "a9181f7b9331ee68b1df928823c06673e565d135bc4b8e7ef9a5bd9d0af06703"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "bytes": 3168,
+      "sha256": "d139f8ba4586f95f69b00dd72ec09c3b229262691974ce5f8ae85162a1000465"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "bytes": 3328,
+      "sha256": "ec7e173a984270bd5de1b32d797c033b9368956c33589c4dcecadcf132603222"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "bytes": 3212,
+      "sha256": "570cb8d9d205d79a1e471dd7ac58db2dfe422d7343fcfb96822644dde601334e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "bytes": 3219,
+      "sha256": "be0df2daacd6fe2dce4a2f154d23229bddcb41873cec1acf8433d39ec91b58b4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "bytes": 3257,
+      "sha256": "ca519f5834428456dd59d4c55111bea2e9589205d37fa21b9e38ed75acedda1f"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "bytes": 3153,
+      "sha256": "7769d74ed996620a4c15563448dc5150d73c246f53645588db9abc03db5dbfed"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "bytes": 3328,
+      "sha256": "3a373c09111cd4dda7dc7b44e79a69327481e05c021c4cb0f6f13bf12aecbd10"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "bytes": 3182,
+      "sha256": "81cf7c7fe90be22473c8b6d5e48a1e70ddbc80d6dd97d8eff61dc63dc28d3d32"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/AI_HANDOFF_VampireHunter_20261028.md",
+      "bytes": 12607,
+      "sha256": "d6b8e1d05276d4d76b94c709ab17d4545f5c23b0d2cac9d537ea244fff9b733e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/CHANGE_LOG.md",
+      "bytes": 15949,
+      "sha256": "a9db92d5dad6180c13784d2429982aa8b4e62c7f0e77e1f8bb012701152d44e5"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/CR_TEMPLATE.md",
+      "bytes": 782,
+      "sha256": "036010e73116bc83f132baff741e80047324edd1847d96ec5920179a5ac255cf"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/Evidence/BOOTSTRAP_VALIDATION.md",
+      "bytes": 2321,
+      "sha256": "d3a22df2687c33881bdd8274e29405f090970002d3e8b4d657689a8e5519cfa0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/Evidence/GITHUB_FRESH_CLONE_20261031.json",
+      "bytes": 398,
+      "sha256": "af9747dd2d679bf0f2fce14edcd9873b861ee034ab93ae931e50644d12421c5e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
+      "bytes": 952,
+      "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
+      "bytes": 3002,
+      "sha256": "dc0fb1ebb4ccb8b4e1ecc678e6f9d6dae34635ed35c9a05ae6db0bffa72769a3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/Evidence/INSTALLATION_VALIDATION.md",
+      "bytes": 10838,
+      "sha256": "4f8ac9db115acd8ef0ecf84d2b0cfc5c78b28c3f270db6d512d1a0a4af236516"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/Evidence/tool_test_results.json",
+      "bytes": 4774,
+      "sha256": "9ad12a146938e75b5924a905acd27c87a828e0667eea19fa6bc04aa942ec5302"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/INITIAL_INSPECTION.md",
+      "bytes": 1743,
+      "sha256": "ea8b0534fd2d71b1c8081a7a7dd2affb5db123e784eacbd3b237b7a46379f435"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/RECOVERY_AND_SYNC.md",
+      "bytes": 2719,
+      "sha256": "a076813d111e0a69d794a3230426d506860057f37180742b7048ae7059fe582d"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/REVIEW_REGISTER.md",
+      "bytes": 1003,
+      "sha256": "e9042fdd4e6ab979792f7c196df8436faafa06a2be2ddf9b965b45573c4906cc"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md",
+      "bytes": 1112,
+      "sha256": "a644eeb3c23e34ec0dd09b0523443f0db4d7a2fbf49764d905aaab2498235555"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/Review_Evidence/DEMO_HUNTER_ART_20261030.json",
+      "bytes": 732,
+      "sha256": "c4b8500266935560200136cddcd4afb522f20480bfadc9776cd3314902f1575c"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/03_Management/workflow_state.json",
+      "bytes": 8786,
+      "sha256": "a00a18b91ad3fa0860edd855cd248f99a7a5eaf4fc0377f73589c18a1f09b56b"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/05_Testing/TEST_INDEX.md",
+      "bytes": 2368,
+      "sha256": "2bac0259e0b5d1b9dbb7e687ccf7fe20ceaaea6b7393c81928a2078ea8208cf0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2688,
+      "sha256": "96a0e98a9d24ace803fff225c39479e9538869463b9ed03c8df265f128dc71c1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Tools/docs_workflow.py",
+      "bytes": 19094,
+      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Tools/restore_optional_package.py",
+      "bytes": 1945,
+      "sha256": "71f898f407345d56eb5f1d2dd15ecf0705afb09a4e1263f6ff9d36f09c60acef"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/files/Tools/verify_checkout.py",
+      "bytes": 1030,
+      "sha256": "160198fc57dd37c54d9743a60fb3be0cd20c5c311a76372c90ea3ad9a50c2901"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161605343256/manifest.json",
+      "bytes": 7759,
+      "sha256": "42a851f9dbeee12321fcb8d53201f3be3700920c5b86f87ff7f8b4b8ce36ca94"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161807471796/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2688,
+      "sha256": "96a0e98a9d24ace803fff225c39479e9538869463b9ed03c8df265f128dc71c1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T161807471796/manifest.json",
+      "bytes": 222,
+      "sha256": "7ea8d26d4169e261f72f9d8aa2a3d2d426a2bd060d07e49d3e886ebc4cad87a1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/AGENTS.md",
+      "bytes": 6472,
+      "sha256": "ee761b5ff5429671a26459f62e877077dbe966b5795fb7473b9df75918964696"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/00_Baseline/BASELINE_INDEX.md",
+      "bytes": 1839,
+      "sha256": "038730cbff075f0c9947ff335af9359c66ccc767ed5ccdee08fc8b9ddb27aa90"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/00_Baseline/Baseline_Manifest.json",
+      "bytes": 1184,
+      "sha256": "2ea3319a531ece147d36d33aa1fae3845219ad725af01cec210b122e56a0744e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/01_Coverage/System_Coverage_Tracking.md",
+      "bytes": 22466,
+      "sha256": "9c6aae19cc341395119e850c5ba4a840b8ecdb6e0b066504a5136a3c8fa1a9c4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/01_Coverage/requirements.json",
+      "bytes": 23414,
+      "sha256": "9437e0363bfd47f686b9493e05401507d0e1305763116268a14aa36bf95103e4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+      "bytes": 4915,
+      "sha256": "5a10a5f0753b277dfa9333a2e941f5edb69d4f4a3714a165830ec419e3c1d321"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/S01_Player_Control.md",
+      "bytes": 16301,
+      "sha256": "de906f4a741d9124dd189b3e1ec6a13fb2fc4717af36fc0877aadf945b84f596"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/SYSTEM_INDEX.md",
+      "bytes": 2482,
+      "sha256": "a69120a1d2a0afa1aaa8c3826b982d36c4ba21fcff75761aeac447b556442778"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "bytes": 3241,
+      "sha256": "202039d0a727612c47f7911cfa6245ad3c907a677aa81013a110972bc4b2a3a1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "bytes": 3344,
+      "sha256": "146e535169ed4f51bafe9a33c795fde8bd30aa3faf4f6c5185f256868ef26b82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "bytes": 3268,
+      "sha256": "fe7b37546d9e3c2cfeba4e11f841ee1a8540e126c9e2f2a9a7d31f3cd0a523e3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "bytes": 3392,
+      "sha256": "ea330bf0b97187c31caa520dfdd474d1015a3de9ffa03724ea33b04600b72f82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "bytes": 3198,
+      "sha256": "a9181f7b9331ee68b1df928823c06673e565d135bc4b8e7ef9a5bd9d0af06703"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "bytes": 3168,
+      "sha256": "d139f8ba4586f95f69b00dd72ec09c3b229262691974ce5f8ae85162a1000465"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "bytes": 3328,
+      "sha256": "ec7e173a984270bd5de1b32d797c033b9368956c33589c4dcecadcf132603222"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "bytes": 3212,
+      "sha256": "570cb8d9d205d79a1e471dd7ac58db2dfe422d7343fcfb96822644dde601334e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "bytes": 3219,
+      "sha256": "be0df2daacd6fe2dce4a2f154d23229bddcb41873cec1acf8433d39ec91b58b4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "bytes": 3257,
+      "sha256": "ca519f5834428456dd59d4c55111bea2e9589205d37fa21b9e38ed75acedda1f"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "bytes": 3153,
+      "sha256": "7769d74ed996620a4c15563448dc5150d73c246f53645588db9abc03db5dbfed"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "bytes": 3328,
+      "sha256": "3a373c09111cd4dda7dc7b44e79a69327481e05c021c4cb0f6f13bf12aecbd10"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "bytes": 3182,
+      "sha256": "81cf7c7fe90be22473c8b6d5e48a1e70ddbc80d6dd97d8eff61dc63dc28d3d32"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/AI_HANDOFF_VampireHunter_20261028.md",
+      "bytes": 12607,
+      "sha256": "d6b8e1d05276d4d76b94c709ab17d4545f5c23b0d2cac9d537ea244fff9b733e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/CHANGE_LOG.md",
+      "bytes": 16617,
+      "sha256": "a1f2fb6d553ea944df25fa35a78938efaaeb499bbf75078e8f6fe015292a9d47"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/CR_TEMPLATE.md",
+      "bytes": 782,
+      "sha256": "036010e73116bc83f132baff741e80047324edd1847d96ec5920179a5ac255cf"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/Evidence/BOOTSTRAP_VALIDATION.md",
+      "bytes": 2321,
+      "sha256": "d3a22df2687c33881bdd8274e29405f090970002d3e8b4d657689a8e5519cfa0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/Evidence/GITHUB_FRESH_CLONE_20261031.json",
+      "bytes": 398,
+      "sha256": "af9747dd2d679bf0f2fce14edcd9873b861ee034ab93ae931e50644d12421c5e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
+      "bytes": 952,
+      "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
+      "bytes": 3002,
+      "sha256": "dc0fb1ebb4ccb8b4e1ecc678e6f9d6dae34635ed35c9a05ae6db0bffa72769a3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/Evidence/INSTALLATION_VALIDATION.md",
+      "bytes": 10838,
+      "sha256": "4f8ac9db115acd8ef0ecf84d2b0cfc5c78b28c3f270db6d512d1a0a4af236516"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/Evidence/tool_test_results.json",
+      "bytes": 4774,
+      "sha256": "9ad12a146938e75b5924a905acd27c87a828e0667eea19fa6bc04aa942ec5302"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/INITIAL_INSPECTION.md",
+      "bytes": 1743,
+      "sha256": "ea8b0534fd2d71b1c8081a7a7dd2affb5db123e784eacbd3b237b7a46379f435"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/RECOVERY_AND_SYNC.md",
+      "bytes": 2719,
+      "sha256": "a076813d111e0a69d794a3230426d506860057f37180742b7048ae7059fe582d"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/REVIEW_REGISTER.md",
+      "bytes": 1003,
+      "sha256": "e9042fdd4e6ab979792f7c196df8436faafa06a2be2ddf9b965b45573c4906cc"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md",
+      "bytes": 1560,
+      "sha256": "4ac3dfe066ac0af3f1c05178ce4abac815ed24de12a835138e8943f817036b02"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/Review_Evidence/DEMO_HUNTER_ART_20261030.json",
+      "bytes": 732,
+      "sha256": "c4b8500266935560200136cddcd4afb522f20480bfadc9776cd3314902f1575c"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/03_Management/workflow_state.json",
+      "bytes": 9083,
+      "sha256": "eb07da03ea9be1ca255519b4fec580c9b5119177679c55b6caa4bcb71b92ad2c"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/05_Testing/TEST_INDEX.md",
+      "bytes": 2368,
+      "sha256": "2bac0259e0b5d1b9dbb7e687ccf7fe20ceaaea6b7393c81928a2078ea8208cf0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2701,
+      "sha256": "5e7e873beb99b40f15d3c7d3bc06277b6fb4a4f2988d4500d13348441211b335"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Tools/docs_workflow.py",
+      "bytes": 19094,
+      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Tools/restore_optional_package.py",
+      "bytes": 1945,
+      "sha256": "71f898f407345d56eb5f1d2dd15ecf0705afb09a4e1263f6ff9d36f09c60acef"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/files/Tools/verify_checkout.py",
+      "bytes": 1030,
+      "sha256": "160198fc57dd37c54d9743a60fb3be0cd20c5c311a76372c90ea3ad9a50c2901"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T163728117213/manifest.json",
+      "bytes": 7759,
+      "sha256": "8abef2b6a4d0238d868ea04a0f0c87b3b3e9b96e0c81f248d6ae8678ad3e7e69"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/AGENTS.md",
+      "bytes": 6472,
+      "sha256": "ee761b5ff5429671a26459f62e877077dbe966b5795fb7473b9df75918964696"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/00_Baseline/BASELINE_INDEX.md",
+      "bytes": 1839,
+      "sha256": "038730cbff075f0c9947ff335af9359c66ccc767ed5ccdee08fc8b9ddb27aa90"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/00_Baseline/Baseline_Manifest.json",
+      "bytes": 1184,
+      "sha256": "2ea3319a531ece147d36d33aa1fae3845219ad725af01cec210b122e56a0744e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/01_Coverage/System_Coverage_Tracking.md",
+      "bytes": 22466,
+      "sha256": "9c6aae19cc341395119e850c5ba4a840b8ecdb6e0b066504a5136a3c8fa1a9c4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/01_Coverage/requirements.json",
+      "bytes": 23414,
+      "sha256": "9437e0363bfd47f686b9493e05401507d0e1305763116268a14aa36bf95103e4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+      "bytes": 4915,
+      "sha256": "5a10a5f0753b277dfa9333a2e941f5edb69d4f4a3714a165830ec419e3c1d321"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/S01_Player_Control.md",
+      "bytes": 16301,
+      "sha256": "de906f4a741d9124dd189b3e1ec6a13fb2fc4717af36fc0877aadf945b84f596"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/SYSTEM_INDEX.md",
+      "bytes": 2482,
+      "sha256": "a69120a1d2a0afa1aaa8c3826b982d36c4ba21fcff75761aeac447b556442778"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "bytes": 3241,
+      "sha256": "202039d0a727612c47f7911cfa6245ad3c907a677aa81013a110972bc4b2a3a1"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "bytes": 3344,
+      "sha256": "146e535169ed4f51bafe9a33c795fde8bd30aa3faf4f6c5185f256868ef26b82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "bytes": 3268,
+      "sha256": "fe7b37546d9e3c2cfeba4e11f841ee1a8540e126c9e2f2a9a7d31f3cd0a523e3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "bytes": 3392,
+      "sha256": "ea330bf0b97187c31caa520dfdd474d1015a3de9ffa03724ea33b04600b72f82"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "bytes": 3198,
+      "sha256": "a9181f7b9331ee68b1df928823c06673e565d135bc4b8e7ef9a5bd9d0af06703"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "bytes": 3168,
+      "sha256": "d139f8ba4586f95f69b00dd72ec09c3b229262691974ce5f8ae85162a1000465"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "bytes": 3328,
+      "sha256": "ec7e173a984270bd5de1b32d797c033b9368956c33589c4dcecadcf132603222"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "bytes": 3212,
+      "sha256": "570cb8d9d205d79a1e471dd7ac58db2dfe422d7343fcfb96822644dde601334e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "bytes": 3219,
+      "sha256": "be0df2daacd6fe2dce4a2f154d23229bddcb41873cec1acf8433d39ec91b58b4"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "bytes": 3257,
+      "sha256": "ca519f5834428456dd59d4c55111bea2e9589205d37fa21b9e38ed75acedda1f"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "bytes": 3153,
+      "sha256": "7769d74ed996620a4c15563448dc5150d73c246f53645588db9abc03db5dbfed"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "bytes": 3328,
+      "sha256": "3a373c09111cd4dda7dc7b44e79a69327481e05c021c4cb0f6f13bf12aecbd10"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "bytes": 3182,
+      "sha256": "81cf7c7fe90be22473c8b6d5e48a1e70ddbc80d6dd97d8eff61dc63dc28d3d32"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/AI_HANDOFF_VampireHunter_20261028.md",
+      "bytes": 12607,
+      "sha256": "d6b8e1d05276d4d76b94c709ab17d4545f5c23b0d2cac9d537ea244fff9b733e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/CHANGE_LOG.md",
+      "bytes": 17364,
+      "sha256": "70438291df7d6e3adc1a912f7e2cca5614608fb30b1323414ff8395f8a795cfe"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/CR_TEMPLATE.md",
+      "bytes": 782,
+      "sha256": "036010e73116bc83f132baff741e80047324edd1847d96ec5920179a5ac255cf"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/Evidence/BOOTSTRAP_VALIDATION.md",
+      "bytes": 2321,
+      "sha256": "d3a22df2687c33881bdd8274e29405f090970002d3e8b4d657689a8e5519cfa0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/Evidence/GITHUB_FRESH_CLONE_20261031.json",
+      "bytes": 398,
+      "sha256": "af9747dd2d679bf0f2fce14edcd9873b861ee034ab93ae931e50644d12421c5e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
+      "bytes": 952,
+      "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
+      "bytes": 3002,
+      "sha256": "dc0fb1ebb4ccb8b4e1ecc678e6f9d6dae34635ed35c9a05ae6db0bffa72769a3"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/Evidence/INSTALLATION_VALIDATION.md",
+      "bytes": 10838,
+      "sha256": "4f8ac9db115acd8ef0ecf84d2b0cfc5c78b28c3f270db6d512d1a0a4af236516"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/Evidence/tool_test_results.json",
+      "bytes": 4774,
+      "sha256": "9ad12a146938e75b5924a905acd27c87a828e0667eea19fa6bc04aa942ec5302"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/INITIAL_INSPECTION.md",
+      "bytes": 1743,
+      "sha256": "ea8b0534fd2d71b1c8081a7a7dd2affb5db123e784eacbd3b237b7a46379f435"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/RECOVERY_AND_SYNC.md",
+      "bytes": 2719,
+      "sha256": "a076813d111e0a69d794a3230426d506860057f37180742b7048ae7059fe582d"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/REVIEW_REGISTER.md",
+      "bytes": 1003,
+      "sha256": "e9042fdd4e6ab979792f7c196df8436faafa06a2be2ddf9b965b45573c4906cc"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md",
+      "bytes": 1918,
+      "sha256": "1059342ede4b01e3f09fac2bdd4829fb8cb2f51642c658727e090495f31f1dd6"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/Review_Evidence/DEMO_HUNTER_ART_20261030.json",
+      "bytes": 732,
+      "sha256": "c4b8500266935560200136cddcd4afb522f20480bfadc9776cd3314902f1575c"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/03_Management/workflow_state.json",
+      "bytes": 9201,
+      "sha256": "4be456e801b1fcc5d06effa7c04148a5424db83a3c5410417f403e8f862b046e"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/05_Testing/TEST_INDEX.md",
+      "bytes": 2368,
+      "sha256": "2bac0259e0b5d1b9dbb7e687ccf7fe20ceaaea6b7393c81928a2078ea8208cf0"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2701,
+      "sha256": "5e7e873beb99b40f15d3c7d3bc06277b6fb4a4f2988d4500d13348441211b335"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Tools/docs_workflow.py",
+      "bytes": 19094,
+      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Tools/restore_optional_package.py",
+      "bytes": 1945,
+      "sha256": "71f898f407345d56eb5f1d2dd15ecf0705afb09a4e1263f6ff9d36f09c60acef"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/files/Tools/verify_checkout.py",
+      "bytes": 1030,
+      "sha256": "160198fc57dd37c54d9743a60fb3be0cd20c5c311a76372c90ea3ad9a50c2901"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T165922971690/manifest.json",
+      "bytes": 7759,
+      "sha256": "fa4f6379376ce98e476f15675c22227c83af3ffd20dc84a0aa0b52d550251611"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T171053870848/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2701,
+      "sha256": "5e7e873beb99b40f15d3c7d3bc06277b6fb4a4f2988d4500d13348441211b335"
+    },
+    {
+      "path": "Backups/DocsSync/20261106T171053870848/manifest.json",
+      "bytes": 222,
+      "sha256": "c51db40b58ef65e63bf7378c6b52608a096bc93b057e3ed832f534699392c357"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/AGENTS.md",
+      "bytes": 6472,
+      "sha256": "ee761b5ff5429671a26459f62e877077dbe966b5795fb7473b9df75918964696"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/00_Baseline/BASELINE_INDEX.md",
+      "bytes": 1839,
+      "sha256": "038730cbff075f0c9947ff335af9359c66ccc767ed5ccdee08fc8b9ddb27aa90"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/00_Baseline/Baseline_Manifest.json",
+      "bytes": 1184,
+      "sha256": "2ea3319a531ece147d36d33aa1fae3845219ad725af01cec210b122e56a0744e"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/01_Coverage/System_Coverage_Tracking.md",
+      "bytes": 22466,
+      "sha256": "9c6aae19cc341395119e850c5ba4a840b8ecdb6e0b066504a5136a3c8fa1a9c4"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/01_Coverage/requirements.json",
+      "bytes": 23414,
+      "sha256": "9437e0363bfd47f686b9493e05401507d0e1305763116268a14aa36bf95103e4"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+      "bytes": 4915,
+      "sha256": "5a10a5f0753b277dfa9333a2e941f5edb69d4f4a3714a165830ec419e3c1d321"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/S01_Player_Control.md",
+      "bytes": 16301,
+      "sha256": "de906f4a741d9124dd189b3e1ec6a13fb2fc4717af36fc0877aadf945b84f596"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/SYSTEM_INDEX.md",
+      "bytes": 2482,
+      "sha256": "a69120a1d2a0afa1aaa8c3826b982d36c4ba21fcff75761aeac447b556442778"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "bytes": 3241,
+      "sha256": "202039d0a727612c47f7911cfa6245ad3c907a677aa81013a110972bc4b2a3a1"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "bytes": 3344,
+      "sha256": "146e535169ed4f51bafe9a33c795fde8bd30aa3faf4f6c5185f256868ef26b82"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "bytes": 3268,
+      "sha256": "fe7b37546d9e3c2cfeba4e11f841ee1a8540e126c9e2f2a9a7d31f3cd0a523e3"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "bytes": 3392,
+      "sha256": "ea330bf0b97187c31caa520dfdd474d1015a3de9ffa03724ea33b04600b72f82"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "bytes": 3198,
+      "sha256": "a9181f7b9331ee68b1df928823c06673e565d135bc4b8e7ef9a5bd9d0af06703"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "bytes": 3168,
+      "sha256": "d139f8ba4586f95f69b00dd72ec09c3b229262691974ce5f8ae85162a1000465"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "bytes": 3328,
+      "sha256": "ec7e173a984270bd5de1b32d797c033b9368956c33589c4dcecadcf132603222"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "bytes": 3212,
+      "sha256": "570cb8d9d205d79a1e471dd7ac58db2dfe422d7343fcfb96822644dde601334e"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "bytes": 3219,
+      "sha256": "be0df2daacd6fe2dce4a2f154d23229bddcb41873cec1acf8433d39ec91b58b4"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "bytes": 3257,
+      "sha256": "ca519f5834428456dd59d4c55111bea2e9589205d37fa21b9e38ed75acedda1f"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "bytes": 3153,
+      "sha256": "7769d74ed996620a4c15563448dc5150d73c246f53645588db9abc03db5dbfed"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "bytes": 3328,
+      "sha256": "3a373c09111cd4dda7dc7b44e79a69327481e05c021c4cb0f6f13bf12aecbd10"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "bytes": 3182,
+      "sha256": "81cf7c7fe90be22473c8b6d5e48a1e70ddbc80d6dd97d8eff61dc63dc28d3d32"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/AI_HANDOFF_VampireHunter_20261028.md",
+      "bytes": 12607,
+      "sha256": "d6b8e1d05276d4d76b94c709ab17d4545f5c23b0d2cac9d537ea244fff9b733e"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/CHANGE_LOG.md",
+      "bytes": 18260,
+      "sha256": "24a6fa5e266bb054f58a42f6a6e67dc1fa78e71de8e84b82091bfbac1ecc9ae4"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/CR_TEMPLATE.md",
+      "bytes": 782,
+      "sha256": "036010e73116bc83f132baff741e80047324edd1847d96ec5920179a5ac255cf"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/Evidence/BOOTSTRAP_VALIDATION.md",
+      "bytes": 2321,
+      "sha256": "d3a22df2687c33881bdd8274e29405f090970002d3e8b4d657689a8e5519cfa0"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/Evidence/GITHUB_FRESH_CLONE_20261031.json",
+      "bytes": 398,
+      "sha256": "af9747dd2d679bf0f2fce14edcd9873b861ee034ab93ae931e50644d12421c5e"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
+      "bytes": 952,
+      "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
+      "bytes": 3002,
+      "sha256": "dc0fb1ebb4ccb8b4e1ecc678e6f9d6dae34635ed35c9a05ae6db0bffa72769a3"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/Evidence/INSTALLATION_VALIDATION.md",
+      "bytes": 10838,
+      "sha256": "4f8ac9db115acd8ef0ecf84d2b0cfc5c78b28c3f270db6d512d1a0a4af236516"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/Evidence/tool_test_results.json",
+      "bytes": 4774,
+      "sha256": "9ad12a146938e75b5924a905acd27c87a828e0667eea19fa6bc04aa942ec5302"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/INITIAL_INSPECTION.md",
+      "bytes": 1743,
+      "sha256": "ea8b0534fd2d71b1c8081a7a7dd2affb5db123e784eacbd3b237b7a46379f435"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/RECOVERY_AND_SYNC.md",
+      "bytes": 2719,
+      "sha256": "a076813d111e0a69d794a3230426d506860057f37180742b7048ae7059fe582d"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/REVIEW_REGISTER.md",
+      "bytes": 1003,
+      "sha256": "e9042fdd4e6ab979792f7c196df8436faafa06a2be2ddf9b965b45573c4906cc"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md",
+      "bytes": 2538,
+      "sha256": "239f1e9947ff3ca46eeccb5ff6ec0a5bfa0cfc4f158410a60237cd0e5c668ae7"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/Review_Evidence/DEMO_HUNTER_ART_20261030.json",
+      "bytes": 732,
+      "sha256": "c4b8500266935560200136cddcd4afb522f20480bfadc9776cd3314902f1575c"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/03_Management/workflow_state.json",
+      "bytes": 9601,
+      "sha256": "470e59c4f96c14661b7ef8afb60959444fb3c8e8707626877c207e7cccddc43c"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/05_Testing/TEST_INDEX.md",
+      "bytes": 2368,
+      "sha256": "2bac0259e0b5d1b9dbb7e687ccf7fe20ceaaea6b7393c81928a2078ea8208cf0"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2717,
+      "sha256": "bfeada3fb3bdda58f5b158f6ccae0e39705f0cd1d06a70a918051d9126a652b0"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Tools/docs_workflow.py",
+      "bytes": 19094,
+      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Tools/restore_optional_package.py",
+      "bytes": 1945,
+      "sha256": "71f898f407345d56eb5f1d2dd15ecf0705afb09a4e1263f6ff9d36f09c60acef"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/files/Tools/verify_checkout.py",
+      "bytes": 1030,
+      "sha256": "160198fc57dd37c54d9743a60fb3be0cd20c5c311a76372c90ea3ad9a50c2901"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T171945731648/manifest.json",
+      "bytes": 7759,
+      "sha256": "8173f7ced2c7de9b8208a16cc3ff286ca7199bc3c9d6fe6dbe2f1693d1647be0"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T172126329102/files/Docs/PROJECT_STATUS.md",
+      "bytes": 2717,
+      "sha256": "bfeada3fb3bdda58f5b158f6ccae0e39705f0cd1d06a70a918051d9126a652b0"
+    },
+    {
+      "path": "Backups/DocsSync/20261107T172126329102/manifest.json",
+      "bytes": 222,
+      "sha256": "448c69c118b3ad034ef081338df8adb85a1bd12e651922433def207aa8382bce"
+    },
+    {
       "path": "CharacterRiggingWork/Hunter_20261029-134109/DocumentationBeforeStop_20261029-142954/Docs/03_Management/CHANGE_LOG.md",
       "bytes": 7452,
       "sha256": "2f3809270c52bcc987bf962c15208c873ed5fdc1e0f275f81d419f79409e8ce1"
@@ -8303,8 +10219,8 @@
     },
     {
       "path": "Docs/03_Management/CHANGE_LOG.md",
-      "bytes": 15134,
-      "sha256": "befd5ca2d82480c4e1442bbc81899b0674a9120f5e8cf4b58dd554d6d56a68f9"
+      "bytes": 18871,
+      "sha256": "878519157fee797b5322fbc7a53f1b530134a8df5bec28590f1a39176a230a55"
     },
     {
       "path": "Docs/03_Management/CR_TEMPLATE.md",
@@ -8325,6 +10241,31 @@
       "path": "Docs/03_Management/Evidence/GITHUB_REMOTE_LFS_20261031.json",
       "bytes": 952,
       "sha256": "929dd137567e656b333277bbbd1daf732afe2e16e41dc3cfb0c89a623f8a3105"
+    },
+    {
+      "path": "Docs/03_Management/Evidence/GITHUB_SYNC_20261107.md",
+      "bytes": 2051,
+      "sha256": "086f816f725fd1430503bea7eef252d32feb9da10b9627e8c81d90d621cc53f4"
+    },
+    {
+      "path": "Docs/03_Management/Evidence/GITHUB_SYNC_20261107_before/.gitattributes",
+      "bytes": 2867,
+      "sha256": "50261c26d614ab959c1f66303175060f7aef7d042452ef16857727ced081af93"
+    },
+    {
+      "path": "Docs/03_Management/Evidence/GITHUB_SYNC_20261107_before/README.md.txt",
+      "bytes": 21296,
+      "sha256": "fa783831be94c5c7726d2ef29beb4c7b023fb877f07cb96750cab92fe89f0525"
+    },
+    {
+      "path": "Docs/03_Management/Evidence/GITHUB_SYNC_20261107_before/TransferManifest.json",
+      "bytes": 1324168,
+      "sha256": "dd09c6d00f2d468d8888f7097c31dd02053283efa89284c43a3d55e4f7d59cff"
+    },
+    {
+      "path": "Docs/03_Management/Evidence/GITHUB_SYNC_20261107_before/docs_workflow.py",
+      "bytes": 19094,
+      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
     },
     {
       "path": "Docs/03_Management/Evidence/GITHUB_TRANSFER_20261031.md",
@@ -8357,14 +10298,19 @@
       "sha256": "e9042fdd4e6ab979792f7c196df8436faafa06a2be2ddf9b965b45573c4906cc"
     },
     {
+      "path": "Docs/03_Management/Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md",
+      "bytes": 2538,
+      "sha256": "239f1e9947ff3ca46eeccb5ff6ec0a5bfa0cfc4f158410a60237cd0e5c668ae7"
+    },
+    {
       "path": "Docs/03_Management/Review_Evidence/DEMO_HUNTER_ART_20261030.json",
       "bytes": 732,
       "sha256": "c4b8500266935560200136cddcd4afb522f20480bfadc9776cd3314902f1575c"
     },
     {
       "path": "Docs/03_Management/workflow_state.json",
-      "bytes": 8043,
-      "sha256": "cebfa60926939d22f8065fb72bf4d2cc18c5972af4ecfa47c040750641a2abfe"
+      "bytes": 10242,
+      "sha256": "e0a91a05dd89e9e988bbffb8e0784a11cf4bcadf244d968c2a82402c58e82a37"
     },
     {
       "path": "Docs/05_Testing/TEST_INDEX.md",
@@ -8373,8 +10319,13 @@
     },
     {
       "path": "Docs/PROJECT_STATUS.md",
-      "bytes": 2593,
-      "sha256": "a44feb3dddef117379ddd3c84d4f06f422e46023efcf608165acd754b45d7a14"
+      "bytes": 2829,
+      "sha256": "ebae6ab419f462b036c9dbb2232dab627933be93e23313aa6b9792d078fb6e14"
+    },
+    {
+      "path": "MAC_SETUP.md",
+      "bytes": 2427,
+      "sha256": "d12542233f5f087a11f5618ae61a29a201cd1b3188fa24c701587230a9e78c98"
     },
     {
       "path": "OptionalPackages/DungeonEnvironment.manifest.json",
@@ -8393,8 +10344,8 @@
     },
     {
       "path": "Tools/docs_workflow.py",
-      "bytes": 19094,
-      "sha256": "a000e2b9bfa6648e938864a98183491ad35400cdf7bb54edd56ea2deb699f029"
+      "bytes": 19168,
+      "sha256": "38d68c7bcfbff6081c491bddd9def79c4ec7feba628154ebad122ef412f467bb"
     },
     {
       "path": "Tools/restore_optional_package.py",
@@ -10358,8 +12309,8 @@
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Characters/Hunter/Cape_3_Black.mat",
-      "bytes": 4065,
-      "sha256": "2eba7b87f5d9374bd2059bebb513b998e164de0aaf8a228ddcec42edad1f6a22"
+      "bytes": 4066,
+      "sha256": "671e68c75a644026517faedb4b40adc642c79296a34646fff6c2d5773ea8ae0e"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Characters/Hunter/Cape_3_Black.mat.meta",
@@ -10573,8 +12524,8 @@
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Characters/Hunter/Hood_Cloth_1_Black.mat",
-      "bytes": 4071,
-      "sha256": "2a662c2b583cdeaa75db4d36594683a8467cad9610b6176e1baba6c0782ca2e0"
+      "bytes": 4072,
+      "sha256": "ac391da9b8a7fa0550fd8c6c675abbed9a101b645b5d0234feb4a03462b8b434"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Characters/Hunter/Hood_Cloth_1_Black.mat.meta",
@@ -10918,8 +12869,8 @@
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Characters/Hunter/Robe_Black.mat",
-      "bytes": 4062,
-      "sha256": "7a5651088a51c82066866865de8fd22881e47060d2b9b99386e52266892ccb3b"
+      "bytes": 4063,
+      "sha256": "1d357968be99b10193091b97c3cdcb025b0e8d16ccfc8bc566f2f338b600ca00"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Characters/Hunter/Robe_Black.mat.meta",
@@ -11732,6 +13683,16 @@
       "sha256": "cb2684dcb57992512a914157df54adf3c4b586b753029d72cb07eb5bdca2061c"
     },
     {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/BloodClueSetup.cs",
+      "bytes": 14360,
+      "sha256": "f1acd44ad99c54087d01939d6271e91cdb30077736011a01e45dd1bc84669f00"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/BloodClueSetup.cs.meta",
+      "bytes": 243,
+      "sha256": "e64bfb1ed5db0e11acffb259ef80453704e620c74820495b81c5ae076cdf58e7"
+    },
+    {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/BuildCarriedDarkScene.cs",
       "bytes": 4480,
       "sha256": "d080b41f3cee5639ae691e7c512a435a7cab1ecce4040a8ebc830997a75f50c1"
@@ -11850,6 +13811,16 @@
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/BuildVillageReview.cs.meta",
       "bytes": 243,
       "sha256": "985a1afd6fd78e77571681c8e83839d5e87a0a30abba0760b2db82a364c21963"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/ClueDetailSetup.cs",
+      "bytes": 12614,
+      "sha256": "a4799999c9b4a1217b10049e515a44e7a8e0fb2a7d993338e54d9c1ae7afb722"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/ClueDetailSetup.cs.meta",
+      "bytes": 243,
+      "sha256": "970351f742dd713f0fe76b2adc6746f33e6010bb30df7f1b3581f424c7622c11"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/CombatLoopSmokeTest.cs",
@@ -12062,6 +14033,16 @@
       "sha256": "72304739e899137470673fac29cd1001ca290db5b6101499e77df2b002b53449"
     },
     {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/InspectionSetup.cs",
+      "bytes": 6338,
+      "sha256": "adb77fca0231f627b4057f4be5674f74b5d1bc840ee8f1da8ddf8560d93816da"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/InspectionSetup.cs.meta",
+      "bytes": 243,
+      "sha256": "adf8216b0bdd586ad3897efb95054be99c9194d775e52b64a2ab65ef9fe7edb7"
+    },
+    {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/InstallSettlementAtmosphere.cs",
       "bytes": 11090,
       "sha256": "fcbf991b99ef5b02b97ddfd3c245e38f10d0ea899acebf1c11b214a6f4312e90"
@@ -12202,6 +14183,16 @@
       "sha256": "a78cb2cc16383d04e430ec2e1507ebd019c0146583d56177050eba84128df9b3"
     },
     {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/SeveredArmSetup.cs",
+      "bytes": 5905,
+      "sha256": "ed6491226eb3df60f8cb657e229f5a96d8026264773fad6ea95a03f476f017da"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/SeveredArmSetup.cs.meta",
+      "bytes": 243,
+      "sha256": "1cd75aa47c4b5ffab9ee60c941cda456875bc90999a9868145c514935897887f"
+    },
+    {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/TerracedRoadRelief.cs",
       "bytes": 3763,
       "sha256": "fa0941697bc9d52475daaa858f5a5c1d4055976860a1ddc39a89343e217e5b42"
@@ -12277,6 +14268,211 @@
       "sha256": "84c2997cc634a3f0e5f5cbbaa297eb04d1d3a50c6172757ce276b0c99297993e"
     },
     {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue.meta",
+      "bytes": 172,
+      "sha256": "e6bf4a89325992739a447367fc90dad7c9f2ce8a7c36f7ecd2718a3610657a5a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/BloodDrag.mat",
+      "bytes": 3830,
+      "sha256": "1e35fd202dca0845bfec6f35b9253077d3b9ba6de1be5fe685d72d61d96ff65a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/BloodDrag.mat.meta",
+      "bytes": 188,
+      "sha256": "185519a25d1c36606b56b0f11dd51ed771aaae33cf867108290259bce710972e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/BloodPool0.mat",
+      "bytes": 3831,
+      "sha256": "0ee17d05267d56f6e4884f45ea79228441fc7b5099e841387a6cf3142eabcc0c"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/BloodPool0.mat.meta",
+      "bytes": 188,
+      "sha256": "59008dcf790378eadf8abf7848dc3a4b01564104b7480481feec3c08933e5311"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/BloodPool1.mat",
+      "bytes": 3831,
+      "sha256": "866f27f47f7f3678e476e9d8cedb27f659a6ba79c04b02a77f0f3dd55faf7071"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/BloodPool1.mat.meta",
+      "bytes": 188,
+      "sha256": "1d82acb94432e9dc161719262bb9953a222b6a234ad7df99863f0d95e002d6d0"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Blood_pool_at_investigation_point.asset",
+      "bytes": 7018,
+      "sha256": "a608b6039326e2e107de14d1cf529b4a05629ab08398cfd84ed5b164592627fb"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Blood_pool_at_investigation_point.asset.meta",
+      "bytes": 188,
+      "sha256": "de3360e7f3cead3902d31830e97a74190fc2ac4e2e702541a2d3c1c88ac08bc0"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Blood_pool_under_arm.asset",
+      "bytes": 7003,
+      "sha256": "de4e337ed930b24a2b661fb5a2c09fc809fa6eb00f42b188ce90a95e49ea24e4"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Blood_pool_under_arm.asset.meta",
+      "bytes": 188,
+      "sha256": "6e7e78dcf57c782baac4f08ad65e6c1d97fcf40f4bb9777d0e19a06ae3c5a4ce"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Blood_splashes_toward_forest.asset",
+      "bytes": 7005,
+      "sha256": "ce32fd1d3314b503f34489ab6e8f7b31d7f3c33bf582cb722b5ae822bdc38f8d"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Blood_splashes_toward_forest.asset.meta",
+      "bytes": 188,
+      "sha256": "a1bdfa8457188bf5be4621c1aee1bdcb5edd3d9f68a7100bb48767ff1ed2baf3"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_01.asset",
+      "bytes": 7007,
+      "sha256": "68c4da3888345fb8f79ca58e9b7c19be901271e241511c3d90c39fa3e4729533"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_01.asset.meta",
+      "bytes": 188,
+      "sha256": "47afd44c1db3bedfda0fcc3bc40f5f455b8186046f7403eef27f577a70e41e88"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_02.asset",
+      "bytes": 7005,
+      "sha256": "74c03d61e5f56da8668a93fb09e2af33c2771e5c7c483eaec16d6bd15e8a6ad3"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_02.asset.meta",
+      "bytes": 188,
+      "sha256": "1683c71188ea8824b87e0653d51c2f9cbc8cc674b551bd4a0ce33394828434a3"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_03.asset",
+      "bytes": 6999,
+      "sha256": "101cb09942bcd09879a244a07c09d26c808f19b9ccf928f11c5d99ef7d39e97a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_03.asset.meta",
+      "bytes": 188,
+      "sha256": "5d4f1b02dd96d94e0efea2e6411d8db154e26e72e1cd962050ecaf748f57fde9"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_04.asset",
+      "bytes": 6995,
+      "sha256": "c24eede26cac23181b50ea5c5c4950b334eec75e7c32209b4c76cb723e057083"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_04.asset.meta",
+      "bytes": 188,
+      "sha256": "184722d113d18b0f258d179f4e062e0fccaab7af6ea7e76314984e568ec0e743"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_05.asset",
+      "bytes": 6991,
+      "sha256": "17e046412a42f8462322b5e4752c1e5dc1314863b914896e6cabb2b4dcb318ff"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_05.asset.meta",
+      "bytes": 188,
+      "sha256": "35be57f9e5fa92b2d621ab8e4bc794a2418cd33b38474077a1ecc0e655f03491"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_06.asset",
+      "bytes": 7011,
+      "sha256": "5326cde17af472c8c0efd9831294294c3b2438ae1c1de9836f7a0191b6cee02b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_06.asset.meta",
+      "bytes": 188,
+      "sha256": "4fa348391da1d9785e216b697f533a8f3c2bb5561a1867fbfac529bc09e61a28"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_07.asset",
+      "bytes": 7003,
+      "sha256": "072292a820a011920e76424cecbf1255d680be7b3e792aff2cd5c378c3106a07"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_07.asset.meta",
+      "bytes": 188,
+      "sha256": "69845e0ee74e11bf9db881d812392ad799fd6099d2e0d9cb43266c9c64c1c742"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_08.asset",
+      "bytes": 7007,
+      "sha256": "3c2adc9d471b3a46699b0e1c06f21e5c667a0ef0ee571e5a347833fbbb2129e7"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_08.asset.meta",
+      "bytes": 188,
+      "sha256": "679ef6a6742c6ebdb015a715a0affe0ee1f6332a9a0bf9bd7de332518af01828"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_09.asset",
+      "bytes": 6989,
+      "sha256": "7494a651ca0699f7f677f03383ff7fcb18b1447e127b0acd10f8009d5964e83c"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_09.asset.meta",
+      "bytes": 188,
+      "sha256": "6147ddd0274b819c9d8a8395593c10758b2c2c86a402edd79fcc81a5da80025a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_10.asset",
+      "bytes": 6991,
+      "sha256": "b375532d53030e558f6a9e32124681cd589593bd782451347f5b1ab722cef4c9"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_10.asset.meta",
+      "bytes": 188,
+      "sha256": "b0103aed3f4b1ecca6fcd3d88349aea372ae73cfb941ad782c654acf2edbf5a9"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_11.asset",
+      "bytes": 6995,
+      "sha256": "29354b1495a0e41c281c43a1d0b5cca92b82d65fc3ab27679fc8b49931b62342"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_11.asset.meta",
+      "bytes": 188,
+      "sha256": "db8ddda00fbe526d5d77a9078a7ee7544046a0c7ce5c6ba9a3392f76698200e7"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_12.asset",
+      "bytes": 6991,
+      "sha256": "f75ab3930b14ebaaba1bd430453f3c7c9445a8260e90ca47f7f978e41f28d718"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Cluster_blood_stain_12.asset.meta",
+      "bytes": 188,
+      "sha256": "3e9b92140611c448adb6d678864ddc5ff9c826fe5e1934b7bea10e86f89535f6"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Drag_smear_east.asset",
+      "bytes": 6976,
+      "sha256": "c8c069801804784ef6b6a11ce8a2cf867fb697097ee70383cb8e67d5fc491c1e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Drag_smear_east.asset.meta",
+      "bytes": 188,
+      "sha256": "f0ab0dfa4d7353d6f6be6c4933e5306b31dc113f8e96ca6c8ce3f802ca75df01"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Drag_smear_west.asset",
+      "bytes": 6992,
+      "sha256": "c0a8c2431924f4658d1183a9b5f1ea62ec04292b0c8e7cc6d006e2b0abf38d19"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/BloodClue/Drag_smear_west.asset.meta",
+      "bytes": 188,
+      "sha256": "6fa875539c097344f074b5f772076e113ae8cacf11780a53335f9cad283c5550"
+    },
+    {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/Ground_Forest_GreenGround.terrainlayer",
       "bytes": 797,
       "sha256": "66605489e926a4f437d31c4c8f754807d6d5354a71e8a7926e160f31d8d68ed0"
@@ -12315,6 +14511,141 @@
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/Ground_Forest_Road.terrainlayer.meta",
       "bytes": 200,
       "sha256": "39401e5417f9fe3ab06b9897d5b6ed2e71d179fa187e4b9b53b0e04b884b5461"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge.meta",
+      "bytes": 172,
+      "sha256": "cd9dd7a4969b1e560fa8275d261c680c8455dc12a76335d2b4e3cb5686092e55"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Aged_silver.mat",
+      "bytes": 3648,
+      "sha256": "c6acc2919c7e7cfa423f35be6d224835b40ebb607010bc9b5450bc20205a30db"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Aged_silver.mat.meta",
+      "bytes": 188,
+      "sha256": "5c81e2a07e38c2f4cbf60c8f8ce1e62d156506dbe4e1fac30d2603592c356395"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Dark_engraved_steel.mat",
+      "bytes": 3669,
+      "sha256": "8015ffa32e06d6a6b9192b938617759ab086c2e5e73de8bb0f0b468f850ff98e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Dark_engraved_steel.mat.meta",
+      "bytes": 188,
+      "sha256": "703db81b7334395a1e024c7f3f759d5566d0a41d2c293d00531756d8a0c77b1b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Hunter_Cross_Badge.prefab",
+      "bytes": 20444,
+      "sha256": "5ba206f7f8edbb5a3ebb4b36fc367125141b9625c38deeb261c6f0913c34e69a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Hunter_Cross_Badge.prefab.meta",
+      "bytes": 154,
+      "sha256": "66fea3bacab019007cbe44ac6988f213ebd440e9eb5ec48c0926196f4caeedf0"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Inset_dark_face.asset",
+      "bytes": 4281,
+      "sha256": "a0f72ede74fd39d2382826dadabd29c2c19e0a614413e0d970696132c225769a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Inset_dark_face.asset.meta",
+      "bytes": 188,
+      "sha256": "8b8abc20eaa6c75c444b4af6cf6de61e96e2ceda4e18d3edddfae0c04edf13c8"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Raised_hunter_cross.asset",
+      "bytes": 5150,
+      "sha256": "fb0d2075859ff4e773d2621312911740116370351d334b378f3af963adef6ef6"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Raised_hunter_cross.asset.meta",
+      "bytes": 188,
+      "sha256": "049c80899df529881e9372f1cca78cc08989b4aa6c9e446da7924467fd87cb69"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Rivet_0.asset",
+      "bytes": 4435,
+      "sha256": "5afbe511861588d64f2860ad31e7e36405f5c1ecb178cd14d78fdb2f4deb0a54"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Rivet_0.asset.meta",
+      "bytes": 188,
+      "sha256": "ea4f1f1834715c6041265c10a33c9526d2406434c34911b240e2b8068c2f4e7f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Rivet_1.asset",
+      "bytes": 4433,
+      "sha256": "fcc2d49d6ef65cae5ef318b4f9a78c422e46388e0678ed9ea1337bae013bb5c3"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Rivet_1.asset.meta",
+      "bytes": 188,
+      "sha256": "e196c0d94bca0937adca696004d1726f7510aba1f3355845e5d53308eaf507bb"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Rivet_2.asset",
+      "bytes": 4435,
+      "sha256": "62a492cf19c63baac468b19f98e17f7c48bba1ca77af2a0685fba0bd8fefc1f9"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Rivet_2.asset.meta",
+      "bytes": 188,
+      "sha256": "a5c3adc6bd831854a2e28ba7a3b3f753244bbc35db5a7674b2b01ac4390a21e7"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Rivet_3.asset",
+      "bytes": 4433,
+      "sha256": "16363540a795c9a281b5ed9f7574f996bfcd98603fb0b8110aab83ac96d0d36b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Rivet_3.asset.meta",
+      "bytes": 188,
+      "sha256": "85d0122b2a24d6c0f5bf71845039f034e9cd5e1752e9de1fa2001a12e0a3edca"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Rivet_bronze.mat",
+      "bytes": 3662,
+      "sha256": "34c949a425f2e5f5a9fd9aca9887f05c9ab7e3900352ca489067b019bd112374"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Rivet_bronze.mat.meta",
+      "bytes": 188,
+      "sha256": "f2dbfaeb6656d46e65f70643a641fb0d834d63d8c5fb2e32c77a49a1330bcc09"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/SOURCE.md",
+      "bytes": 858,
+      "sha256": "3f48b37162468e98ed280cf5a0fadfc849bff14f3745dae2ce07e812f4812445"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/SOURCE.md.meta",
+      "bytes": 158,
+      "sha256": "f05d0401c52f1e06a6d050e2470a4db9a90fae176f65305cf979fb92f1d7a019"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Silver_bevel_rim.asset",
+      "bytes": 4260,
+      "sha256": "272d12faa6599acd28f065c8e3a34a5454d15f59a21ab2985cdf247f63630eb4"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/Silver_bevel_rim.asset.meta",
+      "bytes": 188,
+      "sha256": "dfb85b2ffce61804be9fbfc15c5794d1ffe72b008be86d831dd5017ee07e1632"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/SuspensionEye.asset",
+      "bytes": 16986,
+      "sha256": "a21d28319beb13663bda6f01793825fc854a35deb3b7659bfaccf1fc1dac24aa"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/HunterBadge/SuspensionEye.asset.meta",
+      "bytes": 188,
+      "sha256": "9949fe73be5f5e1d67e81f7c812b5a615dd85fee5dfe4ec72d327eb9faa37927"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/Materials.meta",
@@ -12535,6 +14866,31 @@
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/SettlementTerrain.asset.meta",
       "bytes": 189,
       "sha256": "41d5f6d21cd13a1b7a1cc6ee9a2d71135b2c712d9785dc448f559b5a69d1491e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/SeveredArm.meta",
+      "bytes": 172,
+      "sha256": "25065fe56c4325fd91888cf2260c4f8c3427452f47a83ea8d456a76ba9b586fe"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/SeveredArm/SeveredArm_Ground.prefab",
+      "bytes": 3445,
+      "sha256": "3c4a001ca9f8a2427e3af94db6d3603d7bacf7b628bae7c727b14c8a8bef9e82"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/SeveredArm/SeveredArm_Ground.prefab.meta",
+      "bytes": 154,
+      "sha256": "5d5cf9feca4e42a88b8bd46212c75a8b5c3f84c5b6dbf0227ab345010a0a0e3c"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/SeveredArm/SeveredArm_Skin_URP.mat",
+      "bytes": 3809,
+      "sha256": "809a23173625c3eb7ca0a3e2e9fe16e5e65eebb5fe681329e170fd200a84754e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/SeveredArm/SeveredArm_Skin_URP.mat.meta",
+      "bytes": 188,
+      "sha256": "6990c92997352daa283cd1a601a2c9e10de17632a0eb5ded4a999de19a76320b"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Environment/TerracedVillage.meta",
@@ -13488,8 +15844,8 @@
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity",
-      "bytes": 15814389,
-      "sha256": "d9ee82af9fe7b0a5ba990bfc06351a711bc292906f283424df559abb6d5e7f93"
+      "bytes": 15879298,
+      "sha256": "3c4ea1cc7bad32e8f89df6f2ca966f73f61b600fa86dea634b558882b4f5a501"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity.meta",
@@ -13572,6 +15928,16 @@
       "sha256": "4dad645e9e108a4f8e2a00b84525aa739e3f28ef7d4fa587375164bd581bbbe6"
     },
     {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/BloodClueProbe.cs",
+      "bytes": 4946,
+      "sha256": "d187154c38041b45045dd9358d70043c28caf185a91a46849ec79deafddd1f4d"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/BloodClueProbe.cs.meta",
+      "bytes": 243,
+      "sha256": "cfd7df66911967622da2920d3c3a4494578784546c34ead481cc2537f6289bf8"
+    },
+    {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/CarriedDarkFogRendererFeature.cs",
       "bytes": 4039,
       "sha256": "44fe136df39fc519db18222ca5eebb584cd5e04590abae8e7d9fb98005290499"
@@ -13602,6 +15968,16 @@
       "sha256": "dbfa4c5caec67d38ef672370edfef55d2bd616cb17a2b924374228af345436e2"
     },
     {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/ClueDetailsProbe.cs",
+      "bytes": 5127,
+      "sha256": "7aab2ad22eadede7a7e84b77e02a33b5f98617bdb7be0798318512b979c2306b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/ClueDetailsProbe.cs.meta",
+      "bytes": 243,
+      "sha256": "8bd91413a772f5d31df96facdeb69b4270116ee998833aa44be8b8e3a78bc41d"
+    },
+    {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoCamera.cs",
       "bytes": 306,
       "sha256": "5d55c370aa4e6fc1a1c95a1d44bb4ab51abf986edb52bf64cd9cda939a9ad76e"
@@ -13613,8 +15989,8 @@
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoEnemy.cs",
-      "bytes": 2471,
-      "sha256": "1a6d877d232850e6f6f9ea6c320f1227a4c80ecb335c920d7ec4c85a0629f120"
+      "bytes": 2704,
+      "sha256": "f80edaeb27dab4fe8a66ae1e569ea7ddcdc87d451d6f1625052191d653ae96ca"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoEnemy.cs.meta",
@@ -13623,8 +15999,8 @@
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoHealth.cs",
-      "bytes": 1586,
-      "sha256": "898d343370b4301eb5025ad1bd7e0a37dc10cce63bbf66cd53fcf37bdc4d99d5"
+      "bytes": 1793,
+      "sha256": "3c86a92bfeb352dec14afe92d1f0a54299945bfb9a34768a1e76a485f69dc5c2"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoHealth.cs.meta",
@@ -13643,8 +16019,8 @@
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoInvestigation.cs",
-      "bytes": 2416,
-      "sha256": "0ae35e30197e1fd51b9c1611813e7a395c1abdf86c45e223c920cfdf219c6aa7"
+      "bytes": 2513,
+      "sha256": "1336d38c8ac56be851c300639c61aeeb499b505c2e2d3b94ce25573c30de97e0"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoInvestigation.cs.meta",
@@ -13653,8 +16029,8 @@
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoMovement.cs",
-      "bytes": 8172,
-      "sha256": "f99ba3fb7109e900758969bc4442ad272a06ff72181cfe3bd441427acc6f7dc8"
+      "bytes": 8621,
+      "sha256": "f816c5c44925fce742428465e1b75b5fdd03c6fc1bedf070ed8aec4aaf0d54a8"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoMovement.cs.meta",
@@ -13663,8 +16039,8 @@
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoPrologueFlow.cs",
-      "bytes": 2722,
-      "sha256": "f641dd94ea452398415c25f3688e7c594a686aa3a21c8c2467bf391e20b4add9"
+      "bytes": 2952,
+      "sha256": "eb6265671e5df892f84baf5dd42ae6ea0c5df7eed8a2e4eb2ad74b9fec3c0d0f"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoPrologueFlow.cs.meta",
@@ -13680,6 +16056,16 @@
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/DemoUiStyle.cs.meta",
       "bytes": 243,
       "sha256": "aeabaa5f4f04488236993de72e81f5262be4acad482348d3754c757bad29462e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/EvidenceInspection.cs",
+      "bytes": 9473,
+      "sha256": "364b6ff3b676c83a3d60290bf1cfd27cf613eb0db000a4bd26919249624d4702"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/EvidenceInspection.cs.meta",
+      "bytes": 243,
+      "sha256": "78745a3e86f7cce8096854a01d923601d18bd9ec3fc2dd24bb16c33e2a927460"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/FogDemoPipeline.cs",
@@ -13710,6 +16096,16 @@
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/ForestWalkCapture.cs.meta",
       "bytes": 243,
       "sha256": "9a41eb56cf255658c109a0652afae6923fa80a008660804a20e270548a89f30c"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/InspectionProbe.cs",
+      "bytes": 4485,
+      "sha256": "f629993b0be7dcea8a2420c0b24b386f5fb61a62d4567cbb83510ff851800e40"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/InspectionProbe.cs.meta",
+      "bytes": 243,
+      "sha256": "cc609ab5a3cc222753490fee480146080718a8b9add7cdf59b8c1bc2920fa1ac"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/LanternFlicker.cs",
@@ -13770,6 +16166,16 @@
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/SettlementVegetationFade.cs.meta",
       "bytes": 243,
       "sha256": "fa1775244feeef8cf8314189ff7e7885e72554b2c5a320ab29a89f287ea14eb0"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/SeveredArmProbe.cs",
+      "bytes": 5582,
+      "sha256": "08045511fbe14b96b98a2487daa0f03892d1eb45c858a64ec5f35bfae1ef5352"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/SeveredArmProbe.cs.meta",
+      "bytes": 243,
+      "sha256": "4bbf41c531de00e763e29c5f43c7c94649cf7ec7b7c4e9603bdfab2acdecea17"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/TerracedVillageProbe.cs",
@@ -14359,7 +16765,7 @@
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/SettlementAtmosphere/Vegetation/Persist_061a9ca5f5ebbfb42ab459ba67658d92.mat",
       "bytes": 3597,
-      "sha256": "540a77470505f89c51aeaa469d967f36ac84047dbf40689987c54b19856206c7"
+      "sha256": "908afa6cffbb20b1643ff375dae89a9dd81b722ccacfa97449d424f90486b02a"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/SettlementAtmosphere/Vegetation/Persist_061a9ca5f5ebbfb42ab459ba67658d92.mat.meta",
@@ -14480,6 +16886,16 @@
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Shaders.meta",
       "bytes": 172,
       "sha256": "1c80227e689e742a51acb49e95fd1c2b5eb4d9f71260cc1b5bd14dd1417ed8ad"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Shaders/EvidenceBlur.shader",
+      "bytes": 788,
+      "sha256": "2eecfe7efd8dec7c3a7e7a9884a26c2b97a116f83bb3fafdd4d3cd686fb6a29a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Shaders/EvidenceBlur.shader.meta",
+      "bytes": 204,
+      "sha256": "c20b10694c62afab96a5dd07ca46858e395ec02d2e2dbd1a773aa0eb67239e69"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/Shaders/ForestAtmosphereReview.shader",
@@ -14605,6 +17021,191 @@
       "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty.meta",
       "bytes": 172,
       "sha256": "c82581f1a4233d73bcb0f6a2fb66bc66db33db0d099bccad2c653d12e3be62a4"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues.meta",
+      "bytes": 172,
+      "sha256": "9d010fad61ed3a6d2b8878a19344659a2ab9ba6f43d4fbd126bfbe465e51dd34"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodDecals.meta",
+      "bytes": 172,
+      "sha256": "b69e29f1b0ed5bec7362b6a3d45c16c82952e44700928357209579672c13ecf6"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodDecals/source.meta",
+      "bytes": 172,
+      "sha256": "6c497becf55aa35f5d80b9bbfc92499b60643394149d4fc0967062bcafad192f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodDecals/source/blood decals.glb",
+      "bytes": 11980,
+      "sha256": "2eb7259fbf648a6e230811222a80328ea4e10df2812a5f34dcff3410bd9bdaa4"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodDecals/source/blood decals.glb.meta",
+      "bytes": 155,
+      "sha256": "ce6d0bf597ed738fc64aec9d733440a1389afba31ef09a76e17ff80328f5a078"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodDecals/textures.meta",
+      "bytes": 172,
+      "sha256": "99dd24f084a091804c0830b36699083bf8c89352c4a55c68e2a8c25d25832037"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodDecals/textures/decal1_0.png",
+      "bytes": 1656,
+      "sha256": "95c001593ac34df13df6465b463f17b18010ebe5daf2f5b2008d126d712bcc15"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodDecals/textures/decal1_0.png.meta",
+      "bytes": 2591,
+      "sha256": "d86ead724601e54619b9bbe70d8bcb302eb14fd98fb2b2293487441f79ca20e6"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodDecals/textures/decal2_1.png",
+      "bytes": 2551,
+      "sha256": "1a06d20334e4957ffafe359531c8645524d73cca3b866b311eb67f5b39a8e9ca"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodDecals/textures/decal2_1.png.meta",
+      "bytes": 2591,
+      "sha256": "e9d942f98ab10dafd0a2f4bd6dc04f063ccb3a58d0b754b8bfd4ed7215b1bbfe"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark.meta",
+      "bytes": 172,
+      "sha256": "684a05e1adce9f0ada508e24c67487c3cafcf9baa8a2cb896edb4158e0ab150f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/Model.meta",
+      "bytes": 172,
+      "sha256": "2f2e86824cfdb4defc842b220adff69258055376c1d9d70e43cf80a46a4eb998"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/Model/blood decal mark.fbx",
+      "bytes": 19036,
+      "sha256": "7f8dd805cefd33e4fb6846af25bab7d76e16ea667657b29834632b9a52e6085f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/Model/blood decal mark.fbx.meta",
+      "bytes": 2830,
+      "sha256": "17443114db41da72c14cbad755cb5ac2c104e6f7f8a0ec1390cd4caf08b5336a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/Model/blood drag mark decal.png",
+      "bytes": 18600,
+      "sha256": "9014cd924cc1acc360cd60e02585ebad6219771276608718d6900345c3193c7c"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/Model/blood drag mark decal.png.meta",
+      "bytes": 2591,
+      "sha256": "f11acf8ba6fc6046ac5e7c4eb79177df5c0c60dc2b4124210349418785f856ce"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/source.meta",
+      "bytes": 172,
+      "sha256": "eb39fc715b817c320b2b46440bfa32d43c3f7d24d7b82b6df673555be73b9fe4"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/source/blood decal mark.zip",
+      "bytes": 37932,
+      "sha256": "776aa4df3ba5dc9222f5cc5aa3dd240cf60b4712a77e9b94c944d6ee967d3ad0"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/source/blood decal mark.zip.meta",
+      "bytes": 155,
+      "sha256": "8d4ff8ed19b241161d358e2f0527c3e888ed5da41f999a38da29a94350e1eb0e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/textures.meta",
+      "bytes": 172,
+      "sha256": "8cb88cc662b5dc87ab3c3e7b894aabc6d8dad9ab4fc5b39cf8e430c37ea44c6a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/textures/blood drag mark decal.png",
+      "bytes": 8945,
+      "sha256": "525ce483f00be91c7dcebce53fb5df9d316a8ab1e96d2d8b61651ad5767b4fa3"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/BloodyDragMark/textures/blood drag mark decal.png.meta",
+      "bytes": 2591,
+      "sha256": "5eb1a787b336a38c3cfe84fe052a0964b3e2dd3918221c00126e3ffbc007de7a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SOURCE.md",
+      "bytes": 2147,
+      "sha256": "567fd8350566387e33760244b05765ea5be0446e1f428c5cf5d52752281a9257"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SOURCE.md.meta",
+      "bytes": 158,
+      "sha256": "106ef502b8a016cb437cf46c691d5449b8f4e08469cc061a56a5fa5910c5b3ed"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm.meta",
+      "bytes": 172,
+      "sha256": "b91adc8cf6c5755bc13553080e879a3c0ddd947246ac4f719ee1214f0e98b3f0"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/source.meta",
+      "bytes": 172,
+      "sha256": "f8723b1b2b778b8ed78fcc8b05dd6021d6753810fd388cad65e9caa6aad1d83a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/source/Dead armLP.fbx",
+      "bytes": 66044,
+      "sha256": "0451819a6ab97d39b12ae68306c1da472e2a91e2700059a6df26326d317a6e8c"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/source/Dead armLP.fbx.meta",
+      "bytes": 2830,
+      "sha256": "5c7cbb7e38fd147848a50443971f847267af14b15bfaa009deeb374f0229a361"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/textures.meta",
+      "bytes": 172,
+      "sha256": "64ad77d10c3d37033241163a5168886702b1b380f59cb685e561d6c64c64602b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/textures/Dead_armLP_Choppedarm_BaseColor.png",
+      "bytes": 4298713,
+      "sha256": "a55a83edf3106b00325707d70f9b31ec8766400467e5d0ef761feacf37ecf7ba"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/textures/Dead_armLP_Choppedarm_BaseColor.png.meta",
+      "bytes": 2591,
+      "sha256": "775c9335881e098fc04507d56f9802752b16da5ea0238641130a7149e594e721"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/textures/Dead_armLP_Choppedarm_Metallic.png",
+      "bytes": 4166,
+      "sha256": "41a8c2d58782abca9d4b79dc2b4d59fa460a731b081212ba4723c7b64017b780"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/textures/Dead_armLP_Choppedarm_Metallic.png.meta",
+      "bytes": 2591,
+      "sha256": "c5cddf49d8b3d6a7467d3dadbaf4fac715e270b4f019dd9fd12bce97adaa5587"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/textures/Dead_armLP_Choppedarm_Normal.png",
+      "bytes": 13062078,
+      "sha256": "a0f4ef49bc56a93f3aa3fb5e4f85bfa2240e9826ce7a3096127d14bc17e85c5d"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/textures/Dead_armLP_Choppedarm_Normal.png.meta",
+      "bytes": 2591,
+      "sha256": "60b1e56c7f6ffc80a971fdd3f24070e645d40b53890df3da2f03beecde7c84fc"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/textures/Dead_armLP_Choppedarm_Roughness.png",
+      "bytes": 1251885,
+      "sha256": "7128dad79717797cb9fb7a7fc5d40cd7fa33f3a9078a2525667f99012b7d1c28"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/BloodClues/SeveredArm/textures/Dead_armLP_Choppedarm_Roughness.png.meta",
+      "bytes": 2591,
+      "sha256": "a865ea3abd08ac54443b4b6a7c531e17d6ba4fa1a510a94cee06c4057c5eaf8c"
     },
     {
       "path": "VampireHunter_Demo_Independent/Assets/Demo/ThirdParty/Kenney_Particles.meta",
@@ -27147,9 +29748,399 @@
       "sha256": "357f12bcad1728bd8d39ccb98e502ad4c531bccfbac89a995768d92194b31d3c"
     },
     {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/REPORT.md",
+      "bytes": 4934,
+      "sha256": "9a0bd112f6c54ab076a6b8be74d6392c854c4aeacdf5be90622b68d04a3d2b9c"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/before-alpha-fix.png",
+      "bytes": 1998887,
+      "sha256": "5c57b1ed038f7803e263ac4d02ce819a75e176477796aa16cd1cf2c5aab2d3ad"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/before-arm-playmode.txt",
+      "bytes": 567,
+      "sha256": "f857405af711e965e257dddc97609bfd312f98a59f0d9eb1acad2121f7b54e20"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/built.txt",
+      "bytes": 532,
+      "sha256": "a624b403bfc6ccb727374f54d041da3bb957f8e9c3e3fdae1cfacd3eb514b639"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/command-639295485153988725.txt",
+      "bytes": 7,
+      "sha256": "4cd3af14ad9f68c836c3d359a93db94c3b59d000e59a96dbf192977897ee136e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/command-639295485491091165.txt",
+      "bytes": 7,
+      "sha256": "4cd3af14ad9f68c836c3d359a93db94c3b59d000e59a96dbf192977897ee136e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/command-639295486054456100.txt",
+      "bytes": 6,
+      "sha256": "837ccb607e312b170fac7383d7ccfd61fa5072793f19a25e75fbacb56539b86b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/command-639295487116783394.txt",
+      "bytes": 8,
+      "sha256": "26ff29a69deeae1fc97f8542220b94a2f83782940c28eaddd0fead9154fcbb17"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/command-639295488449404417.txt",
+      "bytes": 7,
+      "sha256": "4cd3af14ad9f68c836c3d359a93db94c3b59d000e59a96dbf192977897ee136e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/command-639295488668064392.txt",
+      "bytes": 11,
+      "sha256": "58999ba83bf94d42ba8cfff3d56083fc1942364c4f4051288a2096d5d6c93bc2"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/command-639295489198687880.txt",
+      "bytes": 8,
+      "sha256": "26ff29a69deeae1fc97f8542220b94a2f83782940c28eaddd0fead9154fcbb17"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/detail.png",
+      "bytes": 1993321,
+      "sha256": "a5d843a5918255af62c296b485f2d91c18a44088a1235ce1a1e613c9aba7b483"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/gameplay.png",
+      "bytes": 1863777,
+      "sha256": "17283e4d84ca30e41e8d3ba7d8ecd003dddf8c5128adbcd6bb75494c1a3100c6"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/initial-command-error.txt",
+      "bytes": 205,
+      "sha256": "e6e5b9fcc616e62b265dc2fc9c114e0f4206412e36d1d0147b71f6d752a48526"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/playmode.txt",
+      "bytes": 618,
+      "sha256": "ad2759bb7480256b63701f1db99ec6657e66f3e682427f1c4e2ab76816125d1e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/revision.json",
+      "bytes": 685,
+      "sha256": "16c129e77cdba43c2b8a0ab6d50ceae27971bec80f99382d26e62bf840088ed1"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/saved.txt",
+      "bytes": 58,
+      "sha256": "72c6d6f8005cb03503f1cffcb0d0223d75df740bcc48f665499c72d853b9af10"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/scene-before.unity.txt",
+      "bytes": 15814389,
+      "sha256": "d9ee82af9fe7b0a5ba990bfc06351a711bc292906f283424df559abb6d5e7f93"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/blood-clue-editor-20261106.log",
+      "bytes": 476449,
+      "sha256": "b6922aa8ff6ea257b6fe717cccd3d0c6fef9812b10ceeac1b0fc4c66054dff89"
+    },
+    {
       "path": "VampireHunter_Demo_Independent/Evidence/carried-dark-fog-user-review-20261028.md",
       "bytes": 1338,
       "sha256": "3c75f4361d3fdc0646423f3f04513b54b945381722791ad039e1d64f3cead03b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/BloodClueProbe-before.cs.txt",
+      "bytes": 4946,
+      "sha256": "d187154c38041b45045dd9358d70043c28caf185a91a46849ec79deafddd1f4d"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/BloodClueSetup-before.cs.txt",
+      "bytes": 14353,
+      "sha256": "f70d2a682f8f67d88a71710262967177ecb5ecb8928d64789894849f42c45f94"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/REPORT.md",
+      "bytes": 4602,
+      "sha256": "f82051c24fd6bf367f749db8e294002b95e1220c6ba584692fb606226e3c866a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/before-grounding-playmode.txt",
+      "bytes": 686,
+      "sha256": "f2ccdfecb0b191554377a7a8ef2978ef19797774b7cce7139dcf210da7d0cd24"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/before-grounding.png",
+      "bytes": 1755655,
+      "sha256": "02ddbe62641a23a7ff0420f01cb820c150c972430150d889c9122d29aed6cb9e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/built.txt",
+      "bytes": 254,
+      "sha256": "da6bd53c9841a99c68a8a8a0ad731d228dfa5d5bf3b36d95bd202dbb42c763ee"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/command-639295494950535391.txt",
+      "bytes": 7,
+      "sha256": "354c7778ba468129eb98e98ff301304f0225254565c8afb2abcd0d48b581fdf5"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/command-639295495222606141.txt",
+      "bytes": 6,
+      "sha256": "837ccb607e312b170fac7383d7ccfd61fa5072793f19a25e75fbacb56539b86b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/command-639295496452177583.txt",
+      "bytes": 8,
+      "sha256": "26ff29a69deeae1fc97f8542220b94a2f83782940c28eaddd0fead9154fcbb17"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/command-639295496937630324.txt",
+      "bytes": 8,
+      "sha256": "5b26e44324004cf85764f2b44efb0a83d85ae2eaecff77361601196c49bba7fa"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/command-639295497122673801.txt",
+      "bytes": 6,
+      "sha256": "837ccb607e312b170fac7383d7ccfd61fa5072793f19a25e75fbacb56539b86b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/command-639295497645013114.txt",
+      "bytes": 8,
+      "sha256": "26ff29a69deeae1fc97f8542220b94a2f83782940c28eaddd0fead9154fcbb17"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/emblem-detail.png",
+      "bytes": 1705356,
+      "sha256": "cafdf52caeb6c19087f83ead2cb8d95bb1f213dfca87e68b3c05a8c823e2820d"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/emblem-gameplay.png",
+      "bytes": 1561666,
+      "sha256": "c9afc11ca95935d7363f438b06f861bb42df88cdc9f1f16f5ada5353a3816e8b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/grounded.txt",
+      "bytes": 79,
+      "sha256": "020a9ad6549a8bded0bc3b320fd792ccc43265927957ef26458b571ed7c7c5eb"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/playmode.txt",
+      "bytes": 686,
+      "sha256": "830c17855bce7cc6fe9840059cd1bd227d56de56bf802c29ad58fc0a3126db23"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/revision.json",
+      "bytes": 873,
+      "sha256": "437ea7de3c363592e548817c861e5ec57339cdc46f9a4ac4bc187e826d3ccec1"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/saved.txt",
+      "bytes": 50,
+      "sha256": "269c75c2996ddd7d32967abac2bb595ea8b9b880dc27a44e5c131bb70851e7b5"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/scene-before.unity.txt",
+      "bytes": 15824553,
+      "sha256": "119f4bf2518fa746fd418241d31744238ae1906b793d7d0cff20b5b143a7a987"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/trail-detail.png",
+      "bytes": 2058587,
+      "sha256": "f689dc4d3a283c26e21fb43ebeef0b549c6ee65ce4ecda5a580b94df4b83d7e5"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/trail-gameplay.png",
+      "bytes": 1787431,
+      "sha256": "4e2f8085773faf403e563ef451803d6bd0508167f8931c441e0066ac955b1946"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/REPORT.md",
+      "bytes": 5110,
+      "sha256": "774d66713ff4f4f4526c61bd60a1846a3d12db8d1fac28a685edd5e3c9896cf5"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/before/DemoCamera.cs",
+      "bytes": 306,
+      "sha256": "5d55c370aa4e6fc1a1c95a1d44bb4ab51abf986edb52bf64cd9cda939a9ad76e"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/before/DemoEnemy.cs",
+      "bytes": 2471,
+      "sha256": "1a6d877d232850e6f6f9ea6c320f1227a4c80ecb335c920d7ec4c85a0629f120"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/before/DemoHealth.cs",
+      "bytes": 1586,
+      "sha256": "898d343370b4301eb5025ad1bd7e0a37dc10cce63bbf66cd53fcf37bdc4d99d5"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/before/DemoInteractable.cs",
+      "bytes": 692,
+      "sha256": "eb04d14275fbfa0baca0b993b1b6db835d29d8779e38d148383ac9dff1d5e4fe"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/before/DemoInvestigation.cs",
+      "bytes": 2416,
+      "sha256": "0ae35e30197e1fd51b9c1611813e7a395c1abdf86c45e223c920cfdf219c6aa7"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/before/DemoMovement.cs",
+      "bytes": 8172,
+      "sha256": "f99ba3fb7109e900758969bc4442ad272a06ff72181cfe3bd441427acc6f7dc8"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/before/DemoPrologueFlow.cs",
+      "bytes": 2722,
+      "sha256": "f641dd94ea452398415c25f3688e7c594a686aa3a21c8c2467bf391e20b4add9"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/before/DemoUiStyle.cs",
+      "bytes": 346,
+      "sha256": "303dd8898dbf52d55fcb459e81e866d736a2e7f4a4c31fea259637cfe14bc0c8"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/built.txt",
+      "bytes": 225,
+      "sha256": "854ffef15cb711d1cac12fbf2759dc2f25bac51f0f3540f6a15ed0fccd9322fe"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295525790605423.txt",
+      "bytes": 7,
+      "sha256": "354c7778ba468129eb98e98ff301304f0225254565c8afb2abcd0d48b581fdf5"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295525956773315.txt",
+      "bytes": 6,
+      "sha256": "837ccb607e312b170fac7383d7ccfd61fa5072793f19a25e75fbacb56539b86b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295526789618564.txt",
+      "bytes": 8,
+      "sha256": "26ff29a69deeae1fc97f8542220b94a2f83782940c28eaddd0fead9154fcbb17"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295527000265566.txt",
+      "bytes": 6,
+      "sha256": "837ccb607e312b170fac7383d7ccfd61fa5072793f19a25e75fbacb56539b86b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295527365100364.txt",
+      "bytes": 8,
+      "sha256": "26ff29a69deeae1fc97f8542220b94a2f83782940c28eaddd0fead9154fcbb17"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295527447296352.txt",
+      "bytes": 11,
+      "sha256": "78052f01277b6b33b5dfc56fda8bd9854620824248f37820830458b84397d0da"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295528058640373.txt",
+      "bytes": 6,
+      "sha256": "a0b28cdf92e250a1a93294d91144a0f893d27197d56b39991cc421768794005f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295528208991676.txt",
+      "bytes": 7,
+      "sha256": "ce18d25710527e8fa099f5119aae8ea9f953d796d262ad00008117f105f6d1d0"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295528371488566.txt",
+      "bytes": 6,
+      "sha256": "837ccb607e312b170fac7383d7ccfd61fa5072793f19a25e75fbacb56539b86b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295528648089692.txt",
+      "bytes": 8,
+      "sha256": "26ff29a69deeae1fc97f8542220b94a2f83782940c28eaddd0fead9154fcbb17"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295528721189079.txt",
+      "bytes": 9,
+      "sha256": "94dac2f16252e83ab4d6929ccb7174710cf771d6a5a537e416b149b22f00234a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295528966574621.txt",
+      "bytes": 13,
+      "sha256": "50b19ec2bb090ca6363d05c078b598af6060455bdce5f31c096180937e989e40"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295529160189371.txt",
+      "bytes": 8,
+      "sha256": "7703741f562b3f2c276fc35a9aba6f2de114df21e80f56ebf257cdb5ea03115c"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295529364128693.txt",
+      "bytes": 6,
+      "sha256": "a0b28cdf92e250a1a93294d91144a0f893d27197d56b39991cc421768794005f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/command-639295529445954755.txt",
+      "bytes": 8,
+      "sha256": "26ff29a69deeae1fc97f8542220b94a2f83782940c28eaddd0fead9154fcbb17"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/editor-session.log",
+      "bytes": 284511,
+      "sha256": "4758394b6e859ea2671a4adeb1cf69a86bacb2b62ad777d2cb6d00c9be98f8a2"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/emblem-first-visual-issue.png",
+      "bytes": 486748,
+      "sha256": "ab5f9467704c4130571ed1af83065a28b3e16befe79b1bcbe28aafdbab31cd1d"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/emblem-inspection.png",
+      "bytes": 757797,
+      "sha256": "a937bf536875e24912d336e45eaf13ef096ee946805d2f5aa8ca8ba7dcd05143"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/native-input.md",
+      "bytes": 512,
+      "sha256": "bdaf6a184e5bb68b5f744b241fdb1b38e081612b129bc9a7b8ba23539c3f3091"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/os-arm-open-status.txt",
+      "bytes": 62,
+      "sha256": "8375779cc0c07e2b61dc7de6ad7a11449ca7d119875197ddca7eae63c19843a1"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/playmode-first.txt",
+      "bytes": 602,
+      "sha256": "c985409ec9e6e9b6d21f66b6fb18457ae1801be9a69f3629e5dc25d04e1e1bd2"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/playmode-second.txt",
+      "bytes": 699,
+      "sha256": "1bfb41ff03ea407c601260c65d3378913bb2d9a8c535ce217f3750bdb5830d66"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/playmode.txt",
+      "bytes": 699,
+      "sha256": "fdc0c41c46449f999869afec932cfcd576df5748238d9bde25495b09fcdac46f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/revision.json",
+      "bytes": 1256,
+      "sha256": "0f55046f050422ee26996a751cb62cbd67a882b9ea5b91874b341d70c57da4c0"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/saved.txt",
+      "bytes": 53,
+      "sha256": "1f4b5a4812ca7b50d4b85c6509e88b3a5c0b62d870fd17380db19ad7758dddea"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/scene-before.unity.txt",
+      "bytes": 15877140,
+      "sha256": "8f8a6e658338fb54030975818651587e622d9054dcc3b076b146fbb111baa67f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/status.txt",
+      "bytes": 62,
+      "sha256": "8375779cc0c07e2b61dc7de6ad7a11449ca7d119875197ddca7eae63c19843a1"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/trail-inspection.png",
+      "bytes": 732450,
+      "sha256": "5c26d5eb823b213f45a64331f9add392a5a8f57802529f8e1750d8bbf0380230"
     },
     {
       "path": "VampireHunter_Demo_Independent/Evidence/forest-final-review-20261028.md",
@@ -28147,6 +31138,76 @@
       "sha256": "82d69df340fb6acd56d461d6258959514e000144d5a388bd3a5104acf6259256"
     },
     {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/REPORT.md",
+      "bytes": 2607,
+      "sha256": "fb70212a87718e48344630fd1b3f13755c211eaf8e3d6b4390dcc671cee9448f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/built.txt",
+      "bytes": 221,
+      "sha256": "9decc6a186c872b55eb2a557af843757da7d5d72e44a3473781fa185324dcdb3"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/command-639295512391454808.txt",
+      "bytes": 7,
+      "sha256": "354c7778ba468129eb98e98ff301304f0225254565c8afb2abcd0d48b581fdf5"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/command-639295512548562195.txt",
+      "bytes": 6,
+      "sha256": "837ccb607e312b170fac7383d7ccfd61fa5072793f19a25e75fbacb56539b86b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/command-639295512971609490.txt",
+      "bytes": 8,
+      "sha256": "26ff29a69deeae1fc97f8542220b94a2f83782940c28eaddd0fead9154fcbb17"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/command-639295513108106773.txt",
+      "bytes": 6,
+      "sha256": "837ccb607e312b170fac7383d7ccfd61fa5072793f19a25e75fbacb56539b86b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/command-639295513282736723.txt",
+      "bytes": 8,
+      "sha256": "26ff29a69deeae1fc97f8542220b94a2f83782940c28eaddd0fead9154fcbb17"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/detail.png",
+      "bytes": 1866822,
+      "sha256": "9c7d57ebf477a50b9d5cc74d9703f4a75aa2e5d5e0c23f23f011438a68209a20"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/gameplay.png",
+      "bytes": 1863018,
+      "sha256": "e230e51319dada9dafd7064306748dcb86280eccceb78ca60e11f78999f6327f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/playmode-first.txt",
+      "bytes": 649,
+      "sha256": "8dd44da6934104bf77c03034d3fcc63d7cdf023dec4afc862bdaf1c233ab5499"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/playmode.txt",
+      "bytes": 649,
+      "sha256": "a0c597321c4d7aa4a2e41d578f5063883a3f62b3314b6064f295820bb3aefd8f"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/revision.json",
+      "bytes": 819,
+      "sha256": "dc2ab8fcaa5ed088e9429a42c374aafb24f8bebf6d61db5754acaf19773b2a2a"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/saved.txt",
+      "bytes": 58,
+      "sha256": "72c6d6f8005cb03503f1cffcb0d0223d75df740bcc48f665499c72d853b9af10"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/scene-before.unity.txt",
+      "bytes": 15873440,
+      "sha256": "943573f9c125e247a60ebc42fe14a03c40d4ca6148b36be48363966e06fabd43"
+    },
+    {
       "path": "VampireHunter_Demo_Independent/Evidence/stripes-after-results.xml",
       "bytes": 2411,
       "sha256": "008013c847f21934494e3bc226dc479f11c9aa85ef8e824330c4dc6391113d14"
@@ -28588,8 +31649,8 @@
     },
     {
       "path": "VampireHunter_Demo_Independent/README.md",
-      "bytes": 21296,
-      "sha256": "fa783831be94c5c7726d2ef29beb4c7b023fb877f07cb96750cab92fe89f0525"
+      "bytes": 22384,
+      "sha256": "e005d99e0d3cefddaebda5908bf8e1c94fcfc6ab6e68bf0b992823584d9e6ef0"
     },
     {
       "path": "VampireHunter_Demo_Independent/Scene_Archive_20261028/PrologueBlackFogReview.unity",
@@ -28735,6 +31796,11 @@
       "path": "开发记录/2026-10-30_独立Demo当前交接.md",
       "bytes": 6267,
       "sha256": "3f7d0d95c548f7550dae9e0e89f84928379c86edbc1ef2b7e7fa159af335fbd0"
+    },
+    {
+      "path": "开发记录/2026-11-07_血迹断臂徽章与检视UI交接.md",
+      "bytes": 2379,
+      "sha256": "cfabfc5b41858a923e5f3b4598e244b4f6d8ea12ac3ae0932dd99453d18988ae"
     },
     {
       "path": "开发记录/人物导入与动作接入检查_20261029.md",

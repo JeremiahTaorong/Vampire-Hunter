@@ -1,0 +1,17 @@
+{
+  "revision": "067a9e882ea5ca94e314030a91e7873dda99a020 + dirty working tree",
+  "files": [
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/BloodClueSetup.cs",
+      "sha256": "f70d2a682f8f67d88a71710262967177ecb5ecb8928d64789894849f42c45f94"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/BloodClueProbe.cs",
+      "sha256": "d187154c38041b45045dd9358d70043c28caf185a91a46849ec79deafddd1f4d"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity",
+      "sha256": "119f4bf2518fa746fd418241d31744238ae1906b793d7d0cff20b5b143a7a987"
+    }
+  ]
+}

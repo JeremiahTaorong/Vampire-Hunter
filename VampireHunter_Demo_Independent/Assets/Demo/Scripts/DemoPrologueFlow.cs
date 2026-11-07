@@ -35,6 +35,7 @@ public class DemoPrologueFlow : MonoBehaviour
     }
     void Update()
     {
+        if (EvidenceInspection.IsOpen || Time.frameCount <= EvidenceInspection.BlockWorldInputThroughFrame) return;
         if (Current == Stage.Hunt && checkpoint && !CheckpointActive &&
             Vector3.Distance(transform.position, checkpoint.position) <= 5f) CheckpointActive = true;
     }
@@ -52,6 +53,7 @@ public class DemoPrologueFlow : MonoBehaviour
     }
     void OnGUI()
     {
+        if (EvidenceInspection.IsOpen) return;
         DemoUiStyle.Apply();
         string objective = Current == Stage.Investigate ? "Investigate the evidence and witness" :
             Current == Stage.Hunt ? "Defeat the forest enemy" :

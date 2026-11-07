@@ -33,6 +33,7 @@ public class DemoMovement : MonoBehaviour
     void Awake() { agent = GetComponent<NavMeshAgent>(); agent.speed = speed; }
     void Update()
     {
+        if (EvidenceInspection.IsOpen || Time.frameCount <= EvidenceInspection.BlockWorldInputThroughFrame) return;
         var health = GetComponent<DemoHealth>();
         if (health && health.IsDead) { if (agent.isOnNavMesh && agent.hasPath) agent.ResetPath(); return; }
         if (!agent.isOnNavMesh) { message = "Player is outside the walkable area."; return; }
@@ -120,6 +121,7 @@ public class DemoMovement : MonoBehaviour
     }
     public bool TryDodge(Vector3 direction)
     {
+        if (EvidenceInspection.IsOpen) return false;
         var health = GetComponent<DemoHealth>();
         if (!agent || !agent.isOnNavMesh || (health && health.IsDead) || IsDodging || Time.time < dodgeReady) return false;
         direction.y = 0;
@@ -162,6 +164,7 @@ public class DemoMovement : MonoBehaviour
     }
     public void BeginInteraction(DemoInteractable selected)
     {
+        if (EvidenceInspection.IsOpen) return;
         if (!selected || !agent.isOnNavMesh) return;
         enemy = null; chaseEnemy = false;
         var path = new NavMeshPath();
@@ -176,6 +179,7 @@ public class DemoMovement : MonoBehaviour
     }
     void OnGUI()
     {
+        if (EvidenceInspection.IsOpen) return;
         DemoUiStyle.Apply();
         GUI.Box(new Rect(12, 12, 430, 55), "Independent demo: movement test\n" + message);
     }

@@ -19,6 +19,7 @@ public class DemoEnemy : MonoBehaviour
     void Start() { agent = GetComponent<NavMeshAgent>(); player = FindObjectOfType<DemoHealth>(); }
     void Update()
     {
+        if (EvidenceInspection.IsOpen || Time.frameCount <= EvidenceInspection.BlockWorldInputThroughFrame) return;
         if (!IsAlive || !player || player.IsDead || !agent || !agent.isOnNavMesh) return;
         Vector3 difference = player.transform.position - transform.position;
         difference.y = 0;
@@ -48,6 +49,7 @@ public class DemoEnemy : MonoBehaviour
     }
     void OnGUI()
     {
+        if (EvidenceInspection.IsOpen) return;
         DemoUiStyle.Apply();
         if (PreparingAttack) GUI.Label(new Rect(12, 125, 320, 25), "Enemy preparing attack!");
     }

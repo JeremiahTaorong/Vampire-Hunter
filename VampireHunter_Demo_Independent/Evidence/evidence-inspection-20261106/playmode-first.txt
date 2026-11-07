@@ -1,0 +1,7 @@
+Real Unity Play Mode; runtime ray selection + NavMesh approach + UI lifecycle; screenshots include OnGUI.
+Unity=2022.3.62f3 platform=WindowsEditor utc=2026-11-06T09:03:18.5986315Z
+emblem: sample=True warp=True rayHit=True centered=True opened=True recorded=True frozen=True dodgeBlocked=True preview=True repeatStable=True restored=True reopen=True
+trail: sample=True warp=True rayHit=True centered=True opened=True recorded=True frozen=True dodgeBlocked=True preview=True repeatStable=True restored=True reopen=True
+restorePriorHalfSpeed=True
+stains=12 markerHidden=True
+result=PASS exit_code=0

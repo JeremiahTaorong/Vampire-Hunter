@@ -1,0 +1,5 @@
+Unity=2022.3.62f3
+Arm=Center: (32.15, 2.64, -1.52), Extents: (0.30, 0.09, 0.46)
+BaseColor+Normal; metallic=0 smoothness=.23; source roughness and metallic maps retained, not assigned.
+Extra pools=12
+clueId=trail range=2.8

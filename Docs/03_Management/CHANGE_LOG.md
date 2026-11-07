@@ -1,5 +1,15 @@
 # 文档变更日志
 
+2026-11-07 · DOCS/GITHUB-SYNC：按用户明确要求记录所有变化并推送 GitHub 供 Mac 同步，整理血迹/断臂/徽章/检视 UI、原始测试证据与交接，新增 MAC_SETUP.md，更新 Demo README 与动态状态摘要，修正旧摘要仍称未建仓库的问题。文件清单更新与 Git/LFS/远端核验见 Evidence/GITHUB_SYNC_20261107.md；原清单及相关文件副本见同目录 GITHUB_SYNC_20261107_before。保留现有全部项目变更与素材署名，基准及正式审批不变。本轮不新增玩法改动或重测 Unity，Mac/完整序章/构建/性能仍待验证。
+
+2026-11-06 · DEMO-INSPECTION-20261106：按本聊天用户要求，将 trail 交互中心及紧贴模型的触发范围移到断臂（原血迹视觉保留），提示改为 SEVERED ARM。徽章/断臂新增全屏检视、场景虚化、独立放大模型、拖动旋转、下方英文故事及按钮/Esc 退出，检视期间暂停并阻挡世界输入。故事为 Narrative III/F23/F27 约束内草稿。Unity 2022.3.62f3 Windows Play Mode 两物品选中/寻路/记录、暂停、恢复、重复打开和资源清理通过；实际鼠标旋转/返回按钮/点击断臂及 Esc 关闭通过。证据见独立工程 Evidence/evidence-inspection-20261106/REPORT.md，原文件备份在该目录 before 与 scene-before；管理快照 Backups/DocsSync/20261106T165922971690。未测独立构建、性能和完整序章回归；正式系统批准 0/13 与 T01–T16 不变，未提交推送。
+
+2026-11-06 · DEMO-SEVERED-ARM-20261106：按用户“断肢已经下载好。加入”，导入 joshuagoldenburgh 的免费 CC BY 4.0 断臂，完成 URP 贴图、贴地摆放及 Prefab，保留 12 处血泊和十字徽章。Unity 2022.3.62f3 Windows 实际 Play Mode 直接射线选中断臂位置、寻路、调查记录、提示隐藏与材质检查通过；探针移除并重开已保存场景。报告/原始结果/截图/场景恢复副本位于独立工程 Evidence/severed-arm-20261106；管理快照 Backups/DocsSync/20261106T163728117213。完整序章、物理鼠标、构建和性能未回归；正式审批不变，未提交或推送。
+
+2026-11-06 · DEMO-CLUE-DETAILS-20261106：按本聊天用户要求追加 12 处聚集而散落的血泊/飞溅，复用免费 CC BY 血迹；原创制作 620 三角面的十字猎人徽章及可复用 Prefab，无外部模型费用。接入原 emblem/2.6m 调查点并修正悬空，trail/2.8m 保留。Windows Unity 2022.3.62f3 实际 Play Mode 两线索选中、寻路、调查记录与材质检查通过；清理探针并保存重开。证据见独立工程 Evidence/clue-details-20261106/REPORT.md；编辑前场景和脚本副本在同目录，管理快照见报告。断臂暂缓、完整流程/性能/构建未测；正式审批不变，未提交或推送。
+
+2026-11-06 · DEMO-BLOOD-CLUE-20261106：按本聊天用户指定的免费资源与后续“断臂先不管了”范围，在当前独立 Demo 起伏聚落场景接入两款 dohnjoe 血迹资源，替换圆盾与附近长方体拖痕表现，保留 trail/2.8m 调查流程。修复贴花矩形底色；Windows Unity 2022.3.62f3 真实 Play Mode 选中、寻路、调查记录和提示隐藏通过；保存重开并移除探针。证据见独立工程 Evidence/blood-clue-20261106/REPORT.md；授权边界见 Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md。断臂与徽记未完成，完整序章/性能/独立构建未回归；正式 0/13 批准与 T01–T16 不变。编辑前场景副本在同一 Evidence，管理快照在 Backups/DocsSync/20261106T154215938205 与 20261106T160233223492。未提交或推送。
+
 | 日期 | 记录 | 范围与依据 | 审批/实测 | 恢复位置 |
 |---|---|---|---|---|
 | 2026-10-28 | DOCS-BOOTSTRAP | 按本轮用户授权建立 AGENTS、状态、13 独立模板、S01 v0.1 初稿、动态覆盖、审阅/测试索引与本地工具 | 文档检查见 Evidence；S01 待审；没有 Unity 实测 | Backups/Bootstrap_2026-10-28；Backups/DocsSync 下的更新前快照 |

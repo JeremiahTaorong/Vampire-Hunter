@@ -1,0 +1,21 @@
+{
+  "revision": "067a9e882ea5ca94e314030a91e7873dda99a020 + dirty working tree",
+  "files": [
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity",
+      "sha256": "943573f9c125e247a60ebc42fe14a03c40d4ca6148b36be48363966e06fabd43"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Scripts/ClueDetailsProbe.cs",
+      "sha256": "7aab2ad22eadede7a7e84b77e02a33b5f98617bdb7be0798318512b979c2306b"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/ClueDetailSetup.cs",
+      "sha256": "a4799999c9b4a1217b10049e515a44e7a8e0fb2a7d993338e54d9c1ae7afb722"
+    },
+    {
+      "path": "VampireHunter_Demo_Independent/Assets/Demo/Editor/BloodClueSetup.cs",
+      "sha256": "f1acd44ad99c54087d01939d6271e91cdb30077736011a01e45dd1bc84669f00"
+    }
+  ]
+}

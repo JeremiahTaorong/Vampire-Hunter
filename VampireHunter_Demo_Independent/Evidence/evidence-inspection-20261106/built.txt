@@ -1,0 +1,3 @@
+Unity=2022.3.62f3
+Arm interaction center=(32.15, 2.64, -1.52) collider=(0.78, 0.37, 1.10) range=2.8
+Two inspection components; English story drafts from Narrative III; blur shader=Hidden/Demo/EvidenceBlur (UnityEngine.Shader)

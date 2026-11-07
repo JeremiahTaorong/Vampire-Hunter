@@ -37,3 +37,6 @@
 "VampireHunter_Demo_Independent/Evidence/trail-clue-marker-20261030/scene-before.unity.txt" filter=lfs diff=lfs merge=lfs -text
 "VampireHunter_Demo_Independent/Evidence/villager-candidate-20261030/scene-before.unity.txt" filter=lfs diff=lfs merge=lfs -text
 "VampireHunter_Demo_Independent/Evidence/villager-gesture-20261030/scene-before.unity.txt" filter=lfs diff=lfs merge=lfs -text
+
+# New integration restore snapshots use the same LFS policy as earlier scenes.
+"VampireHunter_Demo_Independent/Evidence/**/scene-before.unity.txt" filter=lfs diff=lfs merge=lfs -text

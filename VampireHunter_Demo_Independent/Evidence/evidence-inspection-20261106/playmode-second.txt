@@ -1,0 +1,9 @@
+Real Unity Play Mode; runtime ray selection + NavMesh approach + UI lifecycle; screenshots include OnGUI.
+Unity=2022.3.62f3 platform=WindowsEditor utc=2026-11-06T09:05:02.8315768Z
+storyLength=462 title=The Worn Hunter's Cross
+emblem: sample=True warp=True rayHit=True centered=True opened=True recorded=True frozen=True dodgeBlocked=True preview=True repeatStable=True restored=True reopen=True
+storyLength=407 title=What the Blood Left Behind
+trail: sample=True warp=True rayHit=True centered=True opened=True recorded=True frozen=True dodgeBlocked=True preview=True repeatStable=True restored=True reopen=True
+restorePriorHalfSpeed=True
+stains=12 markerHidden=True
+result=PASS exit_code=0

@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "updated_date": "2026-10-31",
+  "updated_date": "2026-11-07",
   "phase": "Phase2_S01_Review",
-  "next_action": "GitHub私有仓库JeremiahTaorong/Vampire-Hunter及原始安装包Release已上传并核验。Windows可按根WINDOWS_SETUP克隆、拉取LFS和校验，打开独立Demo最新场景；Windows导入/完整玩法/性能仍待实机验证，正式系统0/13批准不变。",
+  "next_action": "完整序章 Demo 继续打磨，只使用免费资源。断臂已加入，交互点对准断臂；徽章/断臂已有全屏虚化背景、模型旋转与故事检视页面，Unity 运行及实际鼠标/Esc 检查通过，故事文案和观感待用户审阅。下一步完整序章连续试玩、性能与独立构建验证。正式系统仍为 0/13 批准。",
   "systems": [
     {
       "id": "S01",
@@ -209,7 +209,7 @@
   "demo_goal": {
     "document": "Docs/02_Systems/DEMO_GOAL_DRAFT.md",
     "status": "ScopeAccepted",
-    "cloud_repository": "Unverified",
+    "cloud_repository": "GitHubOriginVerified",
     "unity_project": "VampireHunter_Demo_Independent",
     "editor_version": "2022.3.62f3",
     "independent": true,
@@ -259,6 +259,28 @@
     "soft_fog_status": "PreviewRendered",
     "soft_fog_scene": "Assets/Demo/Scenes/PrologueSoftFog.unity",
     "soft_fog_preview": "VampireHunter_Demo_Independent/Art_Direction/SoftFog_UnityPreview_20261028.png",
-    "soft_fog_playmode": "NotRun"
-  }
+    "soft_fog_playmode": "NotRun",
+    "delivery_scope": "CompletePrologue",
+    "free_assets_only": true,
+    "current_scope_evidence": "Docs/03_Management/Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md",
+    "blood_clue_status": "Testing",
+    "blood_clue_playmode": "PassedWithArm",
+    "blood_clue_evidence": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/REPORT.md",
+    "severed_arm_status": "Testing",
+    "hunter_badge_status": "Testing",
+    "hunter_badge_source": "OriginalProjectGeometryNoCost",
+    "blood_cluster_extra_stains": 12,
+    "clue_details_playmode": "Passed",
+    "clue_details_evidence": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/REPORT.md",
+    "severed_arm_playmode": "Passed",
+    "severed_arm_evidence": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/REPORT.md",
+    "evidence_inspection_status": "Testing",
+    "evidence_inspection_playmode": "Passed",
+    "evidence_inspection_os_input": "PassedScopedChecks",
+    "evidence_inspection_evidence": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/REPORT.md",
+    "evidence_story_copy": "DraftPendingUserReview",
+    "trail_interaction_target": "SeveredArmBoundsCenter"
+  },
+  "demo_summary": "当前目标：完成独立完整序章 Demo，只使用免费资源。血迹、断臂、原创十字徽章和物品检视已接入；局部 Unity 运行与实际输入检查通过，完整序章尚待回归。最终游戏系统设计仍须逐份确认。",
+  "environment_summary": "原有 5 份 Markdown 保留；独立工程使用 Unity 2022.3.62f3。GitHub 私有仓库已有历史上传/还原核验证据；2026-11-07 当前变更同步记录见 Docs/03_Management/Evidence/GITHUB_SYNC_20261107.md。Mac 新版本首次导入及完整流程未测；目标平台/组员/截止日/Rubric 尚未明确。"
 }

@@ -1,0 +1,15 @@
+{
+  "base_commit": "067a9e882ea5ca94e314030a91e7873dda99a020",
+  "files_sha256": {
+    "Assets/Demo/Scripts/EvidenceInspection.cs": "364b6ff3b676c83a3d60290bf1cfd27cf613eb0db000a4bd26919249624d4702",
+    "Assets/Demo/Scripts/InspectionProbe.cs": "f629993b0be7dcea8a2420c0b24b386f5fb61a62d4567cbb83510ff851800e40",
+    "Assets/Demo/Scripts/DemoMovement.cs": "f816c5c44925fce742428465e1b75b5fdd03c6fc1bedf070ed8aec4aaf0d54a8",
+    "Assets/Demo/Scripts/DemoEnemy.cs": "f80edaeb27dab4fe8a66ae1e569ea7ddcdc87d451d6f1625052191d653ae96ca",
+    "Assets/Demo/Scripts/DemoHealth.cs": "3c86a92bfeb352dec14afe92d1f0a54299945bfb9a34768a1e76a485f69dc5c2",
+    "Assets/Demo/Scripts/DemoInvestigation.cs": "1336d38c8ac56be851c300639c61aeeb499b505c2e2d3b94ce25573c30de97e0",
+    "Assets/Demo/Scripts/DemoPrologueFlow.cs": "eb6265671e5df892f84baf5dd42ae6ea0c5df7eed8a2e4eb2ad74b9fec3c0d0f",
+    "Assets/Demo/Editor/InspectionSetup.cs": "adb77fca0231f627b4057f4be5674f74b5d1bc840ee8f1da8ddf8560d93816da",
+    "Assets/Demo/Shaders/EvidenceBlur.shader": "2eecfe7efd8dec7c3a7e7a9884a26c2b97a116f83bb3fafdd4d3cd686fb6a29a",
+    "Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity": "3c4ea1cc7bad32e8f89df6f2ca966f73f61b600fa86dea634b558882b4f5a501"
+  }
+}

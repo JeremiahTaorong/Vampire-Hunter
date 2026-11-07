@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "updated_date": "2026-11-06",
+  "phase": "Phase2_S01_Review",
+  "next_action": "完整序章 Demo 继续打磨，资源只使用免费方案。当前场景已新增 12 处散落血泊并接入原创十字猎人徽章，Windows Unity 两线索选中/寻路/调查记录通过，观感待用户审阅。断臂按用户要求暂缓；完整序章连续试玩、性能与独立构建待验证。正式系统仍为 0/13 批准。",
+  "systems": [
+    {
+      "id": "S01",
+      "name": "Player Control & Interaction Routing",
+      "template": "Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "document": "Docs/02_Systems/S01_Player_Control.md",
+      "version": "0.1",
+      "design_status": "AwaitingReview",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S02",
+      "name": "Combat & Skills",
+      "template": "Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S03",
+      "name": "Character Forms",
+      "template": "Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S04",
+      "name": "Resources & Corruption",
+      "template": "Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S05",
+      "name": "Enemy & Boss Design",
+      "template": "Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S06",
+      "name": "Progression & Loadouts",
+      "template": "Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S07",
+      "name": "World & Level Flow",
+      "template": "Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S08",
+      "name": "Puzzles & Interactables",
+      "template": "Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S09",
+      "name": "Narrative & Quests",
+      "template": "Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S10",
+      "name": "Final Choice & Endings",
+      "template": "Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S11",
+      "name": "UI / UX & Feedback",
+      "template": "Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S12",
+      "name": "Checkpoints & Persistence Rules",
+      "template": "Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S13",
+      "name": "Camera, Art & Audio Direction",
+      "template": "Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    }
+  ],
+  "approvals": [],
+  "tests": [
+    {
+      "id": "T01",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T02",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T03",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T04",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T05",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T06",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T07",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T08",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T09",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T10",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T11",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T12",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T13",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T14",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T15",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T16",
+      "status": "NotRun",
+      "evidence": null
+    }
+  ],
+  "development_tasks_created": false,
+  "demo_goal": {
+    "document": "Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+    "status": "ScopeAccepted",
+    "cloud_repository": "Unverified",
+    "unity_project": "VampireHunter_Demo_Independent",
+    "editor_version": "2022.3.62f3",
+    "independent": true,
+    "movement_status": "Testing",
+    "play_mode_smoke": "Passed",
+    "manual_input_test": "UserReported",
+    "interaction_status": "Testing",
+    "interaction_playmode_smoke": "Passed",
+    "combat_status": "Testing",
+    "combat_playmode_smoke": "Passed",
+    "combat_manual_input": "NotRun",
+    "combat_loop_status": "Testing",
+    "combat_loop_playmode_smoke": "Passed",
+    "combat_loop_manual_input": "NotRun",
+    "dodge_status": "Testing",
+    "dodge_playmode_smoke": "Passed",
+    "dodge_manual_input": "UserReportedPassed",
+    "manual_input_evidence": "VampireHunter_Demo_Independent/Evidence/user-input-confirmation-20261028.md",
+    "dodge_manual_evidence": "VampireHunter_Demo_Independent/Evidence/user-dodge-confirmation-20261028.md",
+    "investigation_status": "Testing",
+    "investigation_playmode_smoke": "Passed",
+    "investigation_manual_input": "NotRun",
+    "prologue_status": "UserReportedPassed",
+    "prologue_playmode_smoke": "Passed",
+    "prologue_manual_playthrough": "UserReportedPassed",
+    "prologue_manual_evidence": "VampireHunter_Demo_Independent/Evidence/user-prologue-feedback-20261028.md",
+    "greybox_status": "Testing",
+    "greybox_playmode_smoke": "NotRunAfterForestUpdate",
+    "greybox_manual_walkthrough": "NotRun",
+    "greybox_map": "VampireHunter_Demo_Independent/Prologue_Greybox_Map.md",
+    "forest_status": "ImplementedUnverified",
+    "forest_playmode_test": "NotRun",
+    "ending_status": "ImplementedUnverified",
+    "ending_playmode_test": "NotRun",
+    "font_size_status": "ImplementedUnverified",
+    "art_direction": "UserApprovedDarkFogDirection",
+    "art_reference": "VampireHunter_Demo_Independent/Art_Direction/Prologue_Dark_Fog_Concept_20261028.png",
+    "atmosphere_status": "DraftUnverified",
+    "atmosphere_scene": "Assets/Demo/Scenes/PrologueAtmosphere.unity",
+    "atmosphere_visual_test": "NotRun",
+    "fog_sample_status": "PartialUnverified",
+    "fog_sample_scene": "Assets/Demo/Scenes/PrologueFogSample.unity",
+    "kenney_particles": "ImportedMirror",
+    "village_asset": "BlockedBySourceQuota",
+    "forest_asset": "NotAcquired",
+    "fog_visual_test": "NotRun",
+    "soft_fog_status": "PreviewRendered",
+    "soft_fog_scene": "Assets/Demo/Scenes/PrologueSoftFog.unity",
+    "soft_fog_preview": "VampireHunter_Demo_Independent/Art_Direction/SoftFog_UnityPreview_20261028.png",
+    "soft_fog_playmode": "NotRun",
+    "delivery_scope": "CompletePrologue",
+    "free_assets_only": true,
+    "current_scope_evidence": "Docs/03_Management/Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md",
+    "blood_clue_status": "Testing",
+    "blood_clue_playmode": "PassedBloodOnly",
+    "blood_clue_evidence": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/REPORT.md",
+    "severed_arm_status": "DeferredByUserPendingDownload",
+    "hunter_badge_status": "Testing",
+    "hunter_badge_source": "OriginalProjectGeometryNoCost",
+    "blood_cluster_extra_stains": 12,
+    "clue_details_playmode": "Passed",
+    "clue_details_evidence": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/REPORT.md"
+  }
+}

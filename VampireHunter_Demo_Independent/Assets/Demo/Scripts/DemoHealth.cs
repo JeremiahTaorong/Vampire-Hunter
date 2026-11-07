@@ -26,6 +26,7 @@ public class DemoHealth : MonoBehaviour
     public void RestoreForRetry() { Health = maxHealth; Victory = false; feedbackUntil = 0; }
     void Update()
     {
+        if (EvidenceInspection.IsOpen || Time.frameCount <= EvidenceInspection.BlockWorldInputThroughFrame) return;
         if ((IsDead || Victory) && Input.GetKeyDown(KeyCode.R))
         {
             var flow = GetComponent<DemoPrologueFlow>();
@@ -35,6 +36,7 @@ public class DemoHealth : MonoBehaviour
     }
     void OnGUI()
     {
+        if (EvidenceInspection.IsOpen) return;
         DemoUiStyle.Apply();
         GUI.Box(new Rect(12, 72, 200, 45), "HP " + Health + " / " + maxHealth + (Time.time < feedbackUntil ? "  HIT!" : ""));
         if (IsDead || Victory) GUI.Box(new Rect(240, 72, 270, 45), (IsDead ? "Defeated" : "Complete") + " — R to restart");

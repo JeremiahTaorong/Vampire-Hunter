@@ -1,0 +1,12 @@
+mode=real Unity Play Mode; real NavMeshAgent and BeginInteraction; no OS mouse/keyboard simulation
+unity=2022.3.62f3 platform=WindowsEditor
+run_at_utc=2026-11-06T08:40:57.6694989Z scene=Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity
+scope=blood-and-arm integration
+startSample=True warp=True initialHasTrail=False
+raycastSelectable=True hit=Trail clue - blood drag and severed arm
+visualRenderers=17 allShadersSupported=True
+armPresent=True
+clusterPreserved=True hunterBadgePreserved=True
+examined=True HasTrail=True badgeHidden=True
+path=PathComplete approachSeconds=1.41 playerDistance=0.3081258
+result=PASS exit_code=0

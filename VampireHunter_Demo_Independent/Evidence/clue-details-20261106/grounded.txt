@@ -1,0 +1,1 @@
+Badge visual scaled to 0.68 and grounded; original clue anchor/range preserved.

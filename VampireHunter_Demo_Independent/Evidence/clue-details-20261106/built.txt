@@ -1,0 +1,6 @@
+Unity=2022.3.62f3
+scene=Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity
+extraBloodStains=12
+badge=original project geometry; no external model or fee
+emblemPosition=(-2.20, 2.80, -0.80) range=2.6
+trailPosition=(32.00, 2.57, -1.40) range=2.8

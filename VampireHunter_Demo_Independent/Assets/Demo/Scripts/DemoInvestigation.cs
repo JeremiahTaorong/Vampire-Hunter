@@ -30,6 +30,7 @@ public class DemoInvestigation : MonoBehaviour
     }
     void OnGUI()
     {
+        if (EvidenceInspection.IsOpen) return;
         DemoUiStyle.Apply();
         GUI.Box(new Rect(12, 160, 510, requireTrail ? 235 : 180), "Investigation: find evidence and speak to the witness");
         if (requireTrail) GUI.Label(new Rect(24, 370, 475, 22), "Village clues are spread out. Forest path is to the right.");

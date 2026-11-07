@@ -1,0 +1,9 @@
+mode=real Unity Play Mode; NavMeshAgent, ray selection and BeginInteraction; no simulated OS input
+Unity=2022.3.62f3 platform=WindowsEditor run_at_utc=2026-11-06T08:12:04.8799293Z
+trail: sampled=True warped=True selectable=True hit=Trail clue - blood pool and drag marks
+trail: examined=True recorded=True path=PathComplete approachSeconds=1.17 distance=0.3238341
+clusterStains=12 markerHidden=True
+emblem: sampled=True warped=True selectable=True hit=Evidence - original silver hunter cross badge
+emblem: examined=True recorded=True path=PathComplete approachSeconds=1.23 distance=0.2972717
+badgeMaterialsValid=True badgeTriangles=620 colliderRange=2.6
+result=PASS exit_code=0
