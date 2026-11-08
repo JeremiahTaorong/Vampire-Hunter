@@ -1,5 +1,7 @@
 # Vampire Hunter — 工程与开发记录
 
+仓库当前为 **Public**，可直接浏览和克隆。向主仓库提交修改仍需 Collaborator 权限；[访问说明与用户确认记录](Docs/03_Management/Evidence/GITHUB_VISIBILITY_20261108.md)。
+
 [按用途浏览项目目录](目录导航.md) · [人物、地图和光雾说明](Docs/06_Demo_Integration/README.md)
 
 Unity 2022.3.62f3 / URP / macOS 开发，迁移至 Windows 时保持同版本。

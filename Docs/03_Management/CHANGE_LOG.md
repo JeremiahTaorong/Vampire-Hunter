@@ -109,3 +109,6 @@
 
 
 2026-11-08 · DOCS-GITHUB-VERIFIED：完整项目源码提交 da392b5 已推送至 JeremiahTaorong/Vampire-Hunter 的 main；125 个 LFS 对象/约156MB 上传完成，远程分支 SHA 与本地完全一致。文件完整性和文档检查通过；仅同步交付，不改变正式系统审批与未测范围。实际核验见 Docs/03_Management/Evidence/GITHUB_SYNC_20261108.md。
+
+
+2026-11-08 · DOCS-GITHUB-VISIBILITY：用户在了解原始素材与完整历史公开范围后明确确认公开当前整个仓库。已将 JeremiahTaorong/Vampire-Hunter 改为 Public，GitHub 返回 isPrivate=false / visibility=PUBLIC；未添加协作者或改变写权限。记录见 Docs/03_Management/Evidence/GITHUB_VISIBILITY_20261108.md。

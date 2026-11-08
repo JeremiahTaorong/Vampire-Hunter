@@ -1,0 +1,29 @@
+{
+  "repository": "JeremiahTaorong/Vampire-Hunter",
+  "remote_lfs_total": 1019,
+  "remote_lfs_available": 1019,
+  "remote_lfs_missing": 0,
+  "remote_download_sha256_verified": [
+    {
+      "oid": "1dbc9438d30d64fe664a5c80ef9be7ec860c91b9b5bc174d7318c31f2fb62079",
+      "bytes": 3163
+    },
+    {
+      "oid": "15dea1ca8791a27704afa4b92aa45cf91f4188ab335d666d5e1ec71cef110c3f",
+      "bytes": 4309
+    },
+    {
+      "oid": "74677ae78c4d9f2e83645903a472f0897199adde4c89269f0d6209668e612a9b",
+      "bytes": 4668
+    },
+    {
+      "oid": "d9ee82af9fe7b0a5ba990bfc06351a711bc292906f283424df559abb6d5e7f93",
+      "bytes": 15814389
+    },
+    {
+      "oid": "5c83969b812d89e926becb5acf4aff2ff9ede2eea007eee496344f7784d5cb1a",
+      "bytes": 8774620
+    }
+  ],
+  "scope": "All remote LFS object metadata checked; small samples plus current scene and native character FBX (when LFS-tracked) downloaded and hashed. Full Windows Unity import not tested."
+}
