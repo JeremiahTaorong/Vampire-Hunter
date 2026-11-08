@@ -24,7 +24,7 @@
 
 S02–S13 尚未起草；模板不是初稿。全部 13 份明确确认后才生成 Project_Plan.md / Task_Registry.md；当前没有开发任务 ID 或技术方案批准。
 
-原有 5 份 Markdown 保留；独立工程 Unity 2022.3.62f3 / URP。Mac 最新场景导入与僵尸局部联动已测，完整键鼠、Windows 回归及构建未测。2026-11-08 完整项目 GitHub 同步（含独立验证与历史源码）见 Docs/03_Management/Evidence/GITHUB_SYNC_20261108.md。
+原有 5 份 Markdown 保留；独立工程 Unity 2022.3.62f3 / URP。Mac 最新场景导入与僵尸局部联动已测，完整键鼠、Windows 回归及构建未测。2026-11-08 完整项目源码提交 da392b5 已推送至现有私有 GitHub main，LFS 本次 125 对象/约156MB 上传完成；同步证据见 Docs/03_Management/Evidence/GITHUB_SYNC_20261108.md。
 
 R/F 123 条都有主责映射，其中 3 条 ENG、2 条 PM。映射率不是细化率、批准率、实现率或测试通过率。T01–T16 的当前状态见测试索引；独立 Demo 的自动播放模式证据见独立工程 Evidence。
 

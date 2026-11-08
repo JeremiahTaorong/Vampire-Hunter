@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-08",
+  "user_authorization": "把整个项目全部push到github",
+  "source_collection": [
+    {
+      "workspace_source": "03_独立验证/zombie-validation",
+      "repository_destination": "Validation/Zombie",
+      "files": 205,
+      "bytes": 115584408,
+      "copy_sha256_verified": true
+    },
+    {
+      "workspace_source": "90_历史归档/forest-preview",
+      "repository_destination": "Archive/LegacyForestPreview",
+      "files": 335,
+      "bytes": 19657658,
+      "copy_sha256_verified": true
+    },
+    {
+      "workspace_source": "90_历史归档/僵尸整合临时文件",
+      "repository_destination": "Archive/IntegrationScratch_20261107",
+      "files": 5,
+      "bytes": 26252,
+      "copy_sha256_verified": true
+    },
+    {
+      "workspace_source": "90_历史归档/交接记录",
+      "repository_destination": "Archive/Handoffs",
+      "files": 1,
+      "bytes": 12607,
+      "copy_sha256_verified": true
+    },
+    {
+      "workspace_source": "02_设计参考",
+      "repository_destination": "Reference/Design",
+      "files": 30,
+      "bytes": 8442397,
+      "copy_sha256_verified": true
+    },
+    {
+      "workspace_source": "01_项目资料",
+      "repository_destination": "Reference/LocalNotes",
+      "files": 4,
+      "bytes": 54287,
+      "copy_sha256_verified": true
+    }
+  ],
+  "excluded": "Unity caches, personal settings, IDE outputs, credentials/signing material and diagnostic logs",
+  "original_workspace_retained": true
+}

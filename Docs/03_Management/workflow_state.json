@@ -286,8 +286,10 @@
     "zombie_integration_scene": "Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity",
     "zombie_integration_evidence": "VampireHunter_Demo_Independent/Evidence/zombie-integration-20261107/REPORT.md",
     "documentation_index": "Docs/06_Demo_Integration/README.md",
-    "github_sync_evidence": "Docs/03_Management/Evidence/GITHUB_SYNC_20261108.md"
+    "github_sync_evidence": "Docs/03_Management/Evidence/GITHUB_SYNC_20261108.md",
+    "github_uploaded_source_commit": "da392b53fc49c75d312acec4605da44b9b7744de",
+    "github_sync_status": "SourceCommitVerified"
   },
   "demo_summary": "当前目标：完成独立完整序章 Demo，只使用免费资源。Windows 血迹、断臂、原创徽章及检视保留；最新聚落僵尸外观和动作已接入，Mac 局部战斗/流程联动测试通过。完整连续试玩及美术观感待审，最终游戏系统仍逐份确认。",
-  "environment_summary": "原有 5 份 Markdown 保留；独立工程 Unity 2022.3.62f3 / URP。Mac 最新场景导入与僵尸局部联动已测，完整键鼠、Windows 回归及构建未测。2026-11-08 完整项目 GitHub 同步（含独立验证与历史源码）见 Docs/03_Management/Evidence/GITHUB_SYNC_20261108.md。"
+  "environment_summary": "原有 5 份 Markdown 保留；独立工程 Unity 2022.3.62f3 / URP。Mac 最新场景导入与僵尸局部联动已测，完整键鼠、Windows 回归及构建未测。2026-11-08 完整项目源码提交 da392b5 已推送至现有私有 GitHub main，LFS 本次 125 对象/约156MB 上传完成；同步证据见 Docs/03_Management/Evidence/GITHUB_SYNC_20261108.md。"
 }
