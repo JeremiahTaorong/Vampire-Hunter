@@ -46,3 +46,5 @@
 "Validation/**/*.unity" filter=lfs diff=lfs merge=lfs -text
 "VampireHunter_Demo_Independent/Assets/NewPunch/**/*.unity" filter=lfs diff=lfs merge=lfs -text
 "VampireHunter_Demo_Independent/Evidence/zombie-integration-20261107/before/*.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Assets/Shared/PlayerMotion/Examples/*.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Assets/Shared/PlayerMotion/Examples/*_NavMesh.asset" filter=lfs diff=lfs merge=lfs -text

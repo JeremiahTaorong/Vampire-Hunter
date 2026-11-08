@@ -112,3 +112,6 @@
 
 
 2026-11-08 · DOCS-GITHUB-VISIBILITY：用户在了解原始素材与完整历史公开范围后明确确认公开当前整个仓库。已将 JeremiahTaorong/Vampire-Hunter 改为 Public，GitHub 返回 isPrivate=false / visibility=PUBLIC；未添加协作者或改变写权限。记录见 Docs/03_Management/Evidence/GITHUB_VISIBILITY_20261108.md。
+
+
+2026-11-08 · DEMO-SHARED-PLAYER-MOTION：按用户要求单列跨章节人物运动模块。提取最新玩家的共享 Prefab，去掉序章任务/调查及场景相机引用，新增章节相机绑定和 A/B 两个独立示例。真实 Unity 双场景运行 28 项检查通过，涵盖导航、翻滚、攻击、火把、受击和死亡。原场景、玩家 Prefab 与控制脚本摘要不变。GitHub 入口 Modules/PlayerMotion/README.md；依赖和未测边界明确记录，不声明未来全部章节或通用 SDK 通过。证据见 VampireHunter_Demo_Independent/Evidence/player-motion-module-20261108/REPORT.md。

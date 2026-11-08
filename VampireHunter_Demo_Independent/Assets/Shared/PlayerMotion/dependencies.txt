@@ -1,0 +1,105 @@
+Assets/AkiDevCat/MicroAVL/Shaders/MicroAVL_OmniLight_Additive.shadergraph
+Assets/AkiDevCat/MicroAVL/ShadersLibrary/MicroAVL.hlsl
+Assets/Demo/Characters/Hunter/Cape_1_Dark.mat
+Assets/Demo/Characters/Hunter/Cape_2_Dark.mat
+Assets/Demo/Characters/Hunter/Cape_3_Black.mat
+Assets/Demo/Characters/Hunter/Hood_Cloth_1_Black.mat
+Assets/Demo/Characters/Hunter/Hood_cloth_2_Dark.mat
+Assets/Demo/Characters/Hunter/Hood_down_Dark.mat
+Assets/Demo/Characters/Hunter/Hunter_Attack.anim
+Assets/Demo/Characters/Hunter/Hunter_Cloth_mat_URP.mat
+Assets/Demo/Characters/Hunter/Hunter_Death.anim
+Assets/Demo/Characters/Hunter/Hunter_Dodge.anim
+Assets/Demo/Characters/Hunter/Hunter_Hit.anim
+Assets/Demo/Characters/Hunter/Hunter_Interaction.anim
+Assets/Demo/Characters/Hunter/Hunter_Leather_mat_URP.mat
+Assets/Demo/Characters/Hunter/Hunter_Misc_1_URP.mat
+Assets/Demo/Characters/Hunter/Hunter_Misc_2_mat_URP.mat
+Assets/Demo/Characters/Hunter/Hunter_Steel_Mat_Urp.mat
+Assets/Demo/Characters/Hunter/Idle.anim
+Assets/Demo/Characters/Hunter/Integration/HunterGameplayAnimator.cs
+Assets/Demo/Characters/Hunter/Integration/HunterTorchHandIK.cs
+Assets/Demo/Characters/Hunter/Integration/HunterTorchPose.cs
+Assets/Demo/Characters/Hunter/LayerSilver 1.mat
+Assets/Demo/Characters/Hunter/LayerSilver.mat
+Assets/Demo/Characters/Hunter/Robe_Black.mat
+Assets/Demo/Characters/Hunter/Run.anim
+Assets/Demo/Characters/Hunter/Steel_boot(left)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_boot(right)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_bracer_1(left)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_bracer_1(right)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_Collar_2_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_cuiras_2_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_kneecap(left)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_kneecap(right)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_legs_protection(left)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_legs_protection(right)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_pauldron_1(left)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_pauldron_1(right)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_Sholder_plate_1(left)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Steel_Sholder_plate_1(right)_DarkSilver.mat
+Assets/Demo/Characters/Hunter/Torch/Hunter_Torch.controller
+Assets/Demo/Characters/Hunter/Torch/LeftArm.mask
+Assets/Demo/Characters/Hunter/Torch/LeftTorchHold.anim
+Assets/Demo/Characters/Hunter/Torch/Torch_Default-Particle.mat
+Assets/Demo/Characters/Hunter/Torch/Torch_mat_fx_smoke_01.mat
+Assets/Demo/Characters/Hunter/Torch/Torch_mat_sword_shovel_halberd_01.mat
+Assets/Demo/Characters/Hunter/Torch/Torch_mat_torch_01.mat
+Assets/Demo/Characters/Hunter/Walk.anim
+Assets/Demo/Environment/Materials/HunterCoat.mat
+Assets/Demo/Environment/Materials/LanternGlass.mat
+Assets/Demo/Environment/Materials/VillageCloth.mat
+Assets/Demo/Scripts/DemoCamera.cs
+Assets/Demo/Scripts/DemoHealth.cs
+Assets/Demo/Scripts/DemoMovement.cs
+Assets/Demo/Scripts/SettlementFogLight.cs
+Assets/Demo/Scripts/SettlementVegetationFade.cs
+Assets/Demo/SettlementAtmosphere/CarriedGlow.mat
+Assets/Demo/ThirdParty/SkyshinVolumeFog/Runtime/VolumetricAdditionalLight.cs
+Assets/Shared/PlayerMotion/Prefabs/Hunter_SharedPlayer.prefab
+Assets/Shared/PlayerMotion/Runtime/SharedPlayerChapterBinding.cs
+Assets/SopaDopa/URP_Medieval_Fantasy/Base_Char_Meshes/Constructor_2_1.fbx
+Assets/SopaDopa/URP_Medieval_Fantasy/Cloth/Textures/Cloth_AO.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Cloth/Textures/Cloth_Base.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Cloth/Textures/Cloth_Hight.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Cloth/Textures/Cloth_Metallic_Smoothness.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Cloth/Textures/Cloth_Normal.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Decals/Textures/Decal_Mat_URP.mat
+Assets/SopaDopa/URP_Medieval_Fantasy/Decals/Textures/Decals_Base.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Decals/Textures/Decals_Normal.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Dynamic_parts/Meshes/Dagger_U.fbx
+Assets/SopaDopa/URP_Medieval_Fantasy/Leather/Textures/Leather_AO.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Leather/Textures/Leather_Base.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Leather/Textures/Leather_Height.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Leather/Textures/Leather_MetallicSmoothness.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Leather/Textures/Leather_Normal.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_1/Material/Misc_1_URP.mat
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_1/Texture/Misc1_AO.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_1/Texture/Misc1_Base.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_1/Texture/Misc1_Hight.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_1/Texture/Misc1_MetallicSmoothness.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_1/Texture/Misc1_Normal.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_2/Textures/Misc2_AO.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_2/Textures/Misc2_Base.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_2/Textures/Misc2_Height.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_2/Textures/Misc2_MetallicSmoothness.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Misc_2/Textures/Misc2_Normal.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Steel/Texture/Steel_AO.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Steel/Texture/Steel_Base.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Steel/Texture/Steel_For_Texture_Chest_Armor_050_001_MetallicSmoothness.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Steel/Texture/Steel_Height.png
+Assets/SopaDopa/URP_Medieval_Fantasy/Steel/Texture/Steel_Normal.png
+Assets/Viking Village/Materials/Effects/mat_fx_fire_01.mat
+Assets/Viking Village/Models/Props/Materials/mat_sword_shovel_halberd_01.mat
+Assets/Viking Village/Models/Props/Materials/mat_torch_01.mat
+Assets/Viking Village/Models/Props/prop_torch_01.fbx
+Assets/Viking Village/Scripts/twinkle.cs
+Assets/Viking Village/Shaders/Standard.shadergraph
+Assets/Viking Village/Textures/Effects/fx_flame_01_d.tif
+Assets/Viking Village/Textures/Effects/fx_smoke_01_d.tif
+Assets/Viking Village/Textures/Effects/ParticleFlamesSheet.png
+Assets/Viking Village/Textures/Props/prop_sword_shovel_halberd_01_d.tif
+Assets/Viking Village/Textures/Props/prop_sword_shovel_halberd_01_e.tif
+Assets/Viking Village/Textures/Props/prop_sword_shovel_halberd_01_n.tif
+Assets/Viking Village/Textures/Props/prop_sword_shovel_halberd_01_o.tif
+Assets/Viking Village/Textures/Props/prop_sword_shovel_halberd_01_sg.tif

@@ -1,0 +1,30 @@
+Unity 2022.3.62f3 / OSXEditor
+API-driven real Play Mode; same prefab instantiated independently in two chapter scenes, no synthetic WASD/mouse input.
+PASS Chapter 1: chapter camera auto-binding
+PASS Chapter 1: no prologue quest or evidence state on player
+PASS Chapter 1: shared player registered on this chapter NavMesh
+PASS Chapter 1: existing 0.8 second roll configuration retained
+PASS Chapter 1: click-navigation motor accepts chapter path
+PASS Chapter 1: actual navigation movement drives Run animation
+PASS Chapter 1: existing dodge API starts roll
+PASS Chapter 1: slow roll animation active during dodge
+PASS Chapter 1: roll moves player without root motion
+PASS Chapter 1: same automatic melee attack and damage path
+PASS Chapter 1: left-hand torch remains active during attack
+PASS Chapter 1: navigation remains movement authority
+PASS Chapter 1: existing damage feedback drives Hit animation
+PASS Chapter 1: existing defeat drives Death animation
+PASS Chapter 2: chapter camera auto-binding
+PASS Chapter 2: no prologue quest or evidence state on player
+PASS Chapter 2: shared player registered on this chapter NavMesh
+PASS Chapter 2: existing 0.8 second roll configuration retained
+PASS Chapter 2: click-navigation motor accepts chapter path
+PASS Chapter 2: actual navigation movement drives Run animation
+PASS Chapter 2: existing dodge API starts roll
+PASS Chapter 2: slow roll animation active during dodge
+PASS Chapter 2: roll moves player without root motion
+PASS Chapter 2: same automatic melee attack and damage path
+PASS Chapter 2: left-hand torch remains active during attack
+PASS Chapter 2: navigation remains movement authority
+PASS Chapter 2: existing damage feedback drives Hit animation
+PASS Chapter 2: existing defeat drives Death animation

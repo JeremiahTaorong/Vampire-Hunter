@@ -1,0 +1,5 @@
+Unity 2022.3.62f3
+Source scene unchanged SHA256=b0cb51fe847ac7757012ac09c43b7226cf8a918c5c53ee5a9fe2bad4d7857c56
+Shared prefab=Assets/Shared/PlayerMotion/Prefabs/Hunter_SharedPlayer.prefab
+Both examples reference this prefab. Source scripts and motion parameters retained; chapter quest components and scene camera references removed.
+Dependencies=105

@@ -6,6 +6,10 @@
 
 Unity 2022.3.62f3 / URP / macOS 开发，迁移至 Windows 时保持同版本。
 
+## 跨章节共享人物运动
+
+**[Player Motion 模块入口](Modules/PlayerMotion/README.md)**：共享玩家 Prefab、导航/攻击/翻滚/受击/死亡、左手火把、章节相机绑定与 A/B 示例。已在两个独立场景实播验证；新章节复用同一份人物实现，剧情与存档留在章节层。现有序章保持原样。
+
 ## 打开正确的工程
 
 在 Unity Hub 中添加 **VampireHunter_Demo_Independent** 子文件夹。

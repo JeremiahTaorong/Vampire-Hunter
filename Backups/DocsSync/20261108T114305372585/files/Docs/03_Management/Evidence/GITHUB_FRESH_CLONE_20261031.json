@@ -1,0 +1,8 @@
+{
+  "fresh_clone": "https://github.com/JeremiahTaorong/Vampire-Hunter.git",
+  "manifest_files": 5811,
+  "regular_files_sha256_verified": 4660,
+  "lfs_pointers_matching_original_hash_and_size": 1151,
+  "errors": [],
+  "scope": "Independent clone: normal files downloaded and hashed; LFS pointers checked against originals. All remote LFS availability and five real downloads verified separately."
+}

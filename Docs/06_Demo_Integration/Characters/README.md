@@ -1,5 +1,7 @@
 # 人物与交互动作
 
+- **[跨章节共享人物运动模块](../../../Modules/PlayerMotion/README.md)**
+
 - [僵尸：外观替换、蹒跚追击与外张扣抓](../../../VampireHunter_Demo_Independent/Evidence/zombie-integration-20261107/REPORT.md)
 - [猎人：模块组装与动画](Hunter_Modular_Integration.md)
 - [猎人：左手火把](Hunter_LeftHand_Torch_Integration.md)

@@ -1,0 +1,8 @@
+{
+  "Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity": "b0cb51fe847ac7757012ac09c43b7226cf8a918c5c53ee5a9fe2bad4d7857c56",
+  "Assets/Demo/Characters/Hunter/Torch/Hunter_TorchPlayer.prefab": "cae8d3df21ae3d49eee41ca631ffd24f438c4870c99cd8b609868834fe41d9f4",
+  "Assets/Demo/Scripts/DemoMovement.cs": "f816c5c44925fce742428465e1b75b5fdd03c6fc1bedf070ed8aec4aaf0d54a8",
+  "Assets/Demo/Characters/Hunter/Integration/HunterGameplayAnimator.cs": "f7940a5b2bb7acf5f980e9e6562c097e1cddaa0d9e417305eb252a4f54da655f",
+  "Assets/Demo/Characters/Hunter/Integration/HunterTorchPose.cs": "5479f6280ede820ba3c692d20ff1009576739190a099eb185985ba253247aa82",
+  "Assets/Demo/Characters/Hunter/Integration/HunterTorchHandIK.cs": "84cdc94226bb6994f4638179a16ecf4a46f0d92f2030e844f274c25c18a35f4d"
+}
