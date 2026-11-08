@@ -1,5 +1,7 @@
 # Vampire Hunter — 独立 Demo
 
+[项目目录导航](../目录导航.md) · [分类实现说明](../Docs/06_Demo_Integration/README.md)
+
 ## 最新试玩入口（2026-11-07）
 
 打开 `Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity` 后 Play。当前新增两款免费 CC BY 血迹、12 处聚集血泊、免费断臂及原创十字徽章。点击徽章或断臂，角色走近后打开全屏检视：虚化背景、模型放大/拖动旋转、下方英文故事；按钮或 Esc 返回。断臂交互点已对准模型，检视时场景暂停并阻挡世界操作。故事措辞待审。
@@ -10,7 +12,7 @@
 
 打开 [PrologueSettlement_TerracedInteriors.unity](Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity) 后Play。当前版本包含起伏村落、窗光体积雾、恢复的篝火、左手火把与村民证人。靠近并点击证人完成原调查：抱拳→放臂→等待1.5秒→左手指向下个目标。
 
-[当前交接与实测边界](../开发记录/2026-10-30_独立Demo当前交接.md) · [NPC手势说明](NPC_Villager_Gesture_Integration.md)。NPCVillagerReview仅供最初模型审阅；下文保留各轮历史入口及参数。最新NPC主路径已实播，完整键鼠序章、其他目标分支及当前整合FPS仍待回归。
+[当前交接与实测边界](../开发记录/2026-10-30_独立Demo当前交接.md) · [NPC手势说明](../Docs/06_Demo_Integration/Characters/NPC_Villager_Gesture_Integration.md)。NPCVillagerReview仅供最初模型审阅；下文保留各轮历史入口及参数。最新NPC主路径已实播，完整键鼠序章、其他目标分支及当前整合FPS仍待回归。
 
 
 独立 Unity 项目；不与最终游戏工程或设计审批状态共用。当前已有聚落、猎人、调查与战斗原型，尚未完成完整序章验收。Unity 2022.3.62f3，Universal 3D。
@@ -166,3 +168,8 @@ Unity Test Framework 的 Play Mode 测试（`Assets/Demo/Tests/PlayMode/`）驱�
 2026-10-30：按用户新指示恢复广场篝火（3循环粒子、闪烁灯、体积光及去雾），玩家火把强度3.5→6.5/范围9→13m。使用原Character Constructor模块组装村民证人第一版：灰绿布衣、棕裤、皮靴、露脸男性，独立Prefab和NPCVillagerReview场景。原Humanoid/66骨蒙皮保留，Idle实播，7启用模块无空骨；地图原证人调查流程实测HasWitness=True。Saved world=Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity probe removed Saved review=Assets/Demo/Scenes/NPCVillagerReview.unity probe removed; errors=0 warnings=2 。停在用户候选外观审阅，不继续AI或更多NPC，不改变正式审批。证据Evidence/villager-candidate-20261030，说明NPC_Villager_Candidate.md；本轮未重新测FPS。
 
 2026-10-30：用户同意村民第一版并要求抱拳/交互指路。当前起伏村落证人接入原Humanoid IK与独立手指动作层，待机抱拳面向主角；原调查成功后0.45s放臂，双臂放下再等1.5s，左手指下个目标。原DemoInteractable仅加Activated通知，原记录/任务规则保留。真实PlayMode射线命中及BeginInteraction流程通过，Waiting采样确认，实际等待1.516s、左臂朝目标角差约0.51度，HasWitness=True；保存截图clasp/lowered/point.png。Saved and reopened=Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity; probe removed; errors=0 warnings=2。未回归全部目标分支、极端接近角度或完整序章。详情NPC_Villager_Gesture_Integration.md与Evidence/villager-gesture-20261030；正式审批不变。
+
+
+## 2026-11-07：最新聚落僵尸替换
+
+最新入口仍是 `Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity`。原红色敌人已替换为僵尸，接入蹒跚追击和外张扣抓，保留徽章/断臂检视及原任务流程。Mac 局部播放回归通过；完整键鼠和 Windows 回归待测。详情：[整合与测试记录](Evidence/zombie-integration-20261107/REPORT.md)。

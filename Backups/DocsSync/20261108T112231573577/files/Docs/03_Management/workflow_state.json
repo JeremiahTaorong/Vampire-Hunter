@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "updated_date": "2026-11-08",
+  "phase": "Phase2_S01_Review",
+  "next_action": "完整序章 Demo 的最新聚落场景已将红色敌人替换为蹒跚追击、外张扣抓的僵尸；Mac 局部 Play Mode 验证追击、检视暂停、命中/落空、检查点重试及导师线索完成通过。下一步完整出生点连续键鼠试玩、观感审阅与 Windows/构建回归。正式系统仍为 0/13 批准。",
+  "systems": [
+    {
+      "id": "S01",
+      "name": "Player Control & Interaction Routing",
+      "template": "Docs/02_Systems/Templates/S01_Player_Control_Template.md",
+      "document": "Docs/02_Systems/S01_Player_Control.md",
+      "version": "0.1",
+      "design_status": "AwaitingReview",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S02",
+      "name": "Combat & Skills",
+      "template": "Docs/02_Systems/Templates/S02_Combat_Skills_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S03",
+      "name": "Character Forms",
+      "template": "Docs/02_Systems/Templates/S03_Character_Forms_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S04",
+      "name": "Resources & Corruption",
+      "template": "Docs/02_Systems/Templates/S04_Resources_Corruption_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S05",
+      "name": "Enemy & Boss Design",
+      "template": "Docs/02_Systems/Templates/S05_Enemy_Boss_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S06",
+      "name": "Progression & Loadouts",
+      "template": "Docs/02_Systems/Templates/S06_Progression_Loadouts_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S07",
+      "name": "World & Level Flow",
+      "template": "Docs/02_Systems/Templates/S07_World_Level_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S08",
+      "name": "Puzzles & Interactables",
+      "template": "Docs/02_Systems/Templates/S08_Puzzles_Interactables_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S09",
+      "name": "Narrative & Quests",
+      "template": "Docs/02_Systems/Templates/S09_Narrative_Quests_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S10",
+      "name": "Final Choice & Endings",
+      "template": "Docs/02_Systems/Templates/S10_Endings_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S11",
+      "name": "UI / UX & Feedback",
+      "template": "Docs/02_Systems/Templates/S11_UI_UX_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S12",
+      "name": "Checkpoints & Persistence Rules",
+      "template": "Docs/02_Systems/Templates/S12_Checkpoints_Persistence_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    },
+    {
+      "id": "S13",
+      "name": "Camera, Art & Audio Direction",
+      "template": "Docs/02_Systems/Templates/S13_Camera_Art_Audio_Template.md",
+      "document": null,
+      "version": "0.0",
+      "design_status": "Template",
+      "development_status": "NotStarted"
+    }
+  ],
+  "approvals": [],
+  "tests": [
+    {
+      "id": "T01",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T02",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T03",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T04",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T05",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T06",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T07",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T08",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T09",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T10",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T11",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T12",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T13",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T14",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T15",
+      "status": "NotRun",
+      "evidence": null
+    },
+    {
+      "id": "T16",
+      "status": "NotRun",
+      "evidence": null
+    }
+  ],
+  "development_tasks_created": false,
+  "demo_goal": {
+    "document": "Docs/02_Systems/DEMO_GOAL_DRAFT.md",
+    "status": "ScopeAccepted",
+    "cloud_repository": "GitHubOriginVerified",
+    "unity_project": "VampireHunter_Demo_Independent",
+    "editor_version": "2022.3.62f3",
+    "independent": true,
+    "movement_status": "Testing",
+    "play_mode_smoke": "Passed",
+    "manual_input_test": "UserReported",
+    "interaction_status": "Testing",
+    "interaction_playmode_smoke": "Passed",
+    "combat_status": "Testing",
+    "combat_playmode_smoke": "Passed",
+    "combat_manual_input": "NotRun",
+    "combat_loop_status": "Testing",
+    "combat_loop_playmode_smoke": "Passed",
+    "combat_loop_manual_input": "NotRun",
+    "dodge_status": "Testing",
+    "dodge_playmode_smoke": "Passed",
+    "dodge_manual_input": "UserReportedPassed",
+    "manual_input_evidence": "VampireHunter_Demo_Independent/Evidence/user-input-confirmation-20261028.md",
+    "dodge_manual_evidence": "VampireHunter_Demo_Independent/Evidence/user-dodge-confirmation-20261028.md",
+    "investigation_status": "Testing",
+    "investigation_playmode_smoke": "Passed",
+    "investigation_manual_input": "NotRun",
+    "prologue_status": "UserReportedPassed",
+    "prologue_playmode_smoke": "Passed",
+    "prologue_manual_playthrough": "UserReportedPassed",
+    "prologue_manual_evidence": "VampireHunter_Demo_Independent/Evidence/user-prologue-feedback-20261028.md",
+    "greybox_status": "Testing",
+    "greybox_playmode_smoke": "NotRunAfterForestUpdate",
+    "greybox_manual_walkthrough": "NotRun",
+    "greybox_map": "Docs/06_Demo_Integration/World/Prologue_Greybox_Map.md",
+    "forest_status": "ImplementedUnverified",
+    "forest_playmode_test": "NotRun",
+    "ending_status": "ImplementedUnverified",
+    "ending_playmode_test": "NotRun",
+    "font_size_status": "ImplementedUnverified",
+    "art_direction": "UserApprovedDarkFogDirection",
+    "art_reference": "VampireHunter_Demo_Independent/Art_Direction/Prologue_Dark_Fog_Concept_20261028.png",
+    "atmosphere_status": "DraftUnverified",
+    "atmosphere_scene": "Assets/Demo/Scenes/PrologueAtmosphere.unity",
+    "atmosphere_visual_test": "NotRun",
+    "fog_sample_status": "PartialUnverified",
+    "fog_sample_scene": "Assets/Demo/Scenes/PrologueFogSample.unity",
+    "kenney_particles": "ImportedMirror",
+    "village_asset": "BlockedBySourceQuota",
+    "forest_asset": "NotAcquired",
+    "fog_visual_test": "NotRun",
+    "soft_fog_status": "PreviewRendered",
+    "soft_fog_scene": "Assets/Demo/Scenes/PrologueSoftFog.unity",
+    "soft_fog_preview": "VampireHunter_Demo_Independent/Art_Direction/SoftFog_UnityPreview_20261028.png",
+    "soft_fog_playmode": "NotRun",
+    "delivery_scope": "CompletePrologue",
+    "free_assets_only": true,
+    "current_scope_evidence": "Docs/03_Management/Review_Evidence/DEMO_BLOOD_SCOPE_20261106.md",
+    "blood_clue_status": "Testing",
+    "blood_clue_playmode": "PassedWithArm",
+    "blood_clue_evidence": "VampireHunter_Demo_Independent/Evidence/blood-clue-20261106/REPORT.md",
+    "severed_arm_status": "Testing",
+    "hunter_badge_status": "Testing",
+    "hunter_badge_source": "OriginalProjectGeometryNoCost",
+    "blood_cluster_extra_stains": 12,
+    "clue_details_playmode": "Passed",
+    "clue_details_evidence": "VampireHunter_Demo_Independent/Evidence/clue-details-20261106/REPORT.md",
+    "severed_arm_playmode": "Passed",
+    "severed_arm_evidence": "VampireHunter_Demo_Independent/Evidence/severed-arm-20261106/REPORT.md",
+    "evidence_inspection_status": "Testing",
+    "evidence_inspection_playmode": "Passed",
+    "evidence_inspection_os_input": "PassedScopedChecks",
+    "evidence_inspection_evidence": "VampireHunter_Demo_Independent/Evidence/evidence-inspection-20261106/REPORT.md",
+    "evidence_story_copy": "DraftPendingUserReview",
+    "trail_interaction_target": "SeveredArmBoundsCenter",
+    "zombie_integration_status": "Testing",
+    "zombie_integration_playmode": "PassedScopedChecks",
+    "zombie_integration_manual_input": "NotRun",
+    "zombie_integration_scene": "Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity",
+    "zombie_integration_evidence": "VampireHunter_Demo_Independent/Evidence/zombie-integration-20261107/REPORT.md",
+    "documentation_index": "Docs/06_Demo_Integration/README.md"
+  },
+  "demo_summary": "当前目标：完成独立完整序章 Demo，只使用免费资源。Windows 血迹、断臂、原创徽章及检视保留；最新聚落僵尸外观和动作已接入，Mac 局部战斗/流程联动测试通过。完整连续试玩及美术观感待审，最终游戏系统仍逐份确认。",
+  "environment_summary": "原有 5 份 Markdown 保留；独立工程 Unity 2022.3.62f3 / URP。2026-11-07 Mac 克隆以 4fc1b8f 为接手点，修改前 6431 文件迁移清单校验通过；Mac 最新场景导入与僵尸局部联动已测，完整键鼠、Windows 回归及构建未测。GitHub 历史同步证据保留，本次僵尸改动未提交或推送。"
+}

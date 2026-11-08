@@ -1,0 +1,26 @@
+Unity 2022.3.62f3 / OSXEditor
+API-driven Play Mode on current settlement scene; no synthetic keyboard/mouse input.
+PASS investigation still gates enemy activation
+PASS zombie visual replaces capsule; original target collider retained
+PASS Windows badge and severed-arm inspection models and stories retained
+PASS original forest NavMesh agent activates
+PASS player placed at reachable forest approach
+PASS actual NavMesh pursuit drives shamble animation
+PASS zombie visual feet aligned to forest navigation surface
+PASS existing item inspection pauses combat
+PASS grab damage does not advance while inspection is open
+PASS zombie animation pauses with inspection
+PASS grab contact applies existing 15 damage once
+PASS damage occurs during grab animation
+PASS enemy navigation stays planted during grab
+PASS target retreats during next grab windup
+PASS retreat moves clear of current enemy position
+PASS leaving grab range avoids damage
+PASS existing checkpoint remains reachable
+PASS existing player defeat still triggers
+PASS existing checkpoint retry succeeds
+PASS retry restores hunter and zombie health
+PASS retry clears grab and restores animation/navigation
+PASS existing player targeting still selects the same enemy component
+PASS zombie death advances existing mentor clue flow
+PASS existing prologue completion still succeeds

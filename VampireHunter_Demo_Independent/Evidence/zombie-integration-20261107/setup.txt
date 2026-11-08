@@ -1,0 +1,4 @@
+Saved and reopened Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity
+Existing Training enemy GameObject, collider, navigation and quest references retained. Capsule mesh disabled; validated zombie visual added.
+HP=30; damage=15; windup=.7s; cooldown=1.5s unchanged. Presentation fit: speed=.85m/s, stoppingDistance=.9m, grab range=1.05m.
+Unity 2022.3.62f3

@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-08",
+  "moves": [
+    {
+      "from": "forest-preview",
+      "to": "90_历史归档/forest-preview",
+      "files_preserved": 47342,
+      "verification": "Same filesystem inode, byte size and mtime retained for each file."
+    },
+    {
+      "from": "zombie-validation",
+      "to": "03_独立验证/zombie-validation",
+      "files_preserved": 14386,
+      "verification": "Same filesystem inode, byte size and mtime retained for each file."
+    },
+    {
+      "from": "zombie-integration-work",
+      "to": "90_历史归档/僵尸整合临时文件",
+      "files_preserved": 5,
+      "verification": "Same filesystem inode, byte size and mtime retained for each file."
+    },
+    {
+      "from": "设计参考",
+      "to": "02_设计参考",
+      "files_preserved": 30,
+      "verification": "Same filesystem inode, byte size and mtime retained for each file."
+    },
+    {
+      "from": "AI_HANDOFF_VampireHunter_20261028.md",
+      "to": "90_历史归档/交接记录/AI_HANDOFF_VampireHunter_20261028.md",
+      "files_preserved": 1,
+      "verification": "Same filesystem inode, byte size and mtime retained for each file."
+    },
+    {
+      "from": "Vampire_Hunter_Open_Source_and_Free_Assets_2026-10-28.md",
+      "to": "01_项目资料/Vampire_Hunter_Open_Source_and_Free_Assets_2026-10-28.md",
+      "files_preserved": 1,
+      "verification": "Same filesystem inode, byte size and mtime retained for each file."
+    },
+    {
+      "from": "聚落与森林素材使用设计.md",
+      "to": "01_项目资料/聚落与森林素材使用设计.md",
+      "files_preserved": 1,
+      "verification": "Same filesystem inode, byte size and mtime retained for each file."
+    }
+  ],
+  "current_project": "/Users/dorimiah/UnityProjects/Vampire-Hunter",
+  "current_project_entry": "00_当前工程"
+}

@@ -1,6 +1,6 @@
 # Vampire Hunter 文档驱动协作规范
 
-项目根目录：`/Users/dorimiah/Desktop/vampire`。日期按 Asia/Shanghai 记录。
+项目根目录：`/Users/dorimiah/UnityProjects/Vampire-Hunter`。日期按 Asia/Shanghai 记录。
 当前授权：制作独立 Demo，用户已确认移动原型方案及允许 Demo 先行；Demo 不与最终游戏绑定。云仓库核验暂缓。最终游戏保持原有逐系统确认和开发审核门。
 
 ## 1. 每次工作必读

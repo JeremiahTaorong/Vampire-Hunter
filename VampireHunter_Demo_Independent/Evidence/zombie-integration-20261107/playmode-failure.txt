@@ -1,0 +1,18 @@
+PASS investigation still gates enemy activation
+PASS zombie visual replaces capsule; original target collider retained
+PASS Windows badge and severed-arm inspection models and stories retained
+PASS original forest NavMesh agent activates
+PASS player placed at reachable forest approach
+PASS actual NavMesh pursuit drives shamble animation
+PASS zombie visual feet aligned to forest navigation surface
+PASS existing item inspection pauses combat
+PASS grab damage does not advance while inspection is open
+PASS zombie animation pauses with inspection
+PASS grab contact applies existing 15 damage once
+PASS damage occurs during grab animation
+PASS enemy navigation stays planted during grab
+PASS target retreats during next grab windup
+
+System.Exception: leaving grab range avoids damage
+  at ZombieIntegrationVerification.Check (System.Boolean passed, System.String message) [0x00034] in /Users/dorimiah/UnityProjects/Vampire-Hunter/VampireHunter_Demo_Independent/Assets/Demo/Editor/ZombieIntegrationVerification.cs:49 
+  at ZombieIntegrationVerification.Tick () [0x004a4] in /Users/dorimiah/UnityProjects/Vampire-Hunter/VampireHunter_Demo_Independent/Assets/Demo/Editor/ZombieIntegrationVerification.cs:127 

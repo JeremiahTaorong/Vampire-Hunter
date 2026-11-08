@@ -40,3 +40,9 @@
 
 # New integration restore snapshots use the same LFS policy as earlier scenes.
 "VampireHunter_Demo_Independent/Evidence/**/scene-before.unity.txt" filter=lfs diff=lfs merge=lfs -text
+
+*.gif filter=lfs diff=lfs merge=lfs -text
+"Archive/**/*.unity" filter=lfs diff=lfs merge=lfs -text
+"Validation/**/*.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Assets/NewPunch/**/*.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Evidence/zombie-integration-20261107/before/*.unity" filter=lfs diff=lfs merge=lfs -text

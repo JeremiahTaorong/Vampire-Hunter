@@ -1,0 +1,1 @@
+PASS: URP play mode; shamble movement and animated leg; Bite state; one contact causes 15 damage; target leaving range avoids next bite. Flat ground harness only; Demo untouched.

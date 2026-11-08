@@ -1,0 +1,39 @@
+# Preserve source bytes on macOS/Windows, including Unity .meta and baseline docs.
+* -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.FBX filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.blend1 filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*.tiff filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.dylib filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.otf filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Assets/Demo/Characters/MidnightGunslinger/GunslingerMesh.asset" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Assets/Demo/Scenes/PrologueSettlement.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Assets/Demo/Scenes/PrologueSettlement_Hunter.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Assets/Demo/Scenes/PrologueSettlement_HunterTorch.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Assets/Demo/Scenes/PrologueSettlement_HunterTrails.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Assets/Demo/Scenes/PrologueSettlement_TerracedInteriors.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Assets/Forst/Conifers [BOTD]/Sources/Textures/BODT Conifer Bark Array [Normal] [AO] [Specular].asset" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Evidence/BeforeFogMigration_20261029/PrologueSettlement.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Evidence/BeforeSettlementAtmosphere_20261029-120245/Assets/Demo/Scenes/PrologueSettlement.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Evidence/BeforeStripeFix_20261029-122534/Assets/Demo/Scenes/PrologueSettlement.unity" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Evidence/trail-clue-marker-20261030/scene-before.unity.txt" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Evidence/villager-candidate-20261030/scene-before.unity.txt" filter=lfs diff=lfs merge=lfs -text
+"VampireHunter_Demo_Independent/Evidence/villager-gesture-20261030/scene-before.unity.txt" filter=lfs diff=lfs merge=lfs -text

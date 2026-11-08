@@ -11,6 +11,8 @@ public class DemoEnemy : MonoBehaviour
     public float windup = .7f;
     public float cooldown = 1.5f;
     public bool PreparingAttack { get; private set; }
+    public event System.Action AttackStarted;
+    public event System.Action Retried;
     NavMeshAgent agent;
     DemoHealth player;
     float attackAt;
@@ -37,7 +39,7 @@ public class DemoEnemy : MonoBehaviour
         if (distance <= attackRange)
         {
             agent.ResetPath();
-            if (Time.time >= nextAttack) { PreparingAttack = true; attackAt = Time.time + windup; }
+            if (Time.time >= nextAttack) { PreparingAttack = true; attackAt = Time.time + windup; AttackStarted?.Invoke(); }
         }
         else if (distance <= detectionRange) agent.SetDestination(player.transform.position);
         else if (agent.hasPath) agent.ResetPath();
@@ -66,5 +68,6 @@ public class DemoEnemy : MonoBehaviour
         attackAt = 0; nextAttack = 0;
         if (!agent) agent = GetComponent<NavMeshAgent>();
         if (agent && agent.isOnNavMesh) { agent.ResetPath(); agent.Warp(position); }
+        Retried?.Invoke();
     }
 }

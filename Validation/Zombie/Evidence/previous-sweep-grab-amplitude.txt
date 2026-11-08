@@ -1,0 +1,1 @@
+Measured on sampled skeleton: torso rotation between windup and follow-through=107.7 degrees; right-hand displacement=0.84 m.

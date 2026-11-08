@@ -1,0 +1,1 @@
+49 sampled poses: minimum wrist distance from own centre plane=0.329 m; maximum body-mesh penetration into test capsule=0.000 m; maximum vertices inside capsule by more than 2 cm=0.

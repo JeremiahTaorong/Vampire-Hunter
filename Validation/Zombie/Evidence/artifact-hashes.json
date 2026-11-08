@@ -1,0 +1,13 @@
+{
+  "Assets/Validation/Zombie_Shamble.anim": "f03274619be6b64bcbdf34690881b380348af2af27162005debc1d16e03248fd",
+  "Assets/Validation/Zombie_Bite.anim": "506ecf3bf109c1b20a2341d9e56455f0d0655814899e53e1ac38b64f1fe44376",
+  "Assets/Validation/Zombie.controller": "2bba5d761dbe64a85958564d580e38f0167b7fadce99149d24cab9cd267ec8c0",
+  "Assets/Validation/ShirtlessZombie.prefab": "68e04f84443b8cd3f08b8d109fe2894a8bd661b8c63d01c920157a1d2ccb1d00",
+  "Assets/Validation/ZombieFeasibility.unity": "6eb10e06dd440a398eb7b8c56ea35f72db75ee9cb7ba8134a8ea81a612c12974",
+  "Evidence/Shamble-play.png": "0e7e5f2a7a6d69abeac3bf532aaff8d42ff5d9f1a95294e1102fcd435a1c65e6",
+  "Evidence/Bite-play.png": "370431ce454a9daf05781094c62d57eb051ceebf6caf803c0b8896fb6a0ca84e",
+  "Evidence/Grab-attack.gif": "0ae21e544227b42a586cc21799771eec9bef6c76b754aa36d6630acfe8dac178",
+  "Evidence/grab-amplitude.txt": "10719d9acc92f0f4554bbb8e62cfb3ae9500d59352499595c04c82e3e2ac0c22",
+  "Evidence/grab-clearance.txt": "f5bed9277077ee4682eece0bb7e36b98c51720fd69cc063007be1bfab0dff43b",
+  "Evidence/play-result.txt": "ca2fc5c87f57df3a715a116a0fc845be8b29a534b71cf529fa3abc9acf70ee99"
+}
